@@ -18,39 +18,39 @@
   },
   "hero": {
     "title": "The",
-    "pdfToolkit": "PDF Toolkit",
-    "builtForPrivacy": "built for privacy",
-    "noSignups": "No Signups",
-    "unlimitedUse": "Unlimited Use",
-    "worksOffline": "Works Offline",
-    "startUsing": "Start Using Now"
+    "pdfToolkit": "PDF editor",
+    "builtForPrivacy": "for Vietnamese users",
+    "noSignups": "No account needed",
+    "unlimitedUse": "No usage caps",
+    "worksOffline": "Runs in your browser",
+    "startUsing": "Pick a tool"
   },
   "features": {
-    "title": "Why choose",
+    "title": "Why use",
     "bentoPdf": "PDF4Me?",
     "noSignup": {
-      "title": "No Signup",
-      "description": "Start instantly, no accounts or emails."
+      "title": "Accounts to create",
+      "description": "Open a tool and start. No email address or account."
     },
     "noUploads": {
-      "title": "No Uploads",
-      "description": "100% client-side, your files never leave your device."
+      "title": "Files uploaded",
+      "description": "Files are handled inside your browser, so they stay on your device."
     },
     "foreverFree": {
-      "title": "Forever Free",
-      "description": "All tools, no trials, no paywalls."
+      "title": "Cost to use",
+      "description": "No trials and no paywall on any tool."
     },
     "noLimits": {
-      "title": "No Limits",
-      "description": "Use as much as you want, no hidden caps."
+      "title": "No quotas",
+      "description": "The site sets no daily quota or file-count limit."
     },
     "batchProcessing": {
-      "title": "Batch Processing",
-      "description": "Handle unlimited PDFs in one go."
+      "title": "Several files at once",
+      "description": "Add a few files and handle them in a single pass."
     },
     "lightningFast": {
-      "title": "Lightning Fast",
-      "description": "Process PDFs instantly, without waiting or delays."
+      "title": "No upload wait",
+      "description": "Nothing travels over the network, so there is no upload or download wait."
     }
   },
   "tools": {
@@ -162,43 +162,43 @@
     "proceed": "Proceed"
   },
   "compliance": {
-    "processingLocal": "All the processing happens locally on your device."
+    "processingLocal": "Free online PDF tools. Your files are processed on your own device and never uploaded to a server."
   },
   "faq": {
     "title": "Frequently Asked",
     "questions": "Questions",
     "sectionTitle": "Frequently Asked Questions",
     "isFree": {
-      "question": "Is PDF4Me really free?",
-      "answer": "Yes, absolutely. All tools on PDF4Me are 100% free to use, with no file limits, no sign-ups, and no watermarks. We believe everyone deserves access to simple, powerful PDF tools without a paywall."
+      "question": "Does PDF4Me cost anything?",
+      "answer": "No. The tools are free to use, you do not need an account, and we do not add a watermark to the files you produce."
     },
     "areFilesSecure": {
-      "question": "Are my files secure? Where are they processed?",
-      "answer": "Your files are as secure as possible because they never leave your computer. All processing happens directly in your web browser (client-side). We never upload your files to a server, so you maintain complete privacy and control over your documents."
+      "question": "Where are my files processed, and are they sent anywhere?",
+      "answer": "Files are opened and processed inside your browser on your own device, and they are not uploaded to a PDF4Me server. Some tools download their processing engine (WebAssembly) the first time you use them. The signing and timestamp tools may contact a certificate authority or timestamp server; the document itself is not sent."
     },
     "platforms": {
-      "question": "Does it work on Mac, Windows, and Mobile?",
-      "answer": "Yes! Since PDF4Me runs entirely in your browser, it works on any operating system with a modern web browser, including Windows, macOS, Linux, iOS, and Android."
+      "question": "Which phones and computers does it work on?",
+      "answer": "Any device with an up-to-date browser: Windows, macOS, Linux, iOS or Android. Everything runs on your own device's memory, so very large files can be slow on an older phone."
     },
     "gdprCompliant": {
-      "question": "Is PDF4Me GDPR compliant?",
-      "answer": "Yes. PDF4Me is fully GDPR compliant. Since all file processing happens locally in your browser and we never collect or transmit your files to any server, we have no access to your data. This ensures you are always in control of your documents."
+      "question": "Can I use it for papers with personal details, like ID cards or contracts?",
+      "answer": "Files are processed in your browser and are not uploaded to a server, so the content of your papers does not pass through our systems. Still, use your own device and close the tab when you finish, especially on a shared computer."
     },
     "dataStorage": {
-      "question": "Do you store or track any of my files?",
-      "answer": "No. We never store, track, or log your files. Everything you do on PDF4Me happens in your browser memory and disappears once you close the page. There are no uploads, no history logs, and no servers involved."
+      "question": "Do you keep my files or a history of what I did?",
+      "answer": "The standard tools do not send files to a server, so we hold no copy of them. A few preferences, such as language and keyboard shortcuts, are stored in your own browser, and you can clear them any time by clearing the site's data."
     },
     "different": {
-      "question": "What makes PDF4Me different from other PDF tools?",
-      "answer": "Most PDF tools upload your files to a server for processing. PDF4Me never does that. We use secure, modern web technology to process your files directly in your browser. This means faster performance, stronger privacy, and complete peace of mind."
+      "question": "How do I combine several documents into one application file?",
+      "answer": "If your papers are photos or scans, turn them into PDFs with the image to PDF tools first. Then open Merge PDF, add the files, drag them into the right order and download the combined file."
     },
     "browserBased": {
-      "question": "How does browser-based processing keep me safe?",
-      "answer": "By running entirely inside your browser, PDF4Me ensures that your files never leave your device. This eliminates the risks of server hacks, data breaches, or unauthorized access. Your files remain yours, always."
+      "question": "The portal I'm submitting to has a size limit. How do I shrink my file?",
+      "answer": "Open Compress PDF, choose a file and a compression level, then download the result, and check that the text is still readable before you submit. There are also shortcuts that aim for a target size such as 100KB, 200KB, 500KB, 1MB or 2MB."
     },
     "analytics": {
-      "question": "Do you use cookies or analytics to track me?",
-      "answer": "No. PDF4Me does not track you at all. We do not use cookies, analytics, or any tracking scripts, not even on the live website at ai4me.cfd. We never know who you are or what you do with the tools."
+      "question": "Can I put a password on a PDF or sign it digitally?",
+      "answer": "Yes. The password tool encrypts the file in your browser, and the digital signature tool lets you sign with your own certificate. Your passwords and private keys are not sent to PDF4Me."
     }
   },
   "testimonials": {
@@ -212,19 +212,19 @@
     "buyMeCoffee": "Buy Me a Coffee"
   },
   "footer": {
-    "copyright": "© 2026 PDF4Me. All rights reserved.",
+    "copyright": "© 2026 PDF4Me",
     "version": "Version",
-    "company": "Company",
-    "aboutUs": "About Us",
-    "faqLink": "FAQ",
-    "contactUs": "Contact Us",
-    "tools": "Tools",
-    "pdfConverter": "PDF Converter",
-    "pdfSecurity": "PDF Security",
-    "mergeSplit": "Merge and Split PDF",
-    "legal": "Legal",
-    "termsAndConditions": "Terms and Conditions",
-    "privacyPolicy": "Privacy Policy",
+    "company": "About",
+    "aboutUs": "About PDF4Me",
+    "faqLink": "Common questions",
+    "contactUs": "Get in touch",
+    "tools": "Tool groups",
+    "pdfConverter": "Convert PDF",
+    "pdfSecurity": "Protect PDF",
+    "mergeSplit": "Merge and split",
+    "legal": "Policies",
+    "termsAndConditions": "Terms of use",
+    "privacyPolicy": "Privacy",
     "followUs": "Follow Us",
     "privacyShort": "Privacy",
     "termsShort": "Terms"
@@ -269,48 +269,49 @@
   },
   "about": {
     "hero": {
-      "title": "PDF tools should be",
-      "subtitle": "fast, private, and free.",
-      "noCompromises": "No compromises."
+      "title": "Everyday PDF jobs,",
+      "subtitle": "done on your own device.",
+      "noCompromises": "Nothing to install, nothing to upload."
     },
     "mission": {
-      "title": "Our",
-      "titleDim": "Mission",
-      "description": "To provide the most comprehensive PDF toolbox that respects your privacy and never asks for payment. We believe essential document tools should be accessible to everyone, everywhere, without barriers."
+      "title": "What we're",
+      "titleDim": "aiming for",
+      "description": "To make everyday PDF chores quick for people in Vietnam: shrinking a file for an online application, merging scanned papers, adding a password or a signature, while your files stay on your own device."
     },
     "philosophy": {
-      "label": "Our Core Philosophy",
-      "title": "Privacy First. Always.",
-      "description": "Every PDF4Me tool runs locally in your browser. Your files are never uploaded, nobody else sees your documents, and nothing tracks what you do."
+      "label": "How it works",
+      "title": "Your files stay with you",
+      "description": "PDF4Me tools run inside your browser tab. Your files are not sent to our servers and we do not read them."
     },
     "whyBentopdf": {
-      "title": "Why",
+      "title": "What you get",
       "speed": {
-        "title": "Built for Speed",
-        "description": "There's no upload or download step. Files are processed right in your browser using WebAssembly, so you're never waiting on a server."
+        "title": "No upload wait",
+        "description": "Processing starts as soon as you pick a file, because nothing has to travel to a server first."
       },
       "free": {
-        "title": "Free to Use",
-        "description": "Every tool is free, with no trials, no subscriptions and no watermarks. Development is funded by commercial licenses."
+        "title": "No cost, no sign-up",
+        "description": "Use any tool without paying or registering."
       },
       "noAccount": {
-        "title": "No Account Required",
-        "description": "Open any tool and start right away. No email, no password, no personal information."
+        "title": "Open and go",
+        "description": "Pick a tool, choose your file, download the result. No email address needed."
       },
       "openSource": {
-        "title": "Open Source",
-        "description": "The code is public on GitHub under AGPL-3.0, so you can check exactly how your files are handled. It builds on open-source projects like PDF.js, pdf-lib, qpdf and LibreOffice."
-      }
+        "title": "Public source code",
+        "description": "The source code is public under the AGPL-3.0 licence, so anyone can check how files are handled. It builds on open-source libraries such as PDF.js, pdf-lib, qpdf and LibreOffice."
+      },
+      "titleDim": "with PDF4Me"
     },
     "cta": {
-      "title": "Ready to get started?",
-      "description": "Join thousands of users who trust PDF4Me for their daily document needs. Experience the difference that privacy and performance can make.",
-      "button": "Explore All Tools"
+      "title": "Got a PDF to deal with?",
+      "description": "Open the tool list, pick the job you need and finish it without leaving your browser.",
+      "button": "See all tools"
     },
     "intro": {
       "title": "About",
       "titleDim": "PDF4Me",
-      "body": "PDF4Me is a free set of PDF tools that run entirely in your browser. Merge, split, compress, convert and edit PDFs without uploading a single file."
+      "body": "PDF4Me is a set of free PDF tools for Vietnamese speakers that run in your browser: merge, split, compress, convert and edit without sending files anywhere."
     },
     "source": {
       "label": "Open source (AGPL-3.0)"
