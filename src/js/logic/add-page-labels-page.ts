@@ -84,16 +84,16 @@ function initializePage() {
   if (dropZone) {
     dropZone.addEventListener('dragover', (event) => {
       event.preventDefault();
-      dropZone.classList.add('border-indigo-500');
+      dropZone.classList.add('border-red-500');
     });
 
     dropZone.addEventListener('dragleave', () => {
-      dropZone.classList.remove('border-indigo-500');
+      dropZone.classList.remove('border-red-500');
     });
 
     dropZone.addEventListener('drop', (event) => {
       event.preventDefault();
-      dropZone.classList.remove('border-indigo-500');
+      dropZone.classList.remove('border-red-500');
       if (event.dataTransfer?.files.length) {
         handleFiles(event.dataTransfer.files);
       }
@@ -288,7 +288,7 @@ function renderRules() {
       'All pages, or e.g. 1-4, 7, odd'
     );
     rangeInput.className =
-      'w-full bg-gray-700 border border-gray-600 text-white rounded-lg p-2.5 focus:ring-indigo-500 focus:border-indigo-500';
+      'w-full bg-gray-700 border border-gray-600 text-white rounded-lg p-2.5 focus:ring-red-500 focus:border-red-500';
     rangeInput.addEventListener('input', (event) => {
       rule.pageRange = (event.target as HTMLInputElement).value;
     });
@@ -306,7 +306,7 @@ function renderRules() {
     );
     const styleSelect = document.createElement('select');
     styleSelect.className =
-      'w-full bg-gray-700 border border-gray-600 text-white rounded-lg p-2.5 focus:ring-indigo-500 focus:border-indigo-500';
+      'w-full bg-gray-700 border border-gray-600 text-white rounded-lg p-2.5 focus:ring-red-500 focus:border-red-500';
 
     PAGE_LABEL_STYLE_OPTIONS.forEach((styleName) => {
       const option = document.createElement('option');
@@ -340,7 +340,7 @@ function renderRules() {
       'Optional prefix, e.g. A-'
     );
     prefixInput.className =
-      'w-full bg-gray-700 border border-gray-600 text-white rounded-lg p-2.5 focus:ring-indigo-500 focus:border-indigo-500';
+      'w-full bg-gray-700 border border-gray-600 text-white rounded-lg p-2.5 focus:ring-red-500 focus:border-red-500';
     prefixInput.addEventListener('input', (event) => {
       rule.prefix = (event.target as HTMLInputElement).value;
     });
@@ -364,7 +364,7 @@ function renderRules() {
     startInput.step = '1';
     startInput.value = String(rule.startValue);
     startInput.className =
-      'w-full bg-gray-700 border border-gray-600 text-white rounded-lg p-2.5 focus:ring-indigo-500 focus:border-indigo-500';
+      'w-full bg-gray-700 border border-gray-600 text-white rounded-lg p-2.5 focus:ring-red-500 focus:border-red-500';
     startInput.addEventListener('input', (event) => {
       rule.startValue = normalizePageLabelStartValue(
         parseInt((event.target as HTMLInputElement).value, 10)
@@ -381,7 +381,7 @@ function renderRules() {
     progressInput.type = 'checkbox';
     progressInput.checked = rule.progress;
     progressInput.className =
-      'h-4 w-4 rounded border-gray-500 bg-gray-700 text-indigo-600 focus:ring-indigo-500';
+      'h-4 w-4 rounded border-gray-500 bg-gray-700 text-red-600 focus:ring-red-500';
     progressInput.addEventListener('change', (event) => {
       rule.progress = (event.target as HTMLInputElement).checked;
     });

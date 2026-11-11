@@ -40,7 +40,7 @@ const getLockMessages = () =>
     locked: {
       text: trText('Password protected'),
       color: 'text-gray-400',
-      field: 'border-gray-600 focus:ring-indigo-500',
+      field: 'border-gray-600 focus:ring-red-500',
     },
     wrong: {
       text: trText('Wrong password'),

@@ -106,7 +106,7 @@
       >
         <button
           id="back-to-tools-upload"
-          class="flex items-center gap-2 text-indigo-300 hover:text-indigo-400 mb-6 font-semibold"
+          class="flex items-center gap-2 text-red-300 hover:text-red-400 mb-6 font-semibold"
         >
           <i data-lucide="arrow-left" class="cursor-pointer"></i>
           <span class="cursor-pointer" data-i18n="tools.backToTools"
@@ -189,7 +189,7 @@
             >
             <select
               id="pageSizeSelect"
-              class="w-full bg-gray-600 border border-gray-500 text-white rounded px-3 py-2 text-sm focus:ring-indigo-500 focus:border-indigo-500"
+              class="w-full bg-gray-600 border border-gray-500 text-white rounded px-3 py-2 text-sm focus:ring-red-500 focus:border-red-500"
             >
               <option value="letter">Letter (8.5" × 11")</option>
               <option value="a4">A4 (210mm × 297mm)</option>
@@ -212,7 +212,7 @@
                     placeholder="612"
                     min="72"
                     max="14400"
-                    class="w-full bg-gray-600 border border-gray-500 text-white rounded px-2 py-1 text-sm focus:ring-indigo-500 focus:border-indigo-500"
+                    class="w-full bg-gray-600 border border-gray-500 text-white rounded px-2 py-1 text-sm focus:ring-red-500 focus:border-red-500"
                   />
                 </div>
                 <div class="flex-1">
@@ -225,7 +225,7 @@
                     placeholder="792"
                     min="72"
                     max="14400"
-                    class="w-full bg-gray-600 border border-gray-500 text-white rounded px-2 py-1 text-sm focus:ring-indigo-500 focus:border-indigo-500"
+                    class="w-full bg-gray-600 border border-gray-500 text-white rounded px-2 py-1 text-sm focus:ring-red-500 focus:border-red-500"
                   />
                 </div>
               </div>
@@ -234,7 +234,7 @@
 
             <button
               id="confirmBlankBtn"
-              class="w-full mt-3 bg-indigo-600 hover:bg-indigo-500 text-white p-2 rounded transition-colors"
+              class="w-full mt-3 bg-red-600 hover:bg-red-500 text-white p-2 rounded transition-colors"
             >
               Start Creating
             </button>
@@ -249,7 +249,7 @@
       >
         <button
           id="back-to-tools-creator"
-          class="flex items-center gap-2 text-indigo-300 hover:text-indigo-400 mb-6 font-semibold"
+          class="flex items-center gap-2 text-red-300 hover:text-red-400 mb-6 font-semibold"
         >
           <i data-lucide="arrow-left" class="cursor-pointer"></i>
           <span class="cursor-pointer" data-i18n="tools.backToTools"
@@ -291,7 +291,7 @@
             <!-- Field Count -->
             <div class="mt-4 bg-gray-700 rounded-lg p-3 text-center">
               <p class="text-sm text-gray-400">
-                <span id="fieldCount" class="text-indigo-400 font-bold text-lg"
+                <span id="fieldCount" class="text-red-400 font-bold text-lg"
                   >0</span
                 >
                 field(s)
@@ -336,11 +336,11 @@
                     type="number"
                     id="gotoPageInput"
                     min="1"
-                    class="w-16 bg-gray-600 border border-gray-500 text-white rounded px-2 py-1 text-sm focus:ring-indigo-500 focus:border-indigo-500"
+                    class="w-16 bg-gray-600 border border-gray-500 text-white rounded px-2 py-1 text-sm focus:ring-red-500 focus:border-red-500"
                   />
                   <button
                     id="gotoPageBtn"
-                    class="bg-indigo-600 hover:bg-indigo-500 text-white px-2 py-1 rounded text-sm transition-colors"
+                    class="bg-red-600 hover:bg-red-500 text-white px-2 py-1 rounded text-sm transition-colors"
                   >
                     Go
                   </button>
@@ -364,7 +364,7 @@
                     max="14"
                     value="2"
                     placeholder="V"
-                    class="w-12 bg-gray-600 border border-gray-500 text-white rounded px-2 py-1 text-sm focus:ring-indigo-500 focus:border-indigo-500"
+                    class="w-12 bg-gray-600 border border-gray-500 text-white rounded px-2 py-1 text-sm focus:ring-red-500 focus:border-red-500"
                   />
                   <span class="text-gray-400">x</span>
                   <input
@@ -374,7 +374,7 @@
                     max="14"
                     value="2"
                     placeholder="H"
-                    class="w-12 bg-gray-600 border border-gray-500 text-white rounded px-2 py-1 text-sm focus:ring-indigo-500 focus:border-indigo-500"
+                    class="w-12 bg-gray-600 border border-gray-500 text-white rounded px-2 py-1 text-sm focus:ring-red-500 focus:border-red-500"
                   />
                   <button
                     id="toggleGridBtn"
@@ -395,7 +395,7 @@
                 </button>
                 <button
                   id="addPageBtn"
-                  class="bg-indigo-600 hover:bg-indigo-500 text-white p-2 px-3 rounded flex items-center gap-2 transition-colors"
+                  class="bg-red-600 hover:bg-red-500 text-white p-2 px-3 rounded flex items-center gap-2 transition-colors"
                 >
                   <i data-lucide="file-plus" class="w-4 h-4"></i>
                   <span class="text-sm">Add Page</span>
@@ -417,7 +417,7 @@
                 </div>
 
                 <div
-                  class="tool-item bg-gray-600 hover:bg-indigo-600 text-white p-2 rounded cursor-move transition-colors flex items-center gap-2"
+                  class="tool-item bg-gray-600 hover:bg-red-600 text-white p-2 rounded cursor-move transition-colors flex items-center gap-2"
                   draggable="true"
                   data-type="text"
                   title="Text Field"
@@ -427,7 +427,7 @@
                 </div>
 
                 <div
-                  class="tool-item bg-gray-600 hover:bg-indigo-600 text-white p-2 rounded cursor-move transition-colors flex items-center gap-2"
+                  class="tool-item bg-gray-600 hover:bg-red-600 text-white p-2 rounded cursor-move transition-colors flex items-center gap-2"
                   draggable="true"
                   data-type="checkbox"
                   title="Checkbox"
@@ -437,7 +437,7 @@
                 </div>
 
                 <div
-                  class="tool-item bg-gray-600 hover:bg-indigo-600 text-white p-2 rounded cursor-move transition-colors flex items-center gap-2"
+                  class="tool-item bg-gray-600 hover:bg-red-600 text-white p-2 rounded cursor-move transition-colors flex items-center gap-2"
                   draggable="true"
                   data-type="radio"
                   title="Radio Button"
@@ -447,7 +447,7 @@
                 </div>
 
                 <div
-                  class="tool-item bg-gray-600 hover:bg-indigo-600 text-white p-2 rounded cursor-move transition-colors flex items-center gap-2"
+                  class="tool-item bg-gray-600 hover:bg-red-600 text-white p-2 rounded cursor-move transition-colors flex items-center gap-2"
                   draggable="true"
                   data-type="dropdown"
                   title="Dropdown"
@@ -457,7 +457,7 @@
                 </div>
 
                 <div
-                  class="tool-item bg-gray-600 hover:bg-indigo-600 text-white p-2 rounded cursor-move transition-colors flex items-center gap-2"
+                  class="tool-item bg-gray-600 hover:bg-red-600 text-white p-2 rounded cursor-move transition-colors flex items-center gap-2"
                   draggable="true"
                   data-type="optionlist"
                   title="Option List"
@@ -467,7 +467,7 @@
                 </div>
 
                 <div
-                  class="tool-item bg-gray-600 hover:bg-indigo-600 text-white p-2 rounded cursor-move transition-colors flex items-center gap-2"
+                  class="tool-item bg-gray-600 hover:bg-red-600 text-white p-2 rounded cursor-move transition-colors flex items-center gap-2"
                   draggable="true"
                   data-type="button"
                   title="Button"
@@ -477,7 +477,7 @@
                 </div>
 
                 <div
-                  class="tool-item bg-gray-600 hover:bg-indigo-600 text-white p-2 rounded cursor-move transition-colors flex items-center gap-2"
+                  class="tool-item bg-gray-600 hover:bg-red-600 text-white p-2 rounded cursor-move transition-colors flex items-center gap-2"
                   draggable="true"
                   data-type="signature"
                   title="Signature"
@@ -487,7 +487,7 @@
                 </div>
 
                 <div
-                  class="tool-item bg-gray-600 hover:bg-indigo-600 text-white p-2 rounded cursor-move transition-colors flex items-center gap-2"
+                  class="tool-item bg-gray-600 hover:bg-red-600 text-white p-2 rounded cursor-move transition-colors flex items-center gap-2"
                   draggable="true"
                   data-type="date"
                   title="Date Field"
@@ -497,7 +497,7 @@
                 </div>
 
                 <div
-                  class="tool-item bg-gray-600 hover:bg-indigo-600 text-white p-2 rounded cursor-move transition-colors flex items-center gap-2"
+                  class="tool-item bg-gray-600 hover:bg-red-600 text-white p-2 rounded cursor-move transition-colors flex items-center gap-2"
                   draggable="true"
                   data-type="image"
                   title="Image Field"
@@ -507,7 +507,7 @@
                 </div>
 
                 <div
-                  class="tool-item bg-gray-600 hover:bg-indigo-600 text-white p-2 rounded cursor-move transition-colors flex items-center gap-2"
+                  class="tool-item bg-gray-600 hover:bg-red-600 text-white p-2 rounded cursor-move transition-colors flex items-center gap-2"
                   draggable="true"
                   data-type="barcode"
                   title="Barcode Field"
@@ -554,7 +554,7 @@
       <div class="space-y-6">
         <div class="flex items-start gap-4">
           <div
-            class="flex-shrink-0 w-10 h-10 bg-indigo-600 rounded-full flex items-center justify-center text-white font-bold"
+            class="flex-shrink-0 w-10 h-10 bg-red-600 rounded-full flex items-center justify-center text-white font-bold"
           >
             1
           </div>
@@ -567,7 +567,7 @@
         </div>
         <div class="flex items-start gap-4">
           <div
-            class="flex-shrink-0 w-10 h-10 bg-indigo-600 rounded-full flex items-center justify-center text-white font-bold"
+            class="flex-shrink-0 w-10 h-10 bg-red-600 rounded-full flex items-center justify-center text-white font-bold"
           >
             2
           </div>
@@ -580,7 +580,7 @@
         </div>
         <div class="flex items-start gap-4">
           <div
-            class="flex-shrink-0 w-10 h-10 bg-indigo-600 rounded-full flex items-center justify-center text-white font-bold"
+            class="flex-shrink-0 w-10 h-10 bg-red-600 rounded-full flex items-center justify-center text-white font-bold"
           >
             3
           </div>
@@ -749,7 +749,7 @@
             PDF with pdf-lib on your device, and Download PDF Form saves the
             result locally under the original filename. You can test the result
             in
-            <a href="/form-filler" class="text-indigo-300 hover:text-indigo-400"
+            <a href="/form-filler" class="text-red-300 hover:text-red-400"
               >PDF Form Filler</a
             >.
           </p>
@@ -774,7 +774,7 @@
           </p>
           <button
             id="errorModalClose"
-            class="w-full bg-indigo-600 hover:bg-indigo-700 text-white font-semibold py-2 px-4 rounded transition-colors"
+            class="w-full bg-red-600 hover:bg-red-700 text-white font-semibold py-2 px-4 rounded transition-colors"
           >
             Close
           </button>

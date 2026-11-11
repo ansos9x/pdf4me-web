@@ -98,7 +98,7 @@
       >
         <button
           id="back-to-tools"
-          class="flex items-center gap-2 text-indigo-300 hover:text-indigo-400 mb-6 font-semibold"
+          class="flex items-center gap-2 text-red-300 hover:text-red-400 mb-6 font-semibold"
         >
           <i data-lucide="arrow-left" class="cursor-pointer"></i>
           <span class="cursor-pointer" data-i18n="tools.backToTools">
@@ -188,7 +188,7 @@
                   min="-100"
                   max="100"
                   value="0"
-                  class="w-full accent-indigo-500"
+                  class="w-full accent-red-500"
                 />
               </div>
 
@@ -207,7 +207,7 @@
                   min="-100"
                   max="100"
                   value="0"
-                  class="w-full accent-indigo-500"
+                  class="w-full accent-red-500"
                 />
               </div>
 
@@ -226,7 +226,7 @@
                   min="-100"
                   max="100"
                   value="0"
-                  class="w-full accent-indigo-500"
+                  class="w-full accent-red-500"
                 />
               </div>
 
@@ -245,7 +245,7 @@
                   min="0"
                   max="360"
                   value="0"
-                  class="w-full accent-indigo-500"
+                  class="w-full accent-red-500"
                 />
               </div>
 
@@ -264,7 +264,7 @@
                   min="-50"
                   max="50"
                   value="0"
-                  class="w-full accent-indigo-500"
+                  class="w-full accent-red-500"
                 />
               </div>
 
@@ -283,7 +283,7 @@
                   min="-50"
                   max="50"
                   value="0"
-                  class="w-full accent-indigo-500"
+                  class="w-full accent-red-500"
                 />
               </div>
 
@@ -303,7 +303,7 @@
                   max="5.0"
                   value="1.0"
                   step="0.1"
-                  class="w-full accent-indigo-500"
+                  class="w-full accent-red-500"
                 />
               </div>
 
@@ -322,7 +322,7 @@
                   min="0"
                   max="100"
                   value="0"
-                  class="w-full accent-indigo-500"
+                  class="w-full accent-red-500"
                 />
               </div>
             </div>
@@ -370,7 +370,7 @@
         <p id="alert-message" class="text-gray-300 mb-6"></p>
         <button
           id="alert-ok"
-          class="w-full bg-indigo-600 hover:bg-indigo-700 text-white font-semibold py-2 px-4 rounded-lg transition-colors duration-200"
+          class="w-full bg-red-600 hover:bg-red-700 text-white font-semibold py-2 px-4 rounded-lg transition-colors duration-200"
         >
           OK
         </button>
@@ -387,7 +387,7 @@
       <div class="space-y-6">
         <div class="flex items-start gap-4">
           <div
-            class="flex-shrink-0 w-10 h-10 bg-indigo-600 rounded-full flex items-center justify-center text-white font-bold"
+            class="flex-shrink-0 w-10 h-10 bg-red-600 rounded-full flex items-center justify-center text-white font-bold"
           >
             1
           </div>
@@ -400,7 +400,7 @@
         </div>
         <div class="flex items-start gap-4">
           <div
-            class="flex-shrink-0 w-10 h-10 bg-indigo-600 rounded-full flex items-center justify-center text-white font-bold"
+            class="flex-shrink-0 w-10 h-10 bg-red-600 rounded-full flex items-center justify-center text-white font-bold"
           >
             2
           </div>
@@ -413,7 +413,7 @@
         </div>
         <div class="flex items-start gap-4">
           <div
-            class="flex-shrink-0 w-10 h-10 bg-indigo-600 rounded-full flex items-center justify-center text-white font-bold"
+            class="flex-shrink-0 w-10 h-10 bg-red-600 rounded-full flex items-center justify-center text-white font-bold"
           >
             3
           </div>
@@ -502,9 +502,7 @@
             Drag the Saturation slider all the way to -100 and every page
             becomes grayscale, which also cuts ink use when printing. If you
             don't need any of the other adjustments, the
-            <a
-              href="/pdf-to-greyscale"
-              class="text-indigo-300 hover:text-indigo-400"
+            <a href="/pdf-to-greyscale" class="text-red-300 hover:text-red-400"
               >grayscale conversion tool</a
             >
             does the same thing in one step.
@@ -534,9 +532,7 @@
             resolution and saved into a new PDF, so the output is image-based
             and text can't be selected or searched. Keep your original for
             editing, or run the result through
-            <a href="/ocr-pdf" class="text-indigo-300 hover:text-indigo-400"
-              >OCR</a
-            >
+            <a href="/ocr-pdf" class="text-red-300 hover:text-red-400">OCR</a>
             to add a searchable text layer.
           </p>
         </details>
@@ -549,9 +545,7 @@
             Every page is stored as a full-page PNG image instead of text and
             vector drawing commands, so the file usually grows, especially for
             text-heavy documents. Running the result through
-            <a
-              href="/compress-pdf"
-              class="text-indigo-300 hover:text-indigo-400"
+            <a href="/compress-pdf" class="text-red-300 hover:text-red-400"
               >Compress PDF</a
             >
             afterward brings the size back down.

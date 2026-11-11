@@ -99,7 +99,7 @@
       >
         <button
           id="back-to-tools"
-          class="flex items-center gap-2 text-indigo-300 hover:text-indigo-400 mb-6 font-semibold"
+          class="flex items-center gap-2 text-red-300 hover:text-red-400 mb-6 font-semibold"
         >
           <i data-lucide="arrow-left" class="cursor-pointer"></i>
           <span class="cursor-pointer" data-i18n="tools.backToTools">
@@ -215,7 +215,7 @@
             <input
               type="password"
               id="cert-password"
-              class="w-full px-4 py-2 bg-gray-700 border border-gray-600 rounded-lg text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent"
+              class="w-full px-4 py-2 bg-gray-700 border border-gray-600 rounded-lg text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent"
               placeholder="Enter certificate password"
               data-i18n-placeholder="tools:digitalSignPdf.certPasswordPlaceholder"
             />
@@ -275,7 +275,7 @@
             <input
               type="text"
               id="sign-reason"
-              class="w-full px-4 py-2 bg-gray-700 border border-gray-600 rounded-lg text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent"
+              class="w-full px-4 py-2 bg-gray-700 border border-gray-600 rounded-lg text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent"
               placeholder="e.g., I approve this document"
               data-i18n-placeholder="tools:digitalSignPdf.reasonPlaceholder"
             />
@@ -291,7 +291,7 @@
             <input
               type="text"
               id="sign-location"
-              class="w-full px-4 py-2 bg-gray-700 border border-gray-600 rounded-lg text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent"
+              class="w-full px-4 py-2 bg-gray-700 border border-gray-600 rounded-lg text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent"
               placeholder="e.g., New York, USA"
               data-i18n-placeholder="tools:digitalSignPdf.locationPlaceholder"
             />
@@ -307,7 +307,7 @@
             <input
               type="text"
               id="sign-contact"
-              class="w-full px-4 py-2 bg-gray-700 border border-gray-600 rounded-lg text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent"
+              class="w-full px-4 py-2 bg-gray-700 border border-gray-600 rounded-lg text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent"
               placeholder="e.g., email@example.com"
               data-i18n-placeholder="tools:digitalSignPdf.contactPlaceholder"
             />
@@ -329,7 +329,7 @@
                 class="sr-only peer"
               />
               <div
-                class="w-11 h-6 bg-gray-600 peer-focus:outline-none peer-focus:ring-2 peer-focus:ring-indigo-500 rounded-full peer peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:rounded-full after:h-5 after:w-5 after:transition-all peer-checked:bg-indigo-600"
+                class="w-11 h-6 bg-gray-600 peer-focus:outline-none peer-focus:ring-2 peer-focus:ring-red-500 rounded-full peer peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:rounded-full after:h-5 after:w-5 after:transition-all peer-checked:bg-red-600"
               ></div>
             </label>
           </div>
@@ -398,7 +398,7 @@
                 >
                 <select
                   id="sig-page"
-                  class="w-full px-4 py-2 bg-gray-700 border border-gray-600 rounded-lg text-white focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent"
+                  class="w-full px-4 py-2 bg-gray-700 border border-gray-600 rounded-lg text-white focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent"
                 >
                   <option value="0" data-i18n="tools:digitalSignPdf.firstPage">
                     First page
@@ -432,7 +432,7 @@
                   id="sig-custom-page"
                   min="1"
                   value="1"
-                  class="w-full px-4 py-2 bg-gray-700 border border-gray-600 rounded-lg text-white focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent"
+                  class="w-full px-4 py-2 bg-gray-700 border border-gray-600 rounded-lg text-white focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent"
                 />
               </div>
             </div>
@@ -450,7 +450,7 @@
                   id="sig-x"
                   min="0"
                   value="25"
-                  class="w-full px-4 py-2 bg-gray-700 border border-gray-600 rounded-lg text-white focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent"
+                  class="w-full px-4 py-2 bg-gray-700 border border-gray-600 rounded-lg text-white focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent"
                 />
               </div>
               <div>
@@ -465,7 +465,7 @@
                   id="sig-y"
                   min="0"
                   value="700"
-                  class="w-full px-4 py-2 bg-gray-700 border border-gray-600 rounded-lg text-white focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent"
+                  class="w-full px-4 py-2 bg-gray-700 border border-gray-600 rounded-lg text-white focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent"
                 />
               </div>
             </div>
@@ -483,7 +483,7 @@
                   id="sig-width"
                   min="20"
                   value="150"
-                  class="w-full px-4 py-2 bg-gray-700 border border-gray-600 rounded-lg text-white focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent"
+                  class="w-full px-4 py-2 bg-gray-700 border border-gray-600 rounded-lg text-white focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent"
                 />
               </div>
               <div>
@@ -498,7 +498,7 @@
                   id="sig-height"
                   min="20"
                   value="70"
-                  class="w-full px-4 py-2 bg-gray-700 border border-gray-600 rounded-lg text-white focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent"
+                  class="w-full px-4 py-2 bg-gray-700 border border-gray-600 rounded-lg text-white focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent"
                 />
               </div>
             </div>
@@ -508,7 +508,7 @@
                 <input
                   type="checkbox"
                   id="enable-sig-text"
-                  class="w-4 h-4 text-indigo-600 bg-gray-700 border-gray-600 rounded focus:ring-indigo-500"
+                  class="w-4 h-4 text-red-600 bg-gray-700 border-gray-600 rounded focus:ring-red-500"
                 />
                 <span
                   class="text-sm font-medium text-gray-300"
@@ -529,7 +529,7 @@
                 <input
                   type="text"
                   id="sig-text"
-                  class="w-full px-4 py-2 bg-gray-700 border border-gray-600 rounded-lg text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent"
+                  class="w-full px-4 py-2 bg-gray-700 border border-gray-600 rounded-lg text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent"
                   placeholder="e.g., Digitally signed by John Doe"
                   data-i18n-placeholder="tools:digitalSignPdf.textPlaceholder"
                 />
@@ -557,7 +557,7 @@
                     min="6"
                     max="72"
                     value="12"
-                    class="w-full px-4 py-2 bg-gray-700 border border-gray-600 rounded-lg text-white focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent"
+                    class="w-full px-4 py-2 bg-gray-700 border border-gray-600 rounded-lg text-white focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent"
                   />
                 </div>
               </div>
@@ -611,7 +611,7 @@
         <p id="alert-message" class="text-gray-300 mb-6"></p>
         <button
           id="alert-ok"
-          class="w-full bg-indigo-600 hover:bg-indigo-700 text-white font-semibold py-2 px-4 rounded-lg transition-colors duration-200"
+          class="w-full bg-red-600 hover:bg-red-700 text-white font-semibold py-2 px-4 rounded-lg transition-colors duration-200"
           data-i18n="common.ok"
         >
           OK
@@ -629,7 +629,7 @@
       <div class="space-y-6">
         <div class="flex items-start gap-4">
           <div
-            class="flex-shrink-0 w-10 h-10 bg-indigo-600 rounded-full flex items-center justify-center text-white font-bold"
+            class="flex-shrink-0 w-10 h-10 bg-red-600 rounded-full flex items-center justify-center text-white font-bold"
           >
             1
           </div>
@@ -650,7 +650,7 @@
         </div>
         <div class="flex items-start gap-4">
           <div
-            class="flex-shrink-0 w-10 h-10 bg-indigo-600 rounded-full flex items-center justify-center text-white font-bold"
+            class="flex-shrink-0 w-10 h-10 bg-red-600 rounded-full flex items-center justify-center text-white font-bold"
           >
             2
           </div>
@@ -670,7 +670,7 @@
         </div>
         <div class="flex items-start gap-4">
           <div
-            class="flex-shrink-0 w-10 h-10 bg-indigo-600 rounded-full flex items-center justify-center text-white font-bold"
+            class="flex-shrink-0 w-10 h-10 bg-red-600 rounded-full flex items-center justify-center text-white font-bold"
           >
             3
           </div>
@@ -801,7 +801,7 @@
             <i data-lucide="plus" class="faq-d-icon"></i>
           </summary>
           <p class="faq-d-a">
-            <a href="/sign-pdf" class="text-indigo-300 hover:text-indigo-400"
+            <a href="/sign-pdf" class="text-red-300 hover:text-red-400"
               >Sign PDF</a
             >
             places a drawn, typed, or uploaded picture of your signature on the
@@ -886,7 +886,7 @@
             signing breaks the integrity check and readers will report the
             document as modified. If the PDF has form fields or annotations that
             should be fixed in place, run it through
-            <a href="/flatten-pdf" class="text-indigo-300 hover:text-indigo-400"
+            <a href="/flatten-pdf" class="text-red-300 hover:text-red-400"
               >Flatten PDF</a
             >
             before signing, not after.
@@ -901,7 +901,7 @@
             Open the signed file in
             <a
               href="/validate-signature-pdf"
-              class="text-indigo-300 hover:text-indigo-400"
+              class="text-red-300 hover:text-red-400"
               >Validate Signature</a
             >. It lists every signature, shows the signer and issuer, checks the
             certificate dates, and confirms whether the bytes have changed since

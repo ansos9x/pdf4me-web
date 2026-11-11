@@ -147,7 +147,7 @@ function confirmChoice(
     const confirmBtn = document.createElement('button');
     confirmBtn.type = 'button';
     confirmBtn.className =
-      'flex-1 bg-indigo-600 hover:bg-indigo-700 text-white font-semibold py-2 px-4 rounded-lg transition-colors duration-200';
+      'flex-1 bg-red-600 hover:bg-red-700 text-white font-semibold py-2 px-4 rounded-lg transition-colors duration-200';
     confirmBtn.textContent = confirmLabel;
 
     const actions = document.createElement('div');
@@ -259,16 +259,16 @@ function initializePage() {
   if (dropZone) {
     dropZone.addEventListener('dragover', (e) => {
       e.preventDefault();
-      dropZone.classList.add('border-indigo-500');
+      dropZone.classList.add('border-red-500');
     });
 
     dropZone.addEventListener('dragleave', () => {
-      dropZone.classList.remove('border-indigo-500');
+      dropZone.classList.remove('border-red-500');
     });
 
     dropZone.addEventListener('drop', (e) => {
       e.preventDefault();
-      dropZone.classList.remove('border-indigo-500');
+      dropZone.classList.remove('border-red-500');
       const files = e.dataTransfer?.files;
       if (files && files.length > 0) {
         handleFiles(files);

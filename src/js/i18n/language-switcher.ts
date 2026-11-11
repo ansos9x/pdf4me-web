@@ -69,7 +69,7 @@ export const createLanguageSwitcher = (): HTMLElement => {
     w-full px-3 py-1.5 text-sm
     bg-gray-900 text-gray-200
     border border-gray-700 rounded-md
-    focus:outline-none focus:border-indigo-500
+    focus:outline-none focus:border-red-500
     placeholder-gray-500
   `.trim();
   searchInput.setAttribute('aria-label', searchPlaceholder);

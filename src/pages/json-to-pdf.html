@@ -99,7 +99,7 @@
       >
         <button
           id="back-to-tools"
-          class="flex items-center gap-2 text-indigo-300 hover:text-indigo-400 mb-6 font-semibold"
+          class="flex items-center gap-2 text-red-300 hover:text-red-400 mb-6 font-semibold"
         >
           <i data-lucide="arrow-left" class="cursor-pointer"></i>
           <span class="cursor-pointer" data-i18n="tools.backToTools">
@@ -194,7 +194,7 @@
       <div class="space-y-6">
         <div class="flex items-start gap-4">
           <div
-            class="flex-shrink-0 w-10 h-10 bg-indigo-600 rounded-full flex items-center justify-center text-white font-bold"
+            class="flex-shrink-0 w-10 h-10 bg-red-600 rounded-full flex items-center justify-center text-white font-bold"
           >
             1
           </div>
@@ -207,7 +207,7 @@
         </div>
         <div class="flex items-start gap-4">
           <div
-            class="flex-shrink-0 w-10 h-10 bg-indigo-600 rounded-full flex items-center justify-center text-white font-bold"
+            class="flex-shrink-0 w-10 h-10 bg-red-600 rounded-full flex items-center justify-center text-white font-bold"
           >
             2
           </div>
@@ -220,7 +220,7 @@
         </div>
         <div class="flex items-start gap-4">
           <div
-            class="flex-shrink-0 w-10 h-10 bg-indigo-600 rounded-full flex items-center justify-center text-white font-bold"
+            class="flex-shrink-0 w-10 h-10 bg-red-600 rounded-full flex items-center justify-center text-white font-bold"
           >
             3
           </div>
@@ -297,7 +297,7 @@
           </summary>
           <p class="faq-d-a">
             No. It only rebuilds PDFs from JSON files created by PDF4Me's
-            <a href="/pdf-to-json" class="text-indigo-300 hover:text-indigo-400"
+            <a href="/pdf-to-json" class="text-red-300 hover:text-red-400"
               >PDF to JSON</a
             >
             tool, which stores the document's full internal structure. A JSON
@@ -312,7 +312,7 @@
           </summary>
           <p class="faq-d-a">
             Paste or upload the JSON as plain text in
-            <a href="/txt-to-pdf" class="text-indigo-300 hover:text-indigo-400"
+            <a href="/txt-to-pdf" class="text-red-300 hover:text-red-400"
               >Text to PDF</a
             >, which lays it out as formatted text on pages. JSON to PDF is only
             for round-tripping documents that started out as PDFs.
@@ -362,9 +362,7 @@
             The conversion depends on the CPDF WebAssembly build. On ai4me.cfd
             it's included, but a self-hosted copy needs the CPDF WASM files
             configured in
-            <a
-              href="/wasm-settings"
-              class="text-indigo-300 hover:text-indigo-400"
+            <a href="/wasm-settings" class="text-red-300 hover:text-red-400"
               >WASM settings</a
             >
             before this tool will run.

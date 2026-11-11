@@ -1,5 +1,5 @@
 <svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
 <defs><mask id="cut" maskUnits="userSpaceOnUse" x="0" y="0" width="100" height="100"><rect width="100" height="100" fill="#fff"/><path d="M50 36 L62 36 L62 59 L70 59 L70 69 L62 69 L62 82 L50 82 L50 69 L28 69 L28 60Z" fill="#000"/><path d="M50 48 L50 59 L38 59Z" fill="#fff"/></mask></defs>
-<g mask="url(#cut)"><path d="M20 10 L58 10 L80 32 L80 90 L20 90Z" fill="#818CF8" stroke="#818CF8" stroke-width="6" stroke-linejoin="round"/>
-<polygon points="58,10 58,32 80,32" fill="#C7D2FE" stroke="#C7D2FE" stroke-width="2" stroke-linejoin="round"/></g>
+<g mask="url(#cut)"><path d="M20 10 L58 10 L80 32 L80 90 L20 90Z" fill="#F87171" stroke="#F87171" stroke-width="6" stroke-linejoin="round"/>
+<polygon points="58,10 58,32 80,32" fill="#FECACA" stroke="#FECACA" stroke-width="2" stroke-linejoin="round"/></g>
 </svg>

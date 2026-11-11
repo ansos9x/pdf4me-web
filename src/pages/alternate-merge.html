@@ -102,7 +102,7 @@
       >
         <button
           id="back-to-tools"
-          class="flex items-center gap-2 text-indigo-300 hover:text-indigo-400 mb-6 font-semibold"
+          class="flex items-center gap-2 text-red-300 hover:text-red-400 mb-6 font-semibold"
         >
           <i data-lucide="arrow-left" class="cursor-pointer"></i>
           <span class="cursor-pointer" data-i18n="tools.backToTools">
@@ -168,7 +168,7 @@
             <input
               type="checkbox"
               id="retain-page-labels"
-              class="mt-0.5 w-4 h-4 rounded text-indigo-600 bg-gray-700 border-gray-600"
+              class="mt-0.5 w-4 h-4 rounded text-red-600 bg-gray-700 border-gray-600"
             />
             <span>
               <span
@@ -234,7 +234,7 @@
         <p id="alert-message" class="text-gray-300 mb-6"></p>
         <button
           id="alert-ok"
-          class="w-full bg-indigo-600 hover:bg-indigo-700 text-white font-semibold py-2 px-4 rounded-lg transition-colors duration-200"
+          class="w-full bg-red-600 hover:bg-red-700 text-white font-semibold py-2 px-4 rounded-lg transition-colors duration-200"
         >
           OK
         </button>
@@ -252,7 +252,7 @@
       <div class="space-y-6">
         <div class="flex items-start gap-4">
           <div
-            class="flex-shrink-0 w-10 h-10 bg-indigo-600 rounded-full flex items-center justify-center text-white font-bold"
+            class="flex-shrink-0 w-10 h-10 bg-red-600 rounded-full flex items-center justify-center text-white font-bold"
           >
             1
           </div>
@@ -265,7 +265,7 @@
         </div>
         <div class="flex items-start gap-4">
           <div
-            class="flex-shrink-0 w-10 h-10 bg-indigo-600 rounded-full flex items-center justify-center text-white font-bold"
+            class="flex-shrink-0 w-10 h-10 bg-red-600 rounded-full flex items-center justify-center text-white font-bold"
           >
             2
           </div>
@@ -278,7 +278,7 @@
         </div>
         <div class="flex items-start gap-4">
           <div
-            class="flex-shrink-0 w-10 h-10 bg-indigo-600 rounded-full flex items-center justify-center text-white font-bold"
+            class="flex-shrink-0 w-10 h-10 bg-red-600 rounded-full flex items-center justify-center text-white font-bold"
           >
             3
           </div>
@@ -358,7 +358,7 @@
             merge takes page 1 from each file in turn, then page 2 from each,
             and so on, so the pages of two or more PDFs are interleaved into a
             single document. If you only need files back to back, use
-            <a href="/merge-pdf" class="text-indigo-300 hover:text-indigo-400"
+            <a href="/merge-pdf" class="text-red-300 hover:text-red-400"
               >Merge PDF</a
             >.
           </p>
@@ -373,9 +373,7 @@
             Upload the fronts PDF first and the backs PDF second, then click Mix
             Pages. The output alternates front 1, back 1, front 2, back 2 and so
             on. If the backs were scanned last page first, flip that file with
-            <a
-              href="/reverse-pages"
-              class="text-indigo-300 hover:text-indigo-400"
+            <a href="/reverse-pages" class="text-red-300 hover:text-red-400"
               >Reverse Pages</a
             >
             before mixing.
@@ -390,9 +388,7 @@
           <p class="faq-d-a">
             This tool interleaves separate files. If one PDF holds all the
             fronts followed by all the backs,
-            <a
-              href="/duplex-collate"
-              class="text-indigo-300 hover:text-indigo-400"
+            <a href="/duplex-collate" class="text-red-300 hover:text-red-400"
               >Duplex Collate</a
             >
             splits that single file at the midpoint and interleaves the two
@@ -444,7 +440,7 @@
             If a file is encrypted you're asked for its password when it loads,
             and the decrypted copy is used for mixing. The output isn't
             encrypted, so use
-            <a href="/protect-pdf" class="text-indigo-300 hover:text-indigo-400"
+            <a href="/protect-pdf" class="text-red-300 hover:text-red-400"
               >Protect PDF</a
             >
             afterward if it needs a password again.

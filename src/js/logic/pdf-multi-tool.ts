@@ -142,7 +142,7 @@ function showDragOverlay() {
   if (dragOverlay) return;
   dragOverlay = document.createElement('div');
   dragOverlay.className =
-    'fixed inset-0 bg-indigo-900/40 border-4 border-dashed border-indigo-400 z-40 pointer-events-none flex items-center justify-center';
+    'fixed inset-0 bg-red-900/40 border-4 border-dashed border-red-400 z-40 pointer-events-none flex items-center justify-center';
   const inner = document.createElement('div');
   inner.className =
     'text-white text-lg sm:text-xl font-semibold bg-gray-900/80 px-6 py-4 rounded-lg text-center';

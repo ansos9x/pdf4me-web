@@ -102,7 +102,7 @@
       >
         <button
           id="back-to-tools"
-          class="flex items-center gap-2 text-indigo-300 hover:text-indigo-400 mb-6 font-semibold"
+          class="flex items-center gap-2 text-red-300 hover:text-red-400 mb-6 font-semibold"
         >
           <i data-lucide="arrow-left" class="cursor-pointer"></i>
           <span class="cursor-pointer" data-i18n="tools.backToTools"
@@ -155,7 +155,7 @@
         <div id="file-controls" class="hidden mt-4 flex gap-3">
           <button
             id="add-more-btn"
-            class="btn bg-indigo-600 hover:bg-indigo-700 text-white font-semibold px-4 py-2 rounded-lg flex items-center gap-2"
+            class="btn bg-red-600 hover:bg-red-700 text-white font-semibold px-4 py-2 rounded-lg flex items-center gap-2"
           >
             <i data-lucide="plus"></i> <span>Add More Files</span>
           </button>
@@ -178,7 +178,7 @@
             >
             <select
               id="rasterize-dpi"
-              class="w-full bg-gray-700 border border-gray-600 text-white rounded-lg p-2.5 focus:ring-indigo-500 focus:border-indigo-500"
+              class="w-full bg-gray-700 border border-gray-600 text-white rounded-lg p-2.5 focus:ring-red-500 focus:border-red-500"
             >
               <option value="72">72 (Screen)</option>
               <option value="150" selected>150 (Default)</option>
@@ -196,7 +196,7 @@
             >
             <select
               id="rasterize-format"
-              class="w-full bg-gray-700 border border-gray-600 text-white rounded-lg p-2.5 focus:ring-indigo-500 focus:border-indigo-500"
+              class="w-full bg-gray-700 border border-gray-600 text-white rounded-lg p-2.5 focus:ring-red-500 focus:border-red-500"
             >
               <option value="png" selected>PNG (Lossless)</option>
               <option value="jpeg">JPEG (Smaller file size)</option>
@@ -207,7 +207,7 @@
             <input
               type="checkbox"
               id="rasterize-grayscale"
-              class="w-4 h-4 text-indigo-600 bg-gray-700 border-gray-600 rounded focus:ring-indigo-500"
+              class="w-4 h-4 text-red-600 bg-gray-700 border-gray-600 rounded focus:ring-red-500"
             />
             <label
               for="rasterize-grayscale"
@@ -250,7 +250,7 @@
         <p id="alert-message" class="text-gray-300 mb-6"></p>
         <button
           id="alert-ok"
-          class="w-full bg-indigo-600 hover:bg-indigo-700 text-white font-semibold py-2 px-4 rounded-lg transition-colors duration-200"
+          class="w-full bg-red-600 hover:bg-red-700 text-white font-semibold py-2 px-4 rounded-lg transition-colors duration-200"
         >
           OK
         </button>
@@ -268,7 +268,7 @@
       <div class="space-y-6">
         <div class="flex items-start gap-4">
           <div
-            class="flex-shrink-0 w-10 h-10 bg-indigo-600 rounded-full flex items-center justify-center text-white font-bold"
+            class="flex-shrink-0 w-10 h-10 bg-red-600 rounded-full flex items-center justify-center text-white font-bold"
           >
             1
           </div>
@@ -281,7 +281,7 @@
         </div>
         <div class="flex items-start gap-4">
           <div
-            class="flex-shrink-0 w-10 h-10 bg-indigo-600 rounded-full flex items-center justify-center text-white font-bold"
+            class="flex-shrink-0 w-10 h-10 bg-red-600 rounded-full flex items-center justify-center text-white font-bold"
           >
             2
           </div>
@@ -294,7 +294,7 @@
         </div>
         <div class="flex items-start gap-4">
           <div
-            class="flex-shrink-0 w-10 h-10 bg-indigo-600 rounded-full flex items-center justify-center text-white font-bold"
+            class="flex-shrink-0 w-10 h-10 bg-red-600 rounded-full flex items-center justify-center text-white font-bold"
           >
             3
           </div>
@@ -410,9 +410,7 @@
             A text PDF stores a few kilobytes of font and glyph data per page,
             whereas a 300 DPI image of a Letter page is 2550 x 3300 pixels.
             Lower the DPI, switch to JPEG, or run the result through
-            <a
-              href="/compress-pdf"
-              class="text-indigo-300 hover:text-indigo-400"
+            <a href="/compress-pdf" class="text-red-300 hover:text-red-400"
               >Compress PDF</a
             >
             if size matters.
@@ -426,7 +424,7 @@
           <p class="faq-d-a">
             Not from the rasterized file itself; the operation is one-way, so
             keep the original. You can add a searchable text layer back with
-            <a href="/ocr-pdf" class="text-indigo-300 hover:text-indigo-400"
+            <a href="/ocr-pdf" class="text-red-300 hover:text-red-400"
               >OCR PDF</a
             >, though recognized text is never as exact as the original.
           </p>
@@ -441,7 +439,7 @@
             keeps text as text. Rasterizing goes further and turns everything,
             text included, into pixels. If you only need to lock form fields or
             comments,
-            <a href="/flatten-pdf" class="text-indigo-300 hover:text-indigo-400"
+            <a href="/flatten-pdf" class="text-red-300 hover:text-red-400"
               >Flatten PDF</a
             >
             keeps the file searchable and much smaller.

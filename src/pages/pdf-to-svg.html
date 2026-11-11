@@ -102,7 +102,7 @@
       >
         <button
           id="back-to-tools"
-          class="flex items-center gap-2 text-indigo-300 hover:text-indigo-400 mb-6 font-semibold"
+          class="flex items-center gap-2 text-red-300 hover:text-red-400 mb-6 font-semibold"
         >
           <i data-lucide="arrow-left" class="cursor-pointer"></i>
           <span class="cursor-pointer" data-i18n="tools.backToTools">
@@ -152,7 +152,7 @@
         <div id="file-controls" class="hidden mt-4 flex gap-3">
           <button
             id="add-more-btn"
-            class="btn bg-indigo-600 hover:bg-indigo-700 text-white font-semibold px-4 py-2 rounded-lg flex items-center gap-2"
+            class="btn bg-red-600 hover:bg-red-700 text-white font-semibold px-4 py-2 rounded-lg flex items-center gap-2"
           >
             <i data-lucide="plus"></i>
             <span data-i18n="upload.addMore">Add More Files</span>
@@ -208,7 +208,7 @@
         <p id="alert-message" class="text-gray-300 mb-6"></p>
         <button
           id="alert-ok"
-          class="w-full bg-indigo-600 hover:bg-indigo-700 text-white font-semibold py-2 px-4 rounded-lg transition-colors duration-200"
+          class="w-full bg-red-600 hover:bg-red-700 text-white font-semibold py-2 px-4 rounded-lg transition-colors duration-200"
         >
           OK
         </button>
@@ -226,7 +226,7 @@
       <div class="space-y-6">
         <div class="flex items-start gap-4">
           <div
-            class="flex-shrink-0 w-10 h-10 bg-indigo-600 rounded-full flex items-center justify-center text-white font-bold"
+            class="flex-shrink-0 w-10 h-10 bg-red-600 rounded-full flex items-center justify-center text-white font-bold"
           >
             1
           </div>
@@ -239,7 +239,7 @@
         </div>
         <div class="flex items-start gap-4">
           <div
-            class="flex-shrink-0 w-10 h-10 bg-indigo-600 rounded-full flex items-center justify-center text-white font-bold"
+            class="flex-shrink-0 w-10 h-10 bg-red-600 rounded-full flex items-center justify-center text-white font-bold"
           >
             2
           </div>
@@ -252,7 +252,7 @@
         </div>
         <div class="flex items-start gap-4">
           <div
-            class="flex-shrink-0 w-10 h-10 bg-indigo-600 rounded-full flex items-center justify-center text-white font-bold"
+            class="flex-shrink-0 w-10 h-10 bg-red-600 rounded-full flex items-center justify-center text-white font-bold"
           >
             3
           </div>
@@ -332,7 +332,7 @@
             scales cleanly and doesn't depend on fonts being installed, but it
             isn't live text you can select or search. If you need the words
             themselves, use
-            <a href="/pdf-to-text" class="text-indigo-300 hover:text-indigo-400"
+            <a href="/pdf-to-text" class="text-red-300 hover:text-red-400"
               >PDF to Text</a
             >
             alongside the SVG.
@@ -371,7 +371,7 @@
             Scanned or photo-heavy PDFs produce big SVGs because every raster
             image is embedded in the file as base64 data, and pages with
             thousands of tiny vector paths add up too. For image-based pages,
-            <a href="/pdf-to-png" class="text-indigo-300 hover:text-indigo-400"
+            <a href="/pdf-to-png" class="text-red-300 hover:text-red-400"
               >PDF to PNG</a
             >
             gives a smaller and more practical result.
@@ -397,9 +397,7 @@
             No. Every page of every uploaded file is converted at its native
             page size, with no scaling or range selection. To convert only
             certain pages, split them out first with
-            <a
-              href="/extract-pages"
-              class="text-indigo-300 hover:text-indigo-400"
+            <a href="/extract-pages" class="text-red-300 hover:text-red-400"
               >Extract Pages</a
             >.
           </p>

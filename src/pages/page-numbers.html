@@ -102,7 +102,7 @@
       >
         <button
           id="back-to-tools"
-          class="flex items-center gap-2 text-indigo-300 hover:text-indigo-400 mb-6 font-semibold"
+          class="flex items-center gap-2 text-red-300 hover:text-red-400 mb-6 font-semibold"
         >
           <i data-lucide="arrow-left" class="cursor-pointer"></i>
           <span class="cursor-pointer" data-i18n="tools.backToTools">
@@ -159,7 +159,7 @@
               >
               <select
                 id="position"
-                class="w-full bg-gray-700 border border-gray-600 text-white rounded-lg p-2.5 focus:ring-indigo-500 focus:border-indigo-500"
+                class="w-full bg-gray-700 border border-gray-600 text-white rounded-lg p-2.5 focus:ring-red-500 focus:border-red-500"
               >
                 <option value="bottom-center">Bottom Center</option>
                 <option value="bottom-left">Bottom Left</option>
@@ -178,7 +178,7 @@
               >
               <select
                 id="number-format"
-                class="w-full bg-gray-700 border border-gray-600 text-white rounded-lg p-2.5 focus:ring-indigo-500 focus:border-indigo-500"
+                class="w-full bg-gray-700 border border-gray-600 text-white rounded-lg p-2.5 focus:ring-red-500 focus:border-red-500"
               >
                 <option value="page_only">1, 2, 3...</option>
                 <option value="page_x_of_y">1 / 5, 2 / 5...</option>
@@ -199,7 +199,7 @@
                 value="12"
                 min="6"
                 max="72"
-                class="w-full bg-gray-700 border border-gray-600 text-white rounded-lg p-2.5 focus:ring-indigo-500 focus:border-indigo-500"
+                class="w-full bg-gray-700 border border-gray-600 text-white rounded-lg p-2.5 focus:ring-red-500 focus:border-red-500"
               />
             </div>
 
@@ -257,7 +257,7 @@
         <p id="alert-message" class="text-gray-300 mb-6"></p>
         <button
           id="alert-ok"
-          class="w-full bg-indigo-600 hover:bg-indigo-700 text-white font-semibold py-2 px-4 rounded-lg transition-colors duration-200"
+          class="w-full bg-red-600 hover:bg-red-700 text-white font-semibold py-2 px-4 rounded-lg transition-colors duration-200"
         >
           OK
         </button>
@@ -275,7 +275,7 @@
       <div class="space-y-6">
         <div class="flex items-start gap-4">
           <div
-            class="flex-shrink-0 w-10 h-10 bg-indigo-600 rounded-full flex items-center justify-center text-white font-bold"
+            class="flex-shrink-0 w-10 h-10 bg-red-600 rounded-full flex items-center justify-center text-white font-bold"
           >
             1
           </div>
@@ -288,7 +288,7 @@
         </div>
         <div class="flex items-start gap-4">
           <div
-            class="flex-shrink-0 w-10 h-10 bg-indigo-600 rounded-full flex items-center justify-center text-white font-bold"
+            class="flex-shrink-0 w-10 h-10 bg-red-600 rounded-full flex items-center justify-center text-white font-bold"
           >
             2
           </div>
@@ -301,7 +301,7 @@
         </div>
         <div class="flex items-start gap-4">
           <div
-            class="flex-shrink-0 w-10 h-10 bg-indigo-600 rounded-full flex items-center justify-center text-white font-bold"
+            class="flex-shrink-0 w-10 h-10 bg-red-600 rounded-full flex items-center justify-center text-white font-bold"
           >
             3
           </div>
@@ -393,9 +393,7 @@
             Choose the "page X of Y" format and each page prints as 3 / 12. The
             other format prints only the number. There's no free-form template
             here; for wording such as "Page 3 of 12",
-            <a
-              href="/header-footer"
-              class="text-indigo-300 hover:text-indigo-400"
+            <a href="/header-footer" class="text-red-300 hover:text-red-400"
               >Header &amp; Footer</a
             >
             accepts custom text with {page} and {total} placeholders.
@@ -412,9 +410,7 @@
             the last. To leave a cover unnumbered, split it off, number the
             rest, and merge the two back together. For Roman numerals on front
             matter,
-            <a
-              href="/add-page-labels"
-              class="text-indigo-300 hover:text-indigo-400"
+            <a href="/add-page-labels" class="text-red-300 hover:text-red-400"
               >Add Page Labels</a
             >
             sets the numbers viewers display instead of printing them on the
@@ -464,9 +460,7 @@
           <p class="faq-d-a">
             This tool prints plain numbers only. For prefixed, zero-padded
             numbering such as ABC000123 used in legal productions, use
-            <a
-              href="/bates-numbering"
-              class="text-indigo-300 hover:text-indigo-400"
+            <a href="/bates-numbering" class="text-red-300 hover:text-red-400"
               >Bates Numbering</a
             >, which has templates, padding, and multi-file support.
           </p>

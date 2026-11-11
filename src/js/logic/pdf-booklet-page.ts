@@ -239,7 +239,7 @@ async function generatePreview() {
     }
   }
 
-  previewArea.innerHTML = `<p class="text-indigo-400 text-sm mb-4 text-center">${trHtml('{{totalPages}} pages → {{numSheets}} output sheets', { totalPages, numSheets })}</p>`;
+  previewArea.innerHTML = `<p class="text-red-400 text-sm mb-4 text-center">${trHtml('{{totalPages}} pages → {{numSheets}} output sheets', { totalPages, numSheets })}</p>`;
 
   for (let sheetIndex = 0; sheetIndex < numSheets; sheetIndex++) {
     const canvas = document.createElement('canvas');

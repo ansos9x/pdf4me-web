@@ -157,7 +157,7 @@ function injectToolBreadcrumb(
 
   const homeLink = document.createElement('a');
   homeLink.href = buildLocalHomeHref(lang);
-  homeLink.className = 'hover:text-indigo-300';
+  homeLink.className = 'hover:text-red-300';
   homeLink.textContent = BRAND_NAME;
 
   const sep = document.createElement('span');

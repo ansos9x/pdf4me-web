@@ -21,7 +21,7 @@ const AUTHOR = {
   ],
 };
 
-const LINK_CLASS = 'text-indigo-300 hover:text-indigo-400';
+const LINK_CLASS = 'text-red-300 hover:text-red-400';
 
 function escapeHtml(value) {
   return value
@@ -176,7 +176,7 @@ function renderCta(cta) {
         <p class="text-gray-400 mb-4">${escapeHtml(cta.text)}</p>
         <a
           href="${cta.href}"
-          class="inline-block bg-indigo-600 hover:bg-indigo-700 text-white font-semibold px-5 py-2.5 rounded-lg"
+          class="inline-block bg-red-600 hover:bg-red-700 text-white font-semibold px-5 py-2.5 rounded-lg"
           >${escapeHtml(cta.label)}</a
         >
       </div>`;
@@ -219,7 +219,7 @@ function renderPost({ slug, meta, body }) {
         class="flex items-center gap-2 text-sm text-gray-400 mb-6"
         aria-label="Breadcrumb"
       >
-        <a href="/blog" class="hover:text-indigo-300">Blog</a>
+        <a href="/blog" class="hover:text-red-300">Blog</a>
         <i class="ph ph-caret-right text-xs" aria-hidden="true"></i>
         <span class="text-gray-300">${escapeHtml(meta.breadcrumb)}</span>
       </nav>
@@ -237,7 +237,7 @@ function renderPost({ slug, meta, body }) {
           class="rounded-full"
         />
         <div>
-          <a href="/blog/author-alam" class="text-gray-200 font-semibold hover:text-indigo-300">${AUTHOR.name}</a>,
+          <a href="/blog/author-alam" class="text-gray-200 font-semibold hover:text-red-300">${AUTHOR.name}</a>,
           builds BentoPDF ·
           <time datetime="${meta.date}">${formatDate(meta.date)}</time>
         </div>
@@ -308,7 +308,7 @@ function renderIndex(posts) {
     .map(
       ({ slug, meta }) => `        <a
           href="/blog/${slug}"
-          class="block bg-gray-800 border border-gray-700 rounded-xl p-6 hover:border-indigo-500 transition-colors"
+          class="block bg-gray-800 border border-gray-700 rounded-xl p-6 hover:border-red-500 transition-colors"
         >
           <h2 class="text-xl font-bold text-white mb-2">
             ${escapeHtml(meta.h1)}

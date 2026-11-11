@@ -209,8 +209,8 @@ onPageReady(() => {
     uploadModeBtn.addEventListener('click', () => {
       currentMode = 'upload';
       uploadModeBtn.classList.remove('bg-gray-700', 'text-gray-300');
-      uploadModeBtn.classList.add('bg-indigo-600', 'text-white');
-      textModeBtn.classList.remove('bg-indigo-600', 'text-white');
+      uploadModeBtn.classList.add('bg-red-600', 'text-white');
+      textModeBtn.classList.remove('bg-red-600', 'text-white');
       textModeBtn.classList.add('bg-gray-700', 'text-gray-300');
       uploadPanel.classList.remove('hidden');
       textPanel.classList.add('hidden');
@@ -219,8 +219,8 @@ onPageReady(() => {
     textModeBtn.addEventListener('click', () => {
       currentMode = 'text';
       textModeBtn.classList.remove('bg-gray-700', 'text-gray-300');
-      textModeBtn.classList.add('bg-indigo-600', 'text-white');
-      uploadModeBtn.classList.remove('bg-indigo-600', 'text-white');
+      textModeBtn.classList.add('bg-red-600', 'text-white');
+      uploadModeBtn.classList.remove('bg-red-600', 'text-white');
       uploadModeBtn.classList.add('bg-gray-700', 'text-gray-300');
       textPanel.classList.remove('hidden');
       uploadPanel.classList.add('hidden');

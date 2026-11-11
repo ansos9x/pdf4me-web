@@ -103,7 +103,7 @@
       >
         <button
           id="back-to-tools"
-          class="flex items-center gap-2 text-indigo-300 hover:text-indigo-400 mb-6 font-semibold"
+          class="flex items-center gap-2 text-red-300 hover:text-red-400 mb-6 font-semibold"
         >
           <i data-lucide="arrow-left" class="cursor-pointer"></i>
           <span class="cursor-pointer" data-i18n="tools.backToTools">
@@ -169,7 +169,7 @@
           <div id="file-controls" class="hidden mt-4 flex gap-3">
             <button
               id="add-more-btn"
-              class="btn bg-indigo-600 hover:bg-indigo-700 text-white font-semibold px-4 py-2 rounded-lg flex items-center gap-2"
+              class="btn bg-red-600 hover:bg-red-700 text-white font-semibold px-4 py-2 rounded-lg flex items-center gap-2"
             >
               <i data-lucide="plus"></i>
               <span data-i18n="upload.addMore">Add More Files</span>
@@ -234,7 +234,7 @@
         <p id="alert-message" class="text-gray-300 mb-6"></p>
         <button
           id="alert-ok"
-          class="w-full bg-indigo-600 hover:bg-indigo-700 text-white font-semibold py-2 px-4 rounded-lg transition-colors duration-200"
+          class="w-full bg-red-600 hover:bg-red-700 text-white font-semibold py-2 px-4 rounded-lg transition-colors duration-200"
           data-i18n="alert.ok"
         >
           OK
@@ -253,7 +253,7 @@
       <div class="space-y-6">
         <div class="flex items-start gap-4">
           <div
-            class="flex-shrink-0 w-10 h-10 bg-indigo-600 rounded-full flex items-center justify-center text-white font-bold"
+            class="flex-shrink-0 w-10 h-10 bg-red-600 rounded-full flex items-center justify-center text-white font-bold"
           >
             1
           </div>
@@ -266,7 +266,7 @@
         </div>
         <div class="flex items-start gap-4">
           <div
-            class="flex-shrink-0 w-10 h-10 bg-indigo-600 rounded-full flex items-center justify-center text-white font-bold"
+            class="flex-shrink-0 w-10 h-10 bg-red-600 rounded-full flex items-center justify-center text-white font-bold"
           >
             2
           </div>
@@ -279,7 +279,7 @@
         </div>
         <div class="flex items-start gap-4">
           <div
-            class="flex-shrink-0 w-10 h-10 bg-indigo-600 rounded-full flex items-center justify-center text-white font-bold"
+            class="flex-shrink-0 w-10 h-10 bg-red-600 rounded-full flex items-center justify-center text-white font-bold"
           >
             3
           </div>
@@ -357,7 +357,7 @@
           <p class="faq-d-a">
             The PDF is most likely a scan or a photo, which has no text layer to
             extract. Run it through
-            <a href="/ocr-pdf" class="text-indigo-300 hover:text-indigo-400"
+            <a href="/ocr-pdf" class="text-red-300 hover:text-red-400"
               >OCR PDF</a
             >
             first; that tool adds a text layer and also offers a .txt download
@@ -387,9 +387,7 @@
             Cyrillic, CJK, and Arabic are preserved, but bold, headings, links,
             and images are not, and line breaks follow the PDF's lines rather
             than paragraphs. For headings and lists kept as Markdown, use
-            <a
-              href="/pdf-to-markdown"
-              class="text-indigo-300 hover:text-indigo-400"
+            <a href="/pdf-to-markdown" class="text-red-300 hover:text-red-400"
               >PDF to Markdown</a
             >.
           </p>
@@ -425,9 +423,7 @@
           <p class="faq-d-a">
             No, this tool always extracts every page. Pull the pages you need
             into a separate PDF first with
-            <a
-              href="/extract-pages"
-              class="text-indigo-300 hover:text-indigo-400"
+            <a href="/extract-pages" class="text-red-300 hover:text-red-400"
               >Extract Pages</a
             >, then convert that file.
           </p>

@@ -128,7 +128,7 @@ function redrawShapes() {
 
   const currentCropBox = editorState.cropBoxes[editorState.currentPageNum - 1];
   if (currentCropBox) {
-    editorState.context!.strokeStyle = 'rgba(79, 70, 229, 0.9)';
+    editorState.context!.strokeStyle = 'rgba(220, 38, 38, 0.9)';
     editorState.context!.lineWidth = 2;
     editorState.context!.setLineDash([8, 4]);
     editorState.context!.strokeRect(
@@ -173,7 +173,7 @@ function handleInteractionMove(e: MouseEvent | TouchEvent) {
   const width = Math.abs(editorState.startX - coords.x);
   const height = Math.abs(editorState.startY - coords.y);
 
-  editorState.context!.strokeStyle = 'rgba(79, 70, 229, 0.9)';
+  editorState.context!.strokeStyle = 'rgba(220, 38, 38, 0.9)';
   editorState.context!.lineWidth = 2;
   editorState.context!.setLineDash([8, 4]);
   editorState.context!.strokeRect(x, y, width, height);

@@ -102,7 +102,7 @@
       >
         <button
           id="back-to-tools"
-          class="flex items-center gap-2 text-indigo-300 hover:text-indigo-400 mb-6 font-semibold"
+          class="flex items-center gap-2 text-red-300 hover:text-red-400 mb-6 font-semibold"
         >
           <i data-lucide="arrow-left" class="cursor-pointer"></i>
           <span class="cursor-pointer" data-i18n="tools.backToTools">
@@ -206,7 +206,7 @@
         <p id="alert-message" class="text-gray-300 mb-6"></p>
         <button
           id="alert-ok"
-          class="w-full bg-indigo-600 hover:bg-indigo-700 text-white font-semibold py-2 px-4 rounded-lg transition-colors duration-200"
+          class="w-full bg-red-600 hover:bg-red-700 text-white font-semibold py-2 px-4 rounded-lg transition-colors duration-200"
         >
           OK
         </button>
@@ -224,7 +224,7 @@
       <div class="space-y-6">
         <div class="flex items-start gap-4">
           <div
-            class="flex-shrink-0 w-10 h-10 bg-indigo-600 rounded-full flex items-center justify-center text-white font-bold"
+            class="flex-shrink-0 w-10 h-10 bg-red-600 rounded-full flex items-center justify-center text-white font-bold"
           >
             1
           </div>
@@ -237,7 +237,7 @@
         </div>
         <div class="flex items-start gap-4">
           <div
-            class="flex-shrink-0 w-10 h-10 bg-indigo-600 rounded-full flex items-center justify-center text-white font-bold"
+            class="flex-shrink-0 w-10 h-10 bg-red-600 rounded-full flex items-center justify-center text-white font-bold"
           >
             2
           </div>
@@ -250,7 +250,7 @@
         </div>
         <div class="flex items-start gap-4">
           <div
-            class="flex-shrink-0 w-10 h-10 bg-indigo-600 rounded-full flex items-center justify-center text-white font-bold"
+            class="flex-shrink-0 w-10 h-10 bg-red-600 rounded-full flex items-center justify-center text-white font-bold"
           >
             3
           </div>
@@ -343,9 +343,7 @@
             links, and any file attachments. Names stored inside those elements,
             such as the author on a sticky-note comment, are not touched. To
             strip comments, scripts, and attachments as well, use
-            <a
-              href="/sanitize-pdf"
-              class="text-indigo-300 hover:text-indigo-400"
+            <a href="/sanitize-pdf" class="text-red-300 hover:text-red-400"
               >Sanitize PDF</a
             >.
           </p>
@@ -359,9 +357,7 @@
             No. Image data is left as it is, so any EXIF or XMP information a
             photo carried when it was placed into the PDF stays with that image.
             If that matters,
-            <a
-              href="/rasterize-pdf"
-              class="text-indigo-300 hover:text-indigo-400"
+            <a href="/rasterize-pdf" class="text-red-300 hover:text-red-400"
               >Rasterize PDF</a
             >
             re-renders every page as a fresh image, at the cost of selectable
@@ -375,9 +371,7 @@
           </summary>
           <p class="faq-d-a">
             Open the cleaned file in
-            <a
-              href="/view-metadata"
-              class="text-indigo-300 hover:text-indigo-400"
+            <a href="/view-metadata" class="text-red-300 hover:text-red-400"
               >View Metadata</a
             >
             and check that the fields are blank. Running the same check on the
@@ -403,9 +397,7 @@
           <p class="faq-d-a">
             A little, since the XMP block and info fields are dropped, usually
             only a few kilobytes. For a real reduction, follow up with
-            <a
-              href="/compress-pdf"
-              class="text-indigo-300 hover:text-indigo-400"
+            <a href="/compress-pdf" class="text-red-300 hover:text-red-400"
               >Compress PDF</a
             >.
           </p>
@@ -420,7 +412,7 @@
             which stay;
             <a
               href="/remove-annotations"
-              class="text-indigo-300 hover:text-indigo-400"
+              class="text-red-300 hover:text-red-400"
               >Remove Annotations</a
             >
             handles those. Hidden or white text remains part of the page

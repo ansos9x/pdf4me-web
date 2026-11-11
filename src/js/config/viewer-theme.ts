@@ -3,19 +3,19 @@ import type { ThemeConfig } from 'bentopdf-viewer';
 export const viewerTheme: ThemeConfig = {
   light: {
     accent: {
-      primary: '#6366f1',
-      primaryHover: '#4f46e5',
-      primaryActive: '#4338ca',
+      primary: '#ef4444',
+      primaryHover: '#dc2626',
+      primaryActive: '#b91c1c',
       primaryLight: '#eef2ff',
       primaryForeground: '#ffffff',
     },
     interactive: {
       selected: '#eef2ff',
-      focus: '#6366f1',
-      focusRing: '#c7d2fe',
+      focus: '#ef4444',
+      focusRing: '#fecaca',
     },
     state: {
-      info: '#6366f1',
+      info: '#ef4444',
       infoLight: '#eef2ff',
     },
   },
@@ -36,9 +36,9 @@ export const viewerTheme: ThemeConfig = {
       strong: '#737373',
     },
     accent: {
-      primary: '#6366f1',
-      primaryHover: '#4f46e5',
-      primaryActive: '#4338ca',
+      primary: '#ef4444',
+      primaryHover: '#dc2626',
+      primaryActive: '#b91c1c',
       primaryLight: '#38395c',
       primaryForeground: '#ffffff',
     },
@@ -46,11 +46,11 @@ export const viewerTheme: ThemeConfig = {
       hover: '#383838',
       active: '#444444',
       selected: '#38395c',
-      focus: '#818cf8',
+      focus: '#f87171',
       focusRing: '#3730a3',
     },
     state: {
-      info: '#818cf8',
+      info: '#f87171',
       infoLight: '#38395c',
     },
     scrollbar: {

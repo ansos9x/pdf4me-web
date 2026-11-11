@@ -387,7 +387,7 @@ function showLoadTemplateModal(
 
       const loadBtn = document.createElement('button');
       loadBtn.className =
-        'bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-medium px-3 py-1.5 rounded-md transition-colors flex-shrink-0';
+        'bg-red-600 hover:bg-red-500 text-white text-xs font-medium px-3 py-1.5 rounded-md transition-colors flex-shrink-0';
       loadBtn.textContent = trText('Load');
       loadBtn.addEventListener('click', async () => {
         const loaded = await loadWorkflow(editor, area, name);
@@ -443,7 +443,7 @@ function buildToolbox() {
     color: string;
   }> = [
     { key: 'Input', color: 'text-blue-400' },
-    { key: 'Edit & Annotate', color: 'text-indigo-300' },
+    { key: 'Edit & Annotate', color: 'text-red-300' },
     { key: 'Organize & Manage', color: 'text-violet-300' },
     { key: 'Optimize & Repair', color: 'text-amber-300' },
     { key: 'Secure PDF', color: 'text-rose-300' },
@@ -844,11 +844,11 @@ function showNodeSettings(node: BaseWorkflowNode) {
         pwInput.type = 'password';
         pwInput.placeholder = trText('Enter password...');
         pwInput.className =
-          'flex-1 bg-gray-700 border border-gray-600 text-white text-xs px-3 py-2 rounded-lg focus:outline-none focus:border-indigo-500';
+          'flex-1 bg-gray-700 border border-gray-600 text-white text-xs px-3 py-2 rounded-lg focus:outline-none focus:border-red-500';
 
         const unlockBtn = document.createElement('button');
         unlockBtn.className =
-          'bg-indigo-600 hover:bg-indigo-500 text-white text-xs px-3 py-2 rounded-lg transition-colors flex-shrink-0';
+          'bg-red-600 hover:bg-red-500 text-white text-xs px-3 py-2 rounded-lg transition-colors flex-shrink-0';
         unlockBtn.textContent = trText('Unlock');
 
         const statusMsg = document.createElement('div');
@@ -1185,7 +1185,7 @@ function showNodeSettings(node: BaseWorkflowNode) {
   };
 
   const inputClass =
-    'w-full bg-gray-900 border border-gray-600 text-white rounded-md px-2 py-1.5 text-xs focus:border-indigo-500 focus:outline-none';
+    'w-full bg-gray-900 border border-gray-600 text-white rounded-md px-2 py-1.5 text-xs focus:border-red-500 focus:outline-none';
 
   const conditionalVisibility: Record<string, Record<string, string[]>> = {
     redactMode: {
@@ -1243,7 +1243,7 @@ function showNodeSettings(node: BaseWorkflowNode) {
           if (!opt) continue;
           const tag = document.createElement('span');
           tag.className =
-            'inline-flex items-center gap-1 px-2 py-0.5 rounded bg-indigo-600 text-white text-[10px]';
+            'inline-flex items-center gap-1 px-2 py-0.5 rounded bg-red-600 text-white text-[10px]';
           tag.textContent = trText(opt.label);
           const removeBtn = document.createElement('button');
           removeBtn.type = 'button';
@@ -1282,7 +1282,7 @@ function showNodeSettings(node: BaseWorkflowNode) {
           cb.type = 'checkbox';
           cb.checked = selectedValues.has(opt.value);
           cb.className =
-            'w-3 h-3 rounded text-indigo-600 bg-gray-700 border-gray-600';
+            'w-3 h-3 rounded text-red-600 bg-gray-700 border-gray-600';
           cb.addEventListener('change', () => {
             if (cb.checked) {
               selectedValues.add(opt.value);
@@ -1327,7 +1327,7 @@ function showNodeSettings(node: BaseWorkflowNode) {
       const toggle = document.createElement('button');
       toggle.type = 'button';
       const isOn = currentValue === 'true';
-      toggle.className = `relative inline-flex h-6 w-11 flex-shrink-0 cursor-pointer rounded-full transition-colors duration-200 ${isOn ? 'bg-indigo-500' : 'bg-gray-600'}`;
+      toggle.className = `relative inline-flex h-6 w-11 flex-shrink-0 cursor-pointer rounded-full transition-colors duration-200 ${isOn ? 'bg-red-500' : 'bg-gray-600'}`;
       const dot = document.createElement('span');
       dot.className = `pointer-events-none absolute top-[3px] left-[3px] h-[18px] w-[18px] rounded-full bg-white shadow-md transition-transform duration-200 ${isOn ? 'translate-x-5' : 'translate-x-0'}`;
       toggle.appendChild(dot);
@@ -1336,7 +1336,7 @@ function showNodeSettings(node: BaseWorkflowNode) {
           (ctrl as { value: string }).value === 'true' ? 'false' : 'true';
         (ctrl as { value: string }).value = newVal;
         const on = newVal === 'true';
-        toggle.className = `relative inline-flex h-6 w-11 flex-shrink-0 cursor-pointer rounded-full transition-colors duration-200 ${on ? 'bg-indigo-500' : 'bg-gray-600'}`;
+        toggle.className = `relative inline-flex h-6 w-11 flex-shrink-0 cursor-pointer rounded-full transition-colors duration-200 ${on ? 'bg-red-500' : 'bg-gray-600'}`;
         dot.className = `pointer-events-none absolute top-[3px] left-[3px] h-[18px] w-[18px] rounded-full bg-white shadow-md transition-transform duration-200 ${on ? 'translate-x-5' : 'translate-x-0'}`;
       });
       wrapper.appendChild(toggle);

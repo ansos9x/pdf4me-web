@@ -177,7 +177,7 @@ onPageReady(() => {
       const createWrapper = (canvas: HTMLCanvasElement, pageNumber: number) => {
         const wrapper = document.createElement('div');
         wrapper.className =
-          'page-thumbnail-wrapper p-2 border-2 border-gray-600 rounded-lg cursor-pointer hover:border-indigo-500 bg-gray-700 transition-colors relative group flex flex-col items-center gap-1';
+          'page-thumbnail-wrapper p-2 border-2 border-gray-600 rounded-lg cursor-pointer hover:border-red-500 bg-gray-700 transition-colors relative group flex flex-col items-center gap-1';
         wrapper.dataset.pageIndex = (pageNumber - 1).toString();
         wrapper.dataset.pageNumber = pageNumber.toString();
 
@@ -190,7 +190,7 @@ onPageReady(() => {
 
         const pageNumDiv = document.createElement('div');
         pageNumDiv.className =
-          'absolute top-1 left-1 bg-indigo-600 text-white text-xs px-2 py-1 rounded-md font-semibold shadow-lg z-10 pointer-events-none';
+          'absolute top-1 left-1 bg-red-600 text-white text-xs px-2 py-1 rounded-md font-semibold shadow-lg z-10 pointer-events-none';
         pageNumDiv.textContent = pageNumber.toString();
 
         imgContainer.append(img, pageNumDiv);
@@ -203,10 +203,10 @@ onPageReady(() => {
           const isSelected = wrapper.classList.contains('selected');
 
           if (isSelected) {
-            wrapper.classList.remove('selected', 'border-indigo-500');
+            wrapper.classList.remove('selected', 'border-red-500');
             wrapper.classList.add('border-gray-600');
           } else {
-            wrapper.classList.add('selected', 'border-indigo-500');
+            wrapper.classList.add('selected', 'border-red-500');
             wrapper.classList.remove('border-gray-600');
           }
         };
@@ -258,7 +258,7 @@ onPageReady(() => {
     document
       .querySelectorAll('.page-thumbnail-wrapper.selected')
       .forEach((el) => {
-        el.classList.remove('selected', 'border-indigo-500');
+        el.classList.remove('selected', 'border-red-500');
         el.classList.add('border-transparent');
       });
     visualSelectorRendered = false;

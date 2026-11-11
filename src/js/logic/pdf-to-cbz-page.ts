@@ -378,10 +378,10 @@ onPageReady(() => {
 
     if (valid) {
       input.classList.remove('border-red-500', 'focus:ring-red-500');
-      input.classList.add('border-gray-600', 'focus:ring-indigo-500');
+      input.classList.add('border-gray-600', 'focus:ring-red-500');
       if (errorEl) errorEl.remove();
     } else {
-      input.classList.remove('border-gray-600', 'focus:ring-indigo-500');
+      input.classList.remove('border-gray-600', 'focus:ring-red-500');
       input.classList.add('border-red-500', 'focus:ring-red-500');
       if (!errorEl) {
         errorEl = document.createElement('p');

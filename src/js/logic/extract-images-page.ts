@@ -144,7 +144,7 @@ onPageReady(() => {
       name.textContent = img.name;
 
       const downloadBtn = document.createElement('button');
-      downloadBtn.className = 'text-indigo-400 hover:text-indigo-300';
+      downloadBtn.className = 'text-red-400 hover:text-red-300';
       downloadBtn.innerHTML = '<i data-lucide="download" class="w-4 h-4"></i>';
       downloadBtn.onclick = () => {
         downloadFile(blob, img.name);

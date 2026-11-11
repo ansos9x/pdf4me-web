@@ -505,7 +505,7 @@ function createSignatureCard(
             }
 
             <details class="mt-2">
-                <summary class="cursor-pointer text-indigo-400 hover:text-indigo-300 text-sm">
+                <summary class="cursor-pointer text-red-400 hover:text-red-300 text-sm">
                     ${trHtml('Technical Details')}
                 </summary>
                 <div class="mt-2 p-3 bg-gray-800 rounded text-xs space-y-1">

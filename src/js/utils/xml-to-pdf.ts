@@ -114,7 +114,7 @@ export async function convertXmlToPdf(
             overflow: 'linebreak',
           },
           headStyles: {
-            fillColor: [79, 70, 229],
+            fillColor: [220, 38, 38],
             textColor: 255,
             fontStyle: 'bold',
           },
@@ -142,7 +142,7 @@ export async function convertXmlToPdf(
             cellPadding: 5,
           },
           headStyles: {
-            fillColor: [79, 70, 229],
+            fillColor: [220, 38, 38],
             textColor: 255,
             fontStyle: 'bold',
           },

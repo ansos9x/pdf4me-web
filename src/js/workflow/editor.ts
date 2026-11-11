@@ -291,8 +291,8 @@ export async function createWorkflowEditor(
             return html`<div
               style="
             width: 14px; height: 14px; border-radius: 50%;
-            background: #6366f1; border: 2px solid #1f2937;
-            box-shadow: 0 0 0 1px #6366f1; cursor: crosshair;
+            background: #ef4444; border: 2px solid #1f2937;
+            box-shadow: 0 0 0 1px #ef4444; cursor: crosshair;
           "
             ></div>`;
           };
