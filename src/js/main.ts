@@ -125,14 +125,6 @@ const init = async () => {
         supportSection.style.display = 'none';
       }
 
-      // Hide "Used by companies" section
-      const usedBySection = document.querySelector(
-        '.hide-section'
-      ) as HTMLElement;
-      if (usedBySection) {
-        usedBySection.style.display = 'none';
-      }
-
       const sectionDividers = document.querySelectorAll('.section-divider');
       sectionDividers.forEach((divider) => {
         (divider as HTMLElement).style.display = 'none';
