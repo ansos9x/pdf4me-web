@@ -588,16 +588,6 @@
     ],
     "pageCount": 1
   },
-  "03136832cf45": {
-    "text": "<1>GitHub repository:</1> <2>github.com/alam00000/bentopdf-hyper-compress</2>",
-    "tags": [
-      "p"
-    ],
-    "pages": [
-      "hyper-compress"
-    ],
-    "pageCount": 1
-  },
   "031bb873da88": {
     "text": "RTL",
     "tags": [
@@ -1016,16 +1006,6 @@
     ],
     "pageCount": 1
   },
-  "056840a9f6d1": {
-    "text": "The PDF standards and preflight engine. Convert any PDF to every PDF/A level, PDF/UA, PDF/X, PDF/E and PDF/VT, then preflight the result against 396 bundled profiles to confirm it conforms.",
-    "tags": [
-      "p"
-    ],
-    "pages": [
-      "kura"
-    ],
-    "pageCount": 1
-  },
   "0583d004e480": {
     "text": "No. The form is rendered by a PDF.js viewer embedded in the page, your entries are held in that viewer's memory, and the completed PDF is written and downloaded on your device. Nothing you type is transmitted, which is the point when the form holds tax, medical, or ID details.",
     "tags": [
@@ -1053,16 +1033,6 @@
     ],
     "pages": [
       "email-to-pdf"
-    ],
-    "pageCount": 1
-  },
-  "05ac9ef2cc22": {
-    "text": "<1>Does the PDF4Me commercial license cover Hyper Compress?</1> <2/>",
-    "tags": [
-      "button"
-    ],
-    "pages": [
-      "hyper-compress"
     ],
     "pageCount": 1
   },
@@ -1113,16 +1083,6 @@
     ],
     "pages": [
       "extract-images"
-    ],
-    "pageCount": 1
-  },
-  "0652b87e22d3": {
-    "text": "BentoPDF provides tools that I have ended up using on a daily basis, and I can do it secure in the knowledge that my documents are remaining private. It just works.",
-    "tags": [
-      "blockquote"
-    ],
-    "pages": [
-      "index"
     ],
     "pageCount": 1
   },
@@ -1844,16 +1804,6 @@
     ],
     "pageCount": 1
   },
-  "0977721a9d0e": {
-    "text": "The conversion depends on the CPDF WebAssembly build. On bentopdf.com it's included, but a self-hosted copy needs the CPDF WASM files configured in <1>WASM settings</1> before this tool will run.",
-    "tags": [
-      "p"
-    ],
-    "pages": [
-      "json-to-pdf"
-    ],
-    "pageCount": 1
-  },
   "099618ee4682": {
     "text": "Learn how to txt to pdf using PDF4Me",
     "tags": [
@@ -2365,17 +2315,6 @@
     ],
     "pageCount": 1
   },
-  "0c54977a878d": {
-    "text": "Redistribute inside someone else's product",
-    "tags": [
-      "th"
-    ],
-    "pages": [
-      "hyper-compress",
-      "kura"
-    ],
-    "pageCount": 2
-  },
   "0c58df9aacc3": {
     "text": "No. This tool takes one PDF at a time; if you drop several, only the first is used. Convert them one after another.",
     "tags": [
@@ -2637,17 +2576,6 @@
       "rasterize-pdf"
     ],
     "pageCount": 1
-  },
-  "0e4246b4d07f": {
-    "text": "<1>from</1><2/><3>/ year</3>",
-    "tags": [
-      "div"
-    ],
-    "pages": [
-      "hyper-compress",
-      "kura"
-    ],
-    "pageCount": 2
   },
   "0e498a2b5dfd": {
     "text": "Can I edit the result in Illustrator or Inkscape? <1/>",
@@ -3136,16 +3064,6 @@
     ],
     "pageCount": 1
   },
-  "11d3ecf0105e": {
-    "text": "Every tier lets you ship Kura inside one closed-source product. The tiers differ by who you are, how many developers you have, and whether Kura is passed on to anyone else.",
-    "tags": [
-      "p"
-    ],
-    "pages": [
-      "kura"
-    ],
-    "pageCount": 1
-  },
   "11d6917fd62e": {
     "text": "They're reduced to 8 bits per channel for the PDF, so medical or scientific TIFFs lose their extended range. WhiteIsZero grayscale files are inverted correctly so black stays black.",
     "tags": [
@@ -3485,16 +3403,6 @@
     ],
     "pages": [
       "pdf-to-excel"
-    ],
-    "pageCount": 1
-  },
-  "13f358342622": {
-    "text": "At some point, I decided to <1>share it on Reddit</1>. Someone in the comments <2>asked if it was open source</2>. I thought, “Why not?” So a couple of weeks later, I <3>put the code on GitHub</3>.",
-    "tags": [
-      "p"
-    ],
-    "pages": [
-      "about"
     ],
     "pageCount": 1
   },
@@ -4001,17 +3909,6 @@
       "pdf-security"
     ],
     "pageCount": 1
-  },
-  "16ad37766337": {
-    "text": "<1/> Delivery &amp; licensing model",
-    "tags": [
-      "h3"
-    ],
-    "pages": [
-      "hyper-compress",
-      "kura"
-    ],
-    "pageCount": 2
   },
   "16aff5ecd49d": {
     "text": "Tabloid (11 × 17 in)",
@@ -4710,17 +4607,6 @@
       "add-stamps"
     ],
     "pageCount": 1
-  },
-  "1a817cf88f61": {
-    "text": "<1/> <2>Polar handles <3>VAT invoices</3> for businesses in applicable regions.</2>",
-    "tags": [
-      "li"
-    ],
-    "pages": [
-      "hyper-compress",
-      "kura"
-    ],
-    "pageCount": 2
   },
   "1aa3972bf3a6": {
     "text": "What colors work best as a PDF background? <1/>",
@@ -5525,16 +5411,6 @@
     ],
     "pageCount": 1
   },
-  "1f3f80006365": {
-    "text": "<1/><2>Contributors <3/></2>",
-    "tags": [
-      "div"
-    ],
-    "pages": [
-      "about"
-    ],
-    "pageCount": 1
-  },
   "1f5323ee83cd": {
     "text": "Click Save &amp; Download Filled Form and the viewer writes your entries into the PDF's form fields and downloads the file. The values are stored in the fields themselves, so they show up in other PDF viewers, not just this one.",
     "tags": [
@@ -5682,16 +5558,6 @@
     ],
     "pages": [
       "split-pdf"
-    ],
-    "pageCount": 1
-  },
-  "2082aa45f65e": {
-    "text": "<1/> <2>Upon purchase you receive a ZIP archive containing the complete Hyper Compress source code.</2>",
-    "tags": [
-      "li"
-    ],
-    "pages": [
-      "hyper-compress"
     ],
     "pageCount": 1
   },
@@ -6266,16 +6132,6 @@
     ],
     "pageCount": 1
   },
-  "23a9c0dcb669": {
-    "text": "<1/> <2>Upon purchase you receive a ZIP archive containing the complete Kura source code.</2>",
-    "tags": [
-      "li"
-    ],
-    "pages": [
-      "kura"
-    ],
-    "pageCount": 1
-  },
   "23bcbbe061e7": {
     "text": "How to sign online",
     "tags": [
@@ -6403,16 +6259,6 @@
     ],
     "pages": [
       "pdf-to-zip"
-    ],
-    "pageCount": 1
-  },
-  "24b2b39df1f0": {
-    "text": "Hyper Compress is written and owned by PDF4Me, and every third-party component it bundles, including PDFium, qpdf, jpegli and Leptonica, is permissively licensed. No copyleft surprises in your supply chain.",
-    "tags": [
-      "p"
-    ],
-    "pages": [
-      "hyper-compress"
     ],
     "pageCount": 1
   },
@@ -7819,16 +7665,6 @@
     ],
     "pageCount": 1
   },
-  "2e3ef5a2ea69": {
-    "text": "Redistribution, reselling and hosting are what separate OEM from the rest. If Kura only ships inside your own closed-source product, the choice between Solo, Indie and Business is purely a question of your size.",
-    "tags": [
-      "p"
-    ],
-    "pages": [
-      "kura"
-    ],
-    "pageCount": 1
-  },
   "2e4e18ed0f7a": {
     "text": "Extract a range of pages into a new PDF.",
     "tags": [
@@ -7836,16 +7672,6 @@
     ],
     "pages": [
       "index"
-    ],
-    "pageCount": 1
-  },
-  "2e5ac02cccc8": {
-    "text": "You have 30 days to renew. After that, you can no longer release new versions of your product with Kura, offer it to new users, or serve or host it, including web apps that load it in the browser. Copies your end users installed on their own devices before then keep working. Any other use falls under the AGPL, and renewing later includes the time since your license ended. The <1>full license terms</1> cover every condition in detail.",
-    "tags": [
-      "p"
-    ],
-    "pages": [
-      "kura"
     ],
     "pageCount": 1
   },
@@ -7886,16 +7712,6 @@
     ],
     "pages": [
       "image-to-pdf"
-    ],
-    "pageCount": 1
-  },
-  "2e79ad9c61bd": {
-    "text": "<1/> <2><3>No license key is required or provided.</3> Kura intentionally does not use license keys, to streamline deployment and reduce operational friction.</2>",
-    "tags": [
-      "li"
-    ],
-    "pages": [
-      "kura"
     ],
     "pageCount": 1
   },
@@ -8495,17 +8311,6 @@
     ],
     "pageCount": 1
   },
-  "31b85c27480a": {
-    "text": "Get Business",
-    "tags": [
-      "div"
-    ],
-    "pages": [
-      "hyper-compress",
-      "kura"
-    ],
-    "pageCount": 2
-  },
   "31c699c480cf": {
     "text": "Can I start numbering from a page other than the first, or skip a cover page? <1/>",
     "tags": [
@@ -8643,16 +8448,6 @@
     ],
     "pages": [
       "bmp-to-pdf"
-    ],
-    "pageCount": 1
-  },
-  "32dfb2a36d2d": {
-    "text": "Kura converts any PDF to archival, print and accessibility standards. Free under the AGPL, commercial licenses from $99/year.",
-    "tags": [
-      "meta"
-    ],
-    "pages": [
-      "kura"
     ],
     "pageCount": 1
   },
@@ -9185,6 +8980,26 @@
     ],
     "pageCount": 1
   },
+  "35f006b843d7": {
+    "text": "No. PDF4Me does not track you at all. We do not use cookies, analytics, or any tracking scripts, not even on the live website at ai4me.cfd. We never know who you are or what you do with the tools.",
+    "tags": [
+      "p"
+    ],
+    "pages": [
+      "faq"
+    ],
+    "pageCount": 1
+  },
+  "35f41b9acb97": {
+    "text": "Contact PDF4Me for support, questions, or feedback. Reach us at contact@ai4me.cfd - we're here to help with your PDF needs.",
+    "tags": [
+      "meta"
+    ],
+    "pages": [
+      "contact"
+    ],
+    "pageCount": 1
+  },
   "35fd06013e3b": {
     "text": "PDF to DOCX",
     "tags": [
@@ -9224,17 +9039,6 @@
       "pdf-layers"
     ],
     "pageCount": 1
-  },
-  "36482a4b69cf": {
-    "text": "Developers covered",
-    "tags": [
-      "th"
-    ],
-    "pages": [
-      "hyper-compress",
-      "kura"
-    ],
-    "pageCount": 2
   },
   "365ef41ebf70": {
     "text": "Lines wrap automatically at the right margin, and line breaks from the source are kept. Courier gives every character the same width, which suits code and logs.",
@@ -9386,16 +9190,6 @@
     ],
     "pages": [
       "table-of-contents"
-    ],
-    "pageCount": 1
-  },
-  "36fa8aa25a44": {
-    "text": "Redistribution, reselling as an SDK, or offering Hyper Compress as a service",
-    "tags": [
-      "p"
-    ],
-    "pages": [
-      "hyper-compress"
     ],
     "pageCount": 1
   },
@@ -9568,17 +9362,6 @@
       "compare-pdfs"
     ],
     "pageCount": 1
-  },
-  "380adc200f96": {
-    "text": "Who it's for",
-    "tags": [
-      "th"
-    ],
-    "pages": [
-      "hyper-compress",
-      "kura"
-    ],
-    "pageCount": 2
   },
   "38177acd2369": {
     "text": "After detection the tool shows a thumbnail of every flagged page, and clicking a thumbnail deselects it so it stays in the document. Only the pages that remain selected are removed when you confirm.",
@@ -9872,16 +9655,6 @@
     ],
     "pageCount": 1
   },
-  "39b3a566c5a3": {
-    "text": "Kura is written and owned by PDF4Me, and every third-party component it links, including qpdf, PDFium and FreeType, is permissively licensed. No copyleft surprises in your supply chain.",
-    "tags": [
-      "p"
-    ],
-    "pages": [
-      "kura"
-    ],
-    "pageCount": 1
-  },
   "39c389c9173c": {
     "text": "Rotate PDF by Custom Degrees - PDF4Me",
     "tags": [
@@ -9910,16 +9683,6 @@
     ],
     "pages": [
       "compress-pdf-to-100kb"
-    ],
-    "pageCount": 1
-  },
-  "3a275df46ebf": {
-    "text": "<1/><2>real-world PDFs benchmarked</2>",
-    "tags": [
-      "div"
-    ],
-    "pages": [
-      "hyper-compress"
     ],
     "pageCount": 1
   },
@@ -10278,16 +10041,6 @@
     ],
     "pageCount": 1
   },
-  "3c10290a7918": {
-    "text": "<1/> <2>Because Hyper Compress is open source, every release and every update can always be downloaded from our <3>GitHub releases page</3>.</2>",
-    "tags": [
-      "li"
-    ],
-    "pages": [
-      "hyper-compress"
-    ],
-    "pageCount": 1
-  },
   "3c11e79e6114": {
     "text": "Why did my PDF fail to process?",
     "tags": [
@@ -10327,17 +10080,6 @@
       "prepare-pdf-for-ai"
     ],
     "pageCount": 1
-  },
-  "3cbb63c1e25b": {
-    "text": "<1/>Priority email support",
-    "tags": [
-      "li"
-    ],
-    "pages": [
-      "hyper-compress",
-      "kura"
-    ],
-    "pageCount": 2
   },
   "3ccf3ab22540": {
     "text": "Raise the Yellowish slider to add a warm tint that mimics aged or recycled paper. Combine it with Grayscale for a photocopy-of-a-photocopy look, and nudge Brightness down and Contrast up to imitate a tired toner cartridge.",
@@ -10621,17 +10363,6 @@
     ],
     "pages": [
       "font-to-outline"
-    ],
-    "pageCount": 1
-  },
-  "3f1ddb0f70f1": {
-    "text": "Kura - PDF/A, PDF/UA &amp; PDF/X Conversion Engine | PDF4Me",
-    "tags": [
-      "meta",
-      "title"
-    ],
-    "pages": [
-      "kura"
     ],
     "pageCount": 1
   },
@@ -11171,18 +10902,6 @@
     ],
     "pageCount": 1
   },
-  "421dc621cb8b": {
-    "text": "Companies under $1M annual revenue",
-    "tags": [
-      "p",
-      "td"
-    ],
-    "pages": [
-      "hyper-compress",
-      "kura"
-    ],
-    "pageCount": 2
-  },
   "421f61962df5": {
     "text": "How to odt to pdf online",
     "tags": [
@@ -11263,17 +10982,6 @@
       "compress-pdf-for-email"
     ],
     "pageCount": 1
-  },
-  "42bf398cd50d": {
-    "text": "No AGPL obligations",
-    "tags": [
-      "h3"
-    ],
-    "pages": [
-      "hyper-compress",
-      "kura"
-    ],
-    "pageCount": 2
   },
   "42c80ca4057a": {
     "text": "Do the page sizes need to match? <1/>",
@@ -11426,17 +11134,6 @@
       "background-color"
     ],
     "pageCount": 1
-  },
-  "43d205e05e35": {
-    "text": "A license covers one shipped product. A second product needs a second license, or ask about covering your whole catalogue at OEM.",
-    "tags": [
-      "p"
-    ],
-    "pages": [
-      "hyper-compress",
-      "kura"
-    ],
-    "pageCount": 2
   },
   "43e01ca088e1": {
     "text": "PDF to Markdown - PDF4Me",
@@ -11651,17 +11348,6 @@
       "validate-signature-pdf"
     ],
     "pageCount": 1
-  },
-  "4552077e003d": {
-    "text": "<1/>Unlimited developers",
-    "tags": [
-      "li"
-    ],
-    "pages": [
-      "hyper-compress",
-      "kura"
-    ],
-    "pageCount": 2
   },
   "455a2f2e13a3": {
     "text": "Which file types are accepted? <1/>",
@@ -12052,16 +11738,6 @@
     ],
     "pageCount": 1
   },
-  "480a36418a40": {
-    "text": "<1>Building on PDF4Me?</1> Hyper Compress is included with the <2>PDF4Me commercial license</2> when you use it through PDF4Me's own tools in an eligible product, for companies under US$1 million in revenue and funding. These tiers are for using the engine directly, inside your own software, or above that size.",
-    "tags": [
-      "p"
-    ],
-    "pages": [
-      "hyper-compress"
-    ],
-    "pageCount": 1
-  },
   "481a876d79b8": {
     "text": "XML to PDF - Convert XML Files to PDF - PDF4Me",
     "tags": [
@@ -12091,17 +11767,6 @@
       "protect-pdf"
     ],
     "pageCount": 1
-  },
-  "4832e45812a2": {
-    "text": "Contact us",
-    "tags": [
-      "div"
-    ],
-    "pages": [
-      "hyper-compress",
-      "kura"
-    ],
-    "pageCount": 2
   },
   "48663b805217": {
     "text": "Does it change the content or rotation of the pages? <1/>",
@@ -12897,16 +12562,6 @@
     ],
     "pageCount": 7
   },
-  "4c7b8b60b9b3": {
-    "text": "<1/><2>Downloads</2>",
-    "tags": [
-      "div"
-    ],
-    "pages": [
-      "about"
-    ],
-    "pageCount": 1
-  },
   "4c7db091385b": {
     "text": "Files Order",
     "tags": [
@@ -13139,16 +12794,6 @@
     ],
     "pageCount": 1
   },
-  "4dd75739b3c0": {
-    "text": "The best open source PDF compression engine. It never returns a file larger than the original, offers a true lossless mode, and posted the lowest corruption rate of every engine we benchmarked.",
-    "tags": [
-      "p"
-    ],
-    "pages": [
-      "hyper-compress"
-    ],
-    "pageCount": 1
-  },
   "4ddb247a73e1": {
     "text": "Learn how to remove annotations using PDF4Me",
     "tags": [
@@ -13166,16 +12811,6 @@
     ],
     "pages": [
       "odg-to-pdf"
-    ],
-    "pageCount": 1
-  },
-  "4dee6910789c": {
-    "text": "<1/><2>false findings in conformance testing</2>",
-    "tags": [
-      "div"
-    ],
-    "pages": [
-      "kura"
     ],
     "pageCount": 1
   },
@@ -13279,17 +12914,6 @@
     ],
     "pageCount": 1
   },
-  "4e64119046c6": {
-    "text": "<1/>Redistribution rights",
-    "tags": [
-      "li"
-    ],
-    "pages": [
-      "hyper-compress",
-      "kura"
-    ],
-    "pageCount": 2
-  },
   "4e664ffdf528": {
     "text": "Enter pages to extract (e.g., 2, 4-6, 9):",
     "tags": [
@@ -13309,17 +12933,6 @@
       "split-pdf"
     ],
     "pageCount": 1
-  },
-  "4e6d489717e6": {
-    "text": "<1/>Terms shaped to your product",
-    "tags": [
-      "li"
-    ],
-    "pages": [
-      "hyper-compress",
-      "kura"
-    ],
-    "pageCount": 2
   },
   "4e7d8648ed19": {
     "text": "Extract tables from PDF files and export as CSV, JSON, or Markdown. Free, no uploads, no signup. Runs entirely in your browser.",
@@ -14119,16 +13732,6 @@
     ],
     "pageCount": 1
   },
-  "5340f76f3d1b": {
-    "text": "You have 30 days to renew. After that, you can no longer release new versions of your product with Hyper Compress, offer it to new users, or serve or host it, including web apps that load it in the browser. Copies your end users installed on their own devices before then keep working. Any other use falls under the AGPL, and renewing later includes the time since your license ended. The <1>full license terms</1> cover every condition in detail.",
-    "tags": [
-      "p"
-    ],
-    "pages": [
-      "hyper-compress"
-    ],
-    "pageCount": 1
-  },
   "5344c8e3db93": {
     "text": "No. Rendering the pages and building the new single-page PDF both happen in your browser, and the file stays on your device the whole time.",
     "tags": [
@@ -14604,16 +14207,6 @@
     ],
     "pageCount": 1
   },
-  "55f77a31c691": {
-    "text": "<1/> <2>Because Kura is open source, every release and every update can always be downloaded from our <3>GitHub releases page</3>.</2>",
-    "tags": [
-      "li"
-    ],
-    "pages": [
-      "kura"
-    ],
-    "pageCount": 1
-  },
   "562043a9737f": {
     "text": "Alternate Merge Online Free - Alternate Merge Tool | PDF4Me",
     "tags": [
@@ -14898,16 +14491,6 @@
     ],
     "pageCount": 1
   },
-  "576bfed36d9e": {
-    "text": "You get every release while your subscription is active. Your rights to use, ship and host Kura last as long as your subscription does.",
-    "tags": [
-      "p"
-    ],
-    "pages": [
-      "kura"
-    ],
-    "pageCount": 1
-  },
   "578e326d206e": {
     "text": "They place 4, 8, or 16 pages per sheet in reading order rather than booklet order, which is useful for handouts or thumbnail proof sheets. Only 1x2 reorders pages for folding; for more grid layouts see <1>N-Up PDF</1>.",
     "tags": [
@@ -14938,16 +14521,15 @@
     ],
     "pageCount": 1
   },
-  "57f85dc94194": {
-    "text": "Closed-source products covered",
+  "57eebf68c830": {
+    "text": "contact@ai4me.cfd",
     "tags": [
-      "th"
+      "a"
     ],
     "pages": [
-      "hyper-compress",
-      "kura"
+      "contact"
     ],
-    "pageCount": 2
+    "pageCount": 1
   },
   "5809bf8ff4ef": {
     "text": "Edit Metadata - PDF4Me",
@@ -15054,16 +14636,6 @@
     ],
     "pageCount": 1
   },
-  "58b588da5ce0": {
-    "text": "Only if you ship Hyper Compress inside closed-source software. Open-source projects under an AGPL-compatible license, self-hosting, and internal use are all free under the AGPL-3.0.",
-    "tags": [
-      "p"
-    ],
-    "pages": [
-      "hyper-compress"
-    ],
-    "pageCount": 1
-  },
   "58b67acbad73": {
     "text": "PDF to ZIP Free",
     "tags": [
@@ -15114,17 +14686,6 @@
     "pages": [
       "index",
       "posterize-pdf"
-    ],
-    "pageCount": 2
-  },
-  "58e4efb31415": {
-    "text": "from $1,999",
-    "tags": [
-      "td"
-    ],
-    "pages": [
-      "hyper-compress",
-      "kura"
     ],
     "pageCount": 2
   },
@@ -15205,16 +14766,6 @@
     ],
     "pages": [
       "404"
-    ],
-    "pageCount": 1
-  },
-  "5995e2528d17": {
-    "text": "How PDF4Me started, told by its creator Alam",
-    "tags": [
-      "ld"
-    ],
-    "pages": [
-      "about"
     ],
     "pageCount": 1
   },
@@ -15509,17 +15060,6 @@
     ],
     "pageCount": 1
   },
-  "5b37d9a6491b": {
-    "text": "<1>Commercial license</1> <2>details</2>",
-    "tags": [
-      "h2"
-    ],
-    "pages": [
-      "hyper-compress",
-      "kura"
-    ],
-    "pageCount": 2
-  },
   "5b3d5286d73d": {
     "text": "Leave the \"Pages\" box blank to include all pages from that file.",
     "tags": [
@@ -15660,18 +15200,6 @@
     ],
     "pages": [
       "linearize-pdf"
-    ],
-    "pageCount": 1
-  },
-  "5c483002b9e9": {
-    "text": "Hyper Compress - PDF Compression Engine | PDF4Me",
-    "tags": [
-      "ld",
-      "meta",
-      "title"
-    ],
-    "pages": [
-      "hyper-compress"
     ],
     "pageCount": 1
   },
@@ -15825,16 +15353,6 @@
     ],
     "pages": [
       "n-up-pdf"
-    ],
-    "pageCount": 1
-  },
-  "5cff7dc69274": {
-    "text": "<1/><2>form factors, one engine</2>",
-    "tags": [
-      "div"
-    ],
-    "pages": [
-      "kura"
     ],
     "pageCount": 1
   },
@@ -16188,17 +15706,6 @@
       "pdf-to-cbz"
     ],
     "pageCount": 1
-  },
-  "5f61dceb8fa7": {
-    "text": "Get Solo",
-    "tags": [
-      "div"
-    ],
-    "pages": [
-      "hyper-compress",
-      "kura"
-    ],
-    "pageCount": 2
   },
   "5f6343b4c0d3": {
     "text": "No. The bookmark outline is read and the TOC page is typeset by a cpdf engine running as WebAssembly in a background thread of your browser, and the updated file is downloaded from there. The document never leaves your device.",
@@ -16563,17 +16070,6 @@
     ],
     "pageCount": 1
   },
-  "617f5de24c80": {
-    "text": "Annual subscription",
-    "tags": [
-      "h3"
-    ],
-    "pages": [
-      "hyper-compress",
-      "kura"
-    ],
-    "pageCount": 2
-  },
   "617f7aafcd02": {
     "text": "C5 (162 × 229 mm)",
     "tags": [
@@ -16755,17 +16251,6 @@
     ],
     "pageCount": 1
   },
-  "629188bc3049": {
-    "text": "<1>Do I need a commercial license?</1> <2/>",
-    "tags": [
-      "button"
-    ],
-    "pages": [
-      "hyper-compress",
-      "kura"
-    ],
-    "pageCount": 2
-  },
   "62a7ddc794be": {
     "text": "Oops! The page you're looking for doesn't exist. Return to PDF4Me's homepage to access our free PDF tools.",
     "tags": [
@@ -16925,16 +16410,6 @@
     ],
     "pageCount": 1
   },
-  "63df677b3a7b": {
-    "text": "I don't build PDF4Me alone anymore. More than 60 people have contributed code, translations and fixes, and thousands more have starred it, shared it, reported bugs and asked for features. Thank you.",
-    "tags": [
-      "p"
-    ],
-    "pages": [
-      "about"
-    ],
-    "pageCount": 1
-  },
   "63e43e393a61": {
     "text": "Repair PDF",
     "tags": [
@@ -17047,17 +16522,6 @@
       "pdf-to-tiff"
     ],
     "pageCount": 1
-  },
-  "651de653f6ec": {
-    "text": "<1/>Priority support",
-    "tags": [
-      "li"
-    ],
-    "pages": [
-      "hyper-compress",
-      "kura"
-    ],
-    "pageCount": 2
   },
   "651e9727ad6e": {
     "text": "Does zipping make the PDFs smaller? <1/>",
@@ -17191,16 +16655,6 @@
     ],
     "pageCount": 1
   },
-  "661e6c64344e": {
-    "text": "No. Kura is a separate project with its own license. The PDF4Me app license does not grant any rights to Kura, and a Kura license does not cover PDF4Me.",
-    "tags": [
-      "p"
-    ],
-    "pages": [
-      "kura"
-    ],
-    "pageCount": 1
-  },
   "663f1895a42d": {
     "text": "Upload Email File",
     "tags": [
@@ -17303,17 +16757,6 @@
       "txt-to-pdf"
     ],
     "pageCount": 1
-  },
-  "66ba255ed00a": {
-    "text": "Annual price",
-    "tags": [
-      "th"
-    ],
-    "pages": [
-      "hyper-compress",
-      "kura"
-    ],
-    "pageCount": 2
   },
   "66c052210ad3": {
     "text": "6 digits (000001)",
@@ -17504,16 +16947,6 @@
     ],
     "pages": [
       "sanitize-pdf"
-    ],
-    "pageCount": 1
-  },
-  "67e0d5e517d8": {
-    "text": "Offer Hyper Compress as a hosted service",
-    "tags": [
-      "th"
-    ],
-    "pages": [
-      "hyper-compress"
     ],
     "pageCount": 1
   },
@@ -17956,16 +17389,6 @@
     ],
     "pageCount": 1
   },
-  "69f875cddd55": {
-    "text": "PDF4Me started off as just a simple internal tool I used for quickly merging and splitting PDFs.",
-    "tags": [
-      "p"
-    ],
-    "pages": [
-      "about"
-    ],
-    "pageCount": 1
-  },
   "6a0297f5e1dd": {
     "text": "MOBI to PDF - Convert MOBI eBooks to PDF - PDF4Me",
     "tags": [
@@ -18337,16 +17760,6 @@
     ],
     "pages": [
       "pdf-converter"
-    ],
-    "pageCount": 1
-  },
-  "6c71a45bfeda": {
-    "text": "Offer Kura as a hosted service",
-    "tags": [
-      "th"
-    ],
-    "pages": [
-      "kura"
     ],
     "pageCount": 1
   },
@@ -19353,16 +18766,6 @@
     ],
     "pageCount": 1
   },
-  "72d62f3ea8b0": {
-    "text": "BentoPDF has covered 100% of my PDF needs and represents impressive software engineering indeed!",
-    "tags": [
-      "blockquote"
-    ],
-    "pages": [
-      "index"
-    ],
-    "pageCount": 1
-  },
   "72e8317d356e": {
     "text": "Millimeters",
     "tags": [
@@ -19592,16 +18995,6 @@
     ],
     "pageCount": 3
   },
-  "73cea0351265": {
-    "text": "Contact PDF4Me for support, questions, or feedback. Reach us at contact@bentopdf.com - we're here to help with your PDF needs.",
-    "tags": [
-      "meta"
-    ],
-    "pages": [
-      "contact"
-    ],
-    "pageCount": 1
-  },
   "73d140387ad1": {
     "text": "Excel to PDF",
     "tags": [
@@ -19775,27 +19168,6 @@
       "remove-blank-pages"
     ],
     "pageCount": 1
-  },
-  "7552ce6b305b": {
-    "text": "Only if you ship Kura inside closed-source software. Open-source projects under an AGPL-compatible license, self-hosting, and internal use are all free under the AGPL-3.0.",
-    "tags": [
-      "p"
-    ],
-    "pages": [
-      "kura"
-    ],
-    "pageCount": 1
-  },
-  "75681ec6741b": {
-    "text": "<1/> <2>The source code provided is identical to the code published in our public open-source repository.</2>",
-    "tags": [
-      "li"
-    ],
-    "pages": [
-      "hyper-compress",
-      "kura"
-    ],
-    "pageCount": 2
   },
   "7571781119b8": {
     "text": "Is my PDF uploaded to flatten it? <1/>",
@@ -20029,16 +19401,6 @@
     ],
     "pages": [
       "pdf-to-pdfa"
-    ],
-    "pageCount": 1
-  },
-  "76ec42603cc9": {
-    "text": "<1/><2>GitHub stars</2>",
-    "tags": [
-      "div"
-    ],
-    "pages": [
-      "about"
     ],
     "pageCount": 1
   },
@@ -20431,17 +19793,6 @@
     ],
     "pageCount": 2
   },
-  "79aeb02aa30a": {
-    "text": "<1>Commercial</1> <2>Licenses</2>",
-    "tags": [
-      "h2"
-    ],
-    "pages": [
-      "hyper-compress",
-      "kura"
-    ],
-    "pageCount": 2
-  },
   "79af68773ca7": {
     "text": "No. Every node runs in your browser with the same engines as the individual tools, and the only network activity is fetching a processing module such as Ghostscript the first time a node needs one. Your PDFs never leave the machine, even in a long multi-step run.",
     "tags": [
@@ -20602,16 +19953,6 @@
     ],
     "pages": [
       "word-to-pdf"
-    ],
-    "pageCount": 1
-  },
-  "7b1f5bb852c4": {
-    "text": "<1>Meet</1> <2>Hyper Compress</2>",
-    "tags": [
-      "h1"
-    ],
-    "pages": [
-      "hyper-compress"
     ],
     "pageCount": 1
   },
@@ -20875,16 +20216,6 @@
     ],
     "pages": [
       "protect-pdf"
-    ],
-    "pageCount": 1
-  },
-  "7c6b688ba1e4": {
-    "text": "<1/> <2><3>No license key is required or provided.</3> Hyper Compress intentionally does not use license keys, to streamline deployment and reduce operational friction.</2>",
-    "tags": [
-      "li"
-    ],
-    "pages": [
-      "hyper-compress"
     ],
     "pageCount": 1
   },
@@ -21476,17 +20807,6 @@
     ],
     "pageCount": 1
   },
-  "7fd57e225ca1": {
-    "text": "Tell us what you're building and we'll tell you what it costs. No calls required.",
-    "tags": [
-      "p"
-    ],
-    "pages": [
-      "hyper-compress",
-      "kura"
-    ],
-    "pageCount": 2
-  },
   "7fd71ba7ee29": {
     "text": "Can I convert a Letter document to A4 without distorting it? <1/>",
     "tags": [
@@ -21751,17 +21071,6 @@
     ],
     "pageCount": 1
   },
-  "8155017c5166": {
-    "text": "<1/> <2><3>No refunds.</3> Under no circumstances shall a refund be made after purchase.</2>",
-    "tags": [
-      "li"
-    ],
-    "pages": [
-      "hyper-compress",
-      "kura"
-    ],
-    "pageCount": 2
-  },
   "815e37d30fab": {
     "text": "SVG to PDF Free",
     "tags": [
@@ -21981,16 +21290,6 @@
     ],
     "pages": [
       "posterize-pdf"
-    ],
-    "pageCount": 1
-  },
-  "823146320b42": {
-    "text": "github.com/alam00000/bentopdf",
-    "tags": [
-      "a"
-    ],
-    "pages": [
-      "contact"
     ],
     "pageCount": 1
   },
@@ -22385,17 +21684,6 @@
       "form-creator"
     ],
     "pageCount": 1
-  },
-  "84add5b29527": {
-    "text": "Email",
-    "tags": [
-      "td"
-    ],
-    "pages": [
-      "hyper-compress",
-      "kura"
-    ],
-    "pageCount": 2
   },
   "84c0a94ae2dc": {
     "text": "Page Preview (<1/> / <2/>)",
@@ -22971,16 +22259,6 @@
     ],
     "pageCount": 1
   },
-  "8812a1b01073": {
-    "text": "Every tier lets you ship Hyper Compress inside one closed-source product. The tiers differ by who you are, how many developers you have, and whether Hyper Compress is passed on to anyone else.",
-    "tags": [
-      "p"
-    ],
-    "pages": [
-      "hyper-compress"
-    ],
-    "pageCount": 1
-  },
   "882703efc282": {
     "text": "No. PyMuPDF runs inside your browser as WebAssembly and writes the SVG files locally, so the PDF never leaves your machine. The engine is fetched on first use, which is why the first conversion takes a moment longer.",
     "tags": [
@@ -23061,17 +22339,6 @@
     ],
     "pageCount": 1
   },
-  "886cbff9d9df": {
-    "text": "Priority",
-    "tags": [
-      "td"
-    ],
-    "pages": [
-      "hyper-compress",
-      "kura"
-    ],
-    "pageCount": 2
-  },
   "8870b853d4cd": {
     "text": "What is the difference between a document-level and a page-level attachment? <1/>",
     "tags": [
@@ -23141,18 +22408,6 @@
       "index"
     ],
     "pageCount": 1
-  },
-  "88dcfa1db215": {
-    "text": "Companies at $1M annual revenue or more",
-    "tags": [
-      "p",
-      "td"
-    ],
-    "pages": [
-      "hyper-compress",
-      "kura"
-    ],
-    "pageCount": 2
   },
   "88e1737847ea": {
     "text": "Six positions: bottom center, bottom left, bottom right, top center, top left, and top right. The margin adjusts to the page size automatically (about 4 percent of the page, between 8 and 40 points), so numbers stay clear of the edge on both small and large pages.",
@@ -23418,17 +22673,6 @@
     ],
     "pageCount": 1
   },
-  "8a65ee8d028e": {
-    "text": "<1>What each tier</1> <2>covers</2>",
-    "tags": [
-      "h2"
-    ],
-    "pages": [
-      "hyper-compress",
-      "kura"
-    ],
-    "pageCount": 2
-  },
   "8a6c01b69139": {
     "text": "Free online alternate merge tool",
     "tags": [
@@ -23609,30 +22853,6 @@
     ],
     "pageCount": 1
   },
-  "8b5e706b3c16": {
-    "text": "© 2026 BentoPDF. All rights reserved.",
-    "tags": [
-      "p"
-    ],
-    "pages": [
-      "404",
-      "about",
-      "add-attachments"
-    ],
-    "pageCount": 137
-  },
-  "8b5eff422327": {
-    "text": "OEM",
-    "tags": [
-      "h3",
-      "th"
-    ],
-    "pages": [
-      "hyper-compress",
-      "kura"
-    ],
-    "pageCount": 2
-  },
   "8b734fe07a12": {
     "text": "Pages to PDF - Convert Apple Pages to PDF - PDF4Me",
     "tags": [
@@ -23672,17 +22892,6 @@
       "pdf-to-jpg"
     ],
     "pageCount": 1
-  },
-  "8bafb2fca16e": {
-    "text": "Discussed with you",
-    "tags": [
-      "td"
-    ],
-    "pages": [
-      "hyper-compress",
-      "kura"
-    ],
-    "pageCount": 2
   },
   "8bd249a4de9f": {
     "text": "No. Only the visible page content of the overlay is used. Annotations on the overlay pages, including links, form fields, and comments, don't transfer to the result.",
@@ -23782,16 +22991,6 @@
     ],
     "pages": [
       "page-dimensions"
-    ],
-    "pageCount": 1
-  },
-  "8c70056869b7": {
-    "text": "Ships as a CLI, Node SDK, C library, self-hosted service and WebAssembly build.",
-    "tags": [
-      "p"
-    ],
-    "pages": [
-      "hyper-compress"
     ],
     "pageCount": 1
   },
@@ -24019,16 +23218,6 @@
     ],
     "pageCount": 1
   },
-  "8db6d544d3d7": {
-    "text": "Alam",
-    "tags": [
-      "img"
-    ],
-    "pages": [
-      "about"
-    ],
-    "pageCount": 1
-  },
   "8ddacb4e72d9": {
     "text": "When the Medium level alone lands just above 500KB, the target size makes Hyper Compress lower image quality a little further until the file fits. Check for an embedded photo cover page or a high-resolution logo on every page: repeated images are a common hidden cost that compression handles well.",
     "tags": [
@@ -24241,16 +23430,6 @@
     ],
     "pageCount": 1
   },
-  "8ef43df1c86f": {
-    "text": "I honestly never thought PDF4Me would grow into what it is today. It started as a little tool I made for myself, and somehow it turned into a much bigger project used by people all over the world.",
-    "tags": [
-      "p"
-    ],
-    "pages": [
-      "about"
-    ],
-    "pageCount": 1
-  },
   "8f05382df28b": {
     "text": "Get your PDF under 100KB for portals with strict upload limits.",
     "tags": [
@@ -24402,16 +23581,6 @@
     ],
     "pages": [
       "compare-pdfs"
-    ],
-    "pageCount": 1
-  },
-  "9001176fd77f": {
-    "text": "<1/><2>Forks</2>",
-    "tags": [
-      "div"
-    ],
-    "pages": [
-      "about"
     ],
     "pageCount": 1
   },
@@ -24661,16 +23830,6 @@
     ],
     "pageCount": 1
   },
-  "91333f54cd3e": {
-    "text": "Redistribution, reselling and hosting are what separate OEM from the rest. If Hyper Compress only ships inside your own closed-source product, the choice between Solo, Indie and Business is purely a question of your size.",
-    "tags": [
-      "p"
-    ],
-    "pages": [
-      "hyper-compress"
-    ],
-    "pageCount": 1
-  },
   "914719b7edbf": {
     "text": "Choose how many pages to fit on each sheet (2, 4, 9, or 16).",
     "tags": [
@@ -24801,17 +23960,6 @@
       "email-to-pdf"
     ],
     "pageCount": 1
-  },
-  "9210d663b12a": {
-    "text": "<1/> <2>For VAT invoices, select <3>\"I'm purchasing as a business\"</3> during checkout and enter your billing address and Tax/VAT number.</2>",
-    "tags": [
-      "li"
-    ],
-    "pages": [
-      "hyper-compress",
-      "kura"
-    ],
-    "pageCount": 2
   },
   "92131994e6ff": {
     "text": "Change Type",
@@ -26265,16 +25413,6 @@
     ],
     "pageCount": 1
   },
-  "9a247b854daa": {
-    "text": "BentoPDF is fantastic, I never knew something like this existed. … I fired Bento up and was done in under a minute.",
-    "tags": [
-      "blockquote"
-    ],
-    "pages": [
-      "index"
-    ],
-    "pageCount": 1
-  },
   "9a3c0f195b12": {
     "text": "Each file keeps the name it was embedded with. Attachments tied to a specific page get the PDF's name and page number added as a prefix, and if two attachments share a name the second gets a _1 suffix so nothing is overwritten inside the ZIP.",
     "tags": [
@@ -26434,16 +25572,6 @@
     ],
     "pages": [
       "pdf-to-svg"
-    ],
-    "pageCount": 1
-  },
-  "9b45a262eb3e": {
-    "text": "contact@bentopdf.com",
-    "tags": [
-      "a"
-    ],
-    "pages": [
-      "contact"
     ],
     "pageCount": 1
   },
@@ -26753,17 +25881,6 @@
     ],
     "pageCount": 1
   },
-  "9c8957a5994a": {
-    "text": "Not sure which tier fits?",
-    "tags": [
-      "h2"
-    ],
-    "pages": [
-      "hyper-compress",
-      "kura"
-    ],
-    "pageCount": 2
-  },
   "9c8c8fd35b02": {
     "text": "Change the author, title, and other properties.",
     "tags": [
@@ -26781,16 +25898,6 @@
     ],
     "pages": [
       "index"
-    ],
-    "pageCount": 1
-  },
-  "9ca204825e46": {
-    "text": "Hyper Compress is a content-preserving PDF compression engine. Free under the AGPL, commercial licenses from $99/year.",
-    "tags": [
-      "meta"
-    ],
-    "pages": [
-      "hyper-compress"
     ],
     "pageCount": 1
   },
@@ -27176,17 +26283,6 @@
     ],
     "pageCount": 1
   },
-  "9e91f9752b33": {
-    "text": "You move up to the matching tier at your next renewal. Nothing retroactive. Growing past a threshold mid-term never invalidates your current license.",
-    "tags": [
-      "p"
-    ],
-    "pages": [
-      "hyper-compress",
-      "kura"
-    ],
-    "pageCount": 2
-  },
   "9ea527e256ad": {
     "text": "Will the CSV keep the formatting from the PDF? <1/>",
     "tags": [
@@ -27286,17 +26382,6 @@
       "csv-to-pdf"
     ],
     "pageCount": 1
-  },
-  "9f3acf9ced7b": {
-    "text": "<1/> Invoicing",
-    "tags": [
-      "h3"
-    ],
-    "pages": [
-      "hyper-compress",
-      "kura"
-    ],
-    "pageCount": 2
   },
   "9f3d350cdaa4": {
     "text": "PDF to Text Online Free - PDF to Text Tool | PDF4Me",
@@ -27428,18 +26513,6 @@
       "extract-tables"
     ],
     "pageCount": 1
-  },
-  "9fc93acaa44f": {
-    "text": "Solo",
-    "tags": [
-      "h3",
-      "th"
-    ],
-    "pages": [
-      "hyper-compress",
-      "kura"
-    ],
-    "pageCount": 2
   },
   "9fd4e55605dd": {
     "text": "A lone page number covers well under 0.1% of the page, so even the strictest setting can flag it as blank. That's why the thumbnail review matters when such pages need to stay.",
@@ -27774,16 +26847,6 @@
     ],
     "pageCount": 1
   },
-  "a1638ca9efa3": {
-    "text": "<1>GitHub repository:</1> <2>github.com/alam00000/bentopdf-kura</2>",
-    "tags": [
-      "p"
-    ],
-    "pages": [
-      "kura"
-    ],
-    "pageCount": 1
-  },
   "a1752ef5a5e8": {
     "text": "Does the BMP's DPI setting affect the result? <1/>",
     "tags": [
@@ -27841,16 +26904,6 @@
     ],
     "pages": [
       "add-watermark"
-    ],
-    "pageCount": 1
-  },
-  "a1ca2272dd53": {
-    "text": "<1>Meet</1> <2>Kura</2>",
-    "tags": [
-      "h1"
-    ],
-    "pages": [
-      "kura"
     ],
     "pageCount": 1
   },
@@ -27991,16 +27044,6 @@
     ],
     "pages": [
       "rotate-custom"
-    ],
-    "pageCount": 1
-  },
-  "a2654b666dae": {
-    "text": "Huge fan of Bento PDF. We don't have a decent PDF suite at work so most of my colleagues turn to online tools that are likely to collect your data. I selfhosted Bento for my team and their reactions are very positive.",
-    "tags": [
-      "blockquote"
-    ],
-    "pages": [
-      "index"
     ],
     "pageCount": 1
   },
@@ -28226,16 +27269,6 @@
     ],
     "pageCount": 1
   },
-  "a39db36458b7": {
-    "text": "<1>Does the PDF4Me commercial license cover Kura?</1> <2/>",
-    "tags": [
-      "button"
-    ],
-    "pages": [
-      "kura"
-    ],
-    "pageCount": 1
-  },
   "a39ef9a1e19f": {
     "text": "Add Layer",
     "tags": [
@@ -28264,16 +27297,6 @@
     ],
     "pages": [
       "compress-pdf-to-2mb"
-    ],
-    "pageCount": 1
-  },
-  "a40145eb9c31": {
-    "text": "You get every release while your subscription is active. Your rights to use, ship and host Hyper Compress last as long as your subscription does.",
-    "tags": [
-      "p"
-    ],
-    "pages": [
-      "hyper-compress"
     ],
     "pageCount": 1
   },
@@ -28844,17 +27867,6 @@
     "pages": [
       "index",
       "pdf-converter"
-    ],
-    "pageCount": 2
-  },
-  "a79d34e136a2": {
-    "text": "Per product, billed annually and renewed automatically. Your license and every update stay valid while your subscription is active.",
-    "tags": [
-      "p"
-    ],
-    "pages": [
-      "hyper-compress",
-      "kura"
     ],
     "pageCount": 2
   },
@@ -29566,17 +28578,6 @@
     ],
     "pageCount": 1
   },
-  "abac39a6ade9": {
-    "text": "<1> <2> <3>See pricing</3> <4/> </2> </1> <5> <6/> <7>Visit website</7> </5> <8> <9/> <10>View on GitHub</10> </8>",
-    "tags": [
-      "div"
-    ],
-    "pages": [
-      "hyper-compress",
-      "kura"
-    ],
-    "pageCount": 2
-  },
   "abae92c612c3": {
     "text": "A 100KB cap is common on job application portals, government e-filing systems, university admission forms, and visa or immigration websites. These systems usually reject larger files outright, often without a helpful error message, so compressing before you upload saves a failed submission.",
     "tags": [
@@ -29737,6 +28738,16 @@
     ],
     "pageCount": 1
   },
+  "acc2d7d48b0b": {
+    "text": "The conversion depends on the CPDF WebAssembly build. On ai4me.cfd it's included, but a self-hosted copy needs the CPDF WASM files configured in <1>WASM settings</1> before this tool will run.",
+    "tags": [
+      "p"
+    ],
+    "pages": [
+      "json-to-pdf"
+    ],
+    "pageCount": 1
+  },
   "ace83c1558c3": {
     "text": "Compress PDF to 500KB Free Online | PDF4Me",
     "tags": [
@@ -29859,17 +28870,6 @@
       "pdf-security"
     ],
     "pageCount": 4
-  },
-  "ad94bf68c905": {
-    "text": "<1>License</1> <2>Terms</2>",
-    "tags": [
-      "h2"
-    ],
-    "pages": [
-      "hyper-compress",
-      "kura"
-    ],
-    "pageCount": 2
   },
   "adadf0c89516": {
     "text": "Button actions include Reset Form, Print Form, Open URL, Run JavaScript, and Show/Hide Field, which targets another field and can show, hide, or toggle it. They're stored as standard PDF actions, so they run in Acrobat and other viewers that support form scripting.",
@@ -31153,17 +30153,6 @@
     ],
     "pageCount": 1
   },
-  "b58b5a8ced9d": {
-    "text": "One",
-    "tags": [
-      "td"
-    ],
-    "pages": [
-      "hyper-compress",
-      "kura"
-    ],
-    "pageCount": 2
-  },
   "b58d7fdbdb21": {
     "text": "Form Filler Online Free - Form Filler Tool | PDF4Me",
     "tags": [
@@ -31626,16 +30615,6 @@
     ],
     "pageCount": 1
   },
-  "b89a6cb5589f": {
-    "text": "<1/><2>median reduction, lossless</2>",
-    "tags": [
-      "div"
-    ],
-    "pages": [
-      "hyper-compress"
-    ],
-    "pageCount": 1
-  },
   "b8b335790b44": {
     "text": "Can I convert several PDFs to Markdown at once? <1/>",
     "tags": [
@@ -31655,17 +30634,6 @@
       "page-numbers"
     ],
     "pageCount": 1
-  },
-  "b8bef37b7153": {
-    "text": "Unlimited",
-    "tags": [
-      "td"
-    ],
-    "pages": [
-      "hyper-compress",
-      "kura"
-    ],
-    "pageCount": 2
   },
   "b8caf644eed0": {
     "text": "Add Stamps - PDF4Me",
@@ -32283,16 +31251,6 @@
     ],
     "pageCount": 1
   },
-  "bca5ef6acc50": {
-    "text": "<1>Open source, self-hosting and internal use stay free.</1> Hyper Compress is licensed under the AGPL-3.0. If your project is AGPL-compatible, or you run Hyper Compress as-is for yourself, you never need a commercial license. Commercial licenses are only for shipping Hyper Compress inside closed-source software.",
-    "tags": [
-      "p"
-    ],
-    "pages": [
-      "hyper-compress"
-    ],
-    "pageCount": 1
-  },
   "bcb4c523ddde": {
     "text": "Can I interleave more than two PDFs? <1/>",
     "tags": [
@@ -32615,17 +31573,6 @@
     ],
     "pageCount": 1
   },
-  "be0df8e64a5f": {
-    "text": "<1/>One closed-source product",
-    "tags": [
-      "li"
-    ],
-    "pages": [
-      "hyper-compress",
-      "kura"
-    ],
-    "pageCount": 2
-  },
   "be23b7290428": {
     "text": "How to page numbers online",
     "tags": [
@@ -32826,17 +31773,6 @@
       "webp-to-pdf"
     ],
     "pageCount": 1
-  },
-  "bf50fd097443": {
-    "text": "One developer",
-    "tags": [
-      "td"
-    ],
-    "pages": [
-      "hyper-compress",
-      "kura"
-    ],
-    "pageCount": 2
   },
   "bf556eee90ff": {
     "text": "Do I need Microsoft Works installed? <1/>",
@@ -33285,17 +32221,6 @@
     ],
     "pageCount": 1
   },
-  "c1708ec6a0dd": {
-    "text": "Resell as an SDK",
-    "tags": [
-      "th"
-    ],
-    "pages": [
-      "hyper-compress",
-      "kura"
-    ],
-    "pageCount": 2
-  },
   "c17b1b1db66f": {
     "text": "Learn how to rtf to pdf using PDF4Me",
     "tags": [
@@ -33631,17 +32556,6 @@
     ],
     "pageCount": 2
   },
-  "c346ba0f0ebd": {
-    "text": "<1>What happens if my company outgrows its tier?</1> <2/>",
-    "tags": [
-      "button"
-    ],
-    "pages": [
-      "hyper-compress",
-      "kura"
-    ],
-    "pageCount": 2
-  },
   "c34994d08b22": {
     "text": "Which mode should I use for a letterhead? <1/>",
     "tags": [
@@ -33754,18 +32668,6 @@
       "rasterize-pdf"
     ],
     "pageCount": 1
-  },
-  "c43a743611f7": {
-    "text": "Indie",
-    "tags": [
-      "h3",
-      "th"
-    ],
-    "pages": [
-      "hyper-compress",
-      "kura"
-    ],
-    "pageCount": 2
   },
   "c457c7a13e26": {
     "text": "Include email attachments list",
@@ -33967,17 +32869,6 @@
     ],
     "pageCount": 1
   },
-  "c59d709906fd": {
-    "text": "Clean provenance",
-    "tags": [
-      "h3"
-    ],
-    "pages": [
-      "hyper-compress",
-      "kura"
-    ],
-    "pageCount": 2
-  },
   "c59e7a56ce72": {
     "text": "They're combined into one PDF named psd_to_pdf.pdf, with each PSD becoming a page in the order listed. To get separate PDFs, convert the files one at a time.",
     "tags": [
@@ -34069,27 +32960,6 @@
     ],
     "pageCount": 1
   },
-  "c61d6ebc9381": {
-    "text": "<1/> <2>We use <3>Polar</3> for payments, which <4>automatically sends invoices</4> via email after purchase.</2>",
-    "tags": [
-      "li"
-    ],
-    "pages": [
-      "hyper-compress",
-      "kura"
-    ],
-    "pageCount": 2
-  },
-  "c6531782accf": {
-    "text": "<1/><2>conformance targets</2>",
-    "tags": [
-      "div"
-    ],
-    "pages": [
-      "kura"
-    ],
-    "pageCount": 1
-  },
   "c6590546a5f1": {
     "text": "4A0 (1682 × 2378 mm)",
     "tags": [
@@ -34139,17 +33009,6 @@
       "pdf-converter"
     ],
     "pageCount": 1
-  },
-  "c6ef9c0d5324": {
-    "text": "Get Indie",
-    "tags": [
-      "div"
-    ],
-    "pages": [
-      "hyper-compress",
-      "kura"
-    ],
-    "pageCount": 2
   },
   "c6f8b9b8ba6e": {
     "text": "ODS to PDF - Convert OpenDocument Spreadsheet to PDF - PDF4Me",
@@ -34369,16 +33228,6 @@
     ],
     "pages": [
       "index"
-    ],
-    "pageCount": 1
-  },
-  "c80b9d77509d": {
-    "text": "Ships as a CLI, npm package, browser WebAssembly build, Docker image and C library.",
-    "tags": [
-      "p"
-    ],
-    "pages": [
-      "kura"
     ],
     "pageCount": 1
   },
@@ -35247,16 +34096,6 @@
     ],
     "pageCount": 1
   },
-  "cc855ec42bc0": {
-    "text": "I posted it on <1>r/selfhosted</1> the next day, and that's when things really started to take off.",
-    "tags": [
-      "p"
-    ],
-    "pages": [
-      "about"
-    ],
-    "pageCount": 1
-  },
   "cc8b5bcf5bd7": {
     "text": "No. The cryptographic signature is embedded whether or not the visible block is enabled. Turn on Visible Signature if you want a stamp on the page: pick the first, last, all, or a specific page, set the position and size in points, and add a PNG, JPG, or WebP image or a line of text; with neither, the tool writes the certificate's common name and the current date.",
     "tags": [
@@ -35796,16 +34635,6 @@
     ],
     "pageCount": 1
   },
-  "cf5977de6e00": {
-    "text": "Yes, through PDF4Me's own tools in an eligible product. The <1>PDF4Me commercial license</1> includes Hyper Compress as a bundled component for companies under US$1 million in revenue and funding, in general PDF toolkits, running on the end user's device. Using the engine directly, through an API, SDK, command line or server process, inside other software, in a compression product, or above that size needs a Hyper Compress license. A Hyper Compress license does not cover PDF4Me.",
-    "tags": [
-      "p"
-    ],
-    "pages": [
-      "hyper-compress"
-    ],
-    "pageCount": 1
-  },
   "cf5e7b3878a8": {
     "text": "Pages aren't rasterized. The tool works at the PDF object level and only adds a filled rectangle per page, so fonts and vector graphics stay intact and the file size stays close to the original.",
     "tags": [
@@ -35964,16 +34793,6 @@
     ],
     "pages": [
       "extract-tables"
-    ],
-    "pageCount": 1
-  },
-  "d016edc47572": {
-    "text": "<1/><2>corruption rate, lowest tested</2>",
-    "tags": [
-      "div"
-    ],
-    "pages": [
-      "hyper-compress"
     ],
     "pageCount": 1
   },
@@ -36928,17 +35747,6 @@
     ],
     "pageCount": 1
   },
-  "d6199b1f66c7": {
-    "text": "<1>contact@bentopdf.com</1> <2/>",
-    "tags": [
-      "div"
-    ],
-    "pages": [
-      "hyper-compress",
-      "kura"
-    ],
-    "pageCount": 2
-  },
   "d6425705e2e8": {
     "text": "Select or drop as many files as you like and click Convert to PDF. A single book downloads as a PDF with the same name, while several are packed into fb2-converted.zip with one PDF per book.",
     "tags": [
@@ -36968,18 +35776,6 @@
       "pdf-editor"
     ],
     "pageCount": 1
-  },
-  "d6663dda5fe9": {
-    "text": "Business",
-    "tags": [
-      "h3",
-      "th"
-    ],
-    "pages": [
-      "hyper-compress",
-      "kura"
-    ],
-    "pageCount": 2
   },
   "d6ae8e67a217": {
     "text": "A8 (52 × 74 mm)",
@@ -37136,6 +35932,18 @@
     ],
     "pageCount": 1
   },
+  "d7bfd308adbf": {
+    "text": "© 2026 PDF4Me. All rights reserved.",
+    "tags": [
+      "p"
+    ],
+    "pages": [
+      "404",
+      "about",
+      "add-attachments"
+    ],
+    "pageCount": 137
+  },
   "d7d8855e30a7": {
     "text": "A barcode (QR Code, Code 128, Code 39, EAN-13, UPC-A, DataMatrix, or PDF417) is generated from the value you enter and drawn onto the page as a fixed image, so the person filling the form can't change it. The image field is a button that lets the user pick a picture from their computer, which works in Acrobat and other viewers that support image import.",
     "tags": [
@@ -37275,17 +36083,6 @@
       "wpd-to-pdf"
     ],
     "pageCount": 1
-  },
-  "d91244e43daa": {
-    "text": "<1/><2>/ year</2>",
-    "tags": [
-      "div"
-    ],
-    "pages": [
-      "hyper-compress",
-      "kura"
-    ],
-    "pageCount": 2
   },
   "d912dfbf55f2": {
     "text": "Compress PDF to 1MB Free Online | PDF4Me",
@@ -37599,18 +36396,6 @@
       "pdf-booklet"
     ],
     "pageCount": 1
-  },
-  "daa31faf35e7": {
-    "text": "One developer, under $100k annual revenue",
-    "tags": [
-      "p",
-      "td"
-    ],
-    "pages": [
-      "hyper-compress",
-      "kura"
-    ],
-    "pageCount": 2
   },
   "daa36b456718": {
     "text": "Prepare PDF for AI - Extract for LLM/RAG - PDF4Me",
@@ -38083,16 +36868,6 @@
     ],
     "pageCount": 1
   },
-  "de296ea1a1d1": {
-    "text": "My first reaction after trying Bento was \"this is magic, how does this work?\"",
-    "tags": [
-      "blockquote"
-    ],
-    "pages": [
-      "index"
-    ],
-    "pageCount": 1
-  },
   "de3c6b2fed55": {
     "text": "Does PDF to Word keep the layout? <1/>",
     "tags": [
@@ -38316,16 +37091,6 @@
     ],
     "pageCount": 1
   },
-  "df8c1c2b5309": {
-    "text": "Really awesome tool. I’m in the legal field and have been stuck with Adobe because they do have pretty robust redaction tools, although it is super clunky and resource intensive. Bento is quickly gaining market share in my legal stack.",
-    "tags": [
-      "blockquote"
-    ],
-    "pages": [
-      "index"
-    ],
-    "pageCount": 1
-  },
   "df9371051b92": {
     "text": "No. The thumbnails are rendered and the new file is assembled in your browser, so the document stays on your device from upload to download.",
     "tags": [
@@ -38355,17 +37120,6 @@
       "index"
     ],
     "pageCount": 1
-  },
-  "dfb26584dc87": {
-    "text": "<1>Frequently Asked</1> <2>Questions</2>",
-    "tags": [
-      "h2"
-    ],
-    "pages": [
-      "hyper-compress",
-      "kura"
-    ],
-    "pageCount": 2
   },
   "dfbb3b7c13fc": {
     "text": "Can I add a table of contents to a PDF I just merged? <1/>",
@@ -38572,17 +37326,6 @@
     ],
     "pageCount": 1
   },
-  "e12329e90f47": {
-    "text": "Terms shaped to your product",
-    "tags": [
-      "td"
-    ],
-    "pages": [
-      "hyper-compress",
-      "kura"
-    ],
-    "pageCount": 2
-  },
   "e17927ecd633": {
     "text": "No. Tesseract runs as WebAssembly inside your browser; the only downloads are the OCR engine and the language packs you selected, fetched the first time they're needed. The scanned pages and the recognized text stay on your device.",
     "tags": [
@@ -38683,17 +37426,6 @@
       "wps-to-pdf"
     ],
     "pageCount": 1
-  },
-  "e2633e3ff694": {
-    "text": "Updates while active",
-    "tags": [
-      "th"
-    ],
-    "pages": [
-      "hyper-compress",
-      "kura"
-    ],
-    "pageCount": 2
   },
   "e26abc17fd68": {
     "text": "Radio Button",
@@ -39272,17 +38004,6 @@
     ],
     "pageCount": 1
   },
-  "e5c23a5959ba": {
-    "text": "Per product",
-    "tags": [
-      "h3"
-    ],
-    "pages": [
-      "hyper-compress",
-      "kura"
-    ],
-    "pageCount": 2
-  },
   "e5c5d326cef7": {
     "text": "Which resolution setting should I use? <1/>",
     "tags": [
@@ -39537,16 +38258,6 @@
     ],
     "pageCount": 1
   },
-  "e7531566a134": {
-    "text": "Enough about me. Here's more about PDF4Me.",
-    "tags": [
-      "p"
-    ],
-    "pages": [
-      "about"
-    ],
-    "pageCount": 1
-  },
   "e7567c6ede17": {
     "text": "Watermark Image",
     "tags": [
@@ -39736,16 +38447,6 @@
     ],
     "pages": [
       "vsd-to-pdf"
-    ],
-    "pageCount": 1
-  },
-  "e873e6b1bea2": {
-    "text": "No. PDF4Me does not track you at all. We do not use cookies, analytics, or any tracking scripts, not even on the live website at bentopdf.com. We never know who you are or what you do with the tools.",
-    "tags": [
-      "p"
-    ],
-    "pages": [
-      "faq"
     ],
     "pageCount": 1
   },
@@ -40164,16 +38865,6 @@
     ],
     "pageCount": 1
   },
-  "ea5ce15f290d": {
-    "text": "Redistribution, reselling as an SDK, or offering Kura as a service",
-    "tags": [
-      "p"
-    ],
-    "pages": [
-      "kura"
-    ],
-    "pageCount": 1
-  },
   "eaa82cf58f99": {
     "text": "Does the PDF get uploaded to make the N-up layout? <1/>",
     "tags": [
@@ -40193,17 +38884,6 @@
       "json-to-pdf"
     ],
     "pageCount": 1
-  },
-  "eab385f97621": {
-    "text": "<1>What happens if I stop renewing?</1> <2/>",
-    "tags": [
-      "button"
-    ],
-    "pages": [
-      "hyper-compress",
-      "kura"
-    ],
-    "pageCount": 2
   },
   "eab9dcc6b540": {
     "text": "Can I save a workflow and reuse it later? <1/>",
@@ -40345,16 +39025,6 @@
     ],
     "pages": [
       "pdf-multi-tool"
-    ],
-    "pageCount": 1
-  },
-  "ebdac21a0db4": {
-    "text": "I work in indigenous healthcare. … I need total confidentiality of my data, as you can imagine, and I need to split pdfs. Bento is the first time this trivial task has become possible confidentially.",
-    "tags": [
-      "blockquote"
-    ],
-    "pages": [
-      "index"
     ],
     "pageCount": 1
   },
@@ -40669,16 +39339,6 @@
     ],
     "pageCount": 1
   },
-  "ed6cfdf5116b": {
-    "text": "<1>Hi, I'm Alam.</1> <2>I build PDF4Me.</2>",
-    "tags": [
-      "h1"
-    ],
-    "pages": [
-      "about"
-    ],
-    "pageCount": 1
-  },
   "ed7c16ff5c1e": {
     "text": "Learn how to compare pdfs using PDF4Me",
     "tags": [
@@ -40943,17 +39603,6 @@
     ],
     "pageCount": 4
   },
-  "ef0093aacef8": {
-    "text": "<1/>Email support",
-    "tags": [
-      "li"
-    ],
-    "pages": [
-      "hyper-compress",
-      "kura"
-    ],
-    "pageCount": 2
-  },
   "ef19cf501dfc": {
     "text": "User Password (Required)",
     "tags": [
@@ -41011,16 +39660,6 @@
     ],
     "pages": [
       "pdf-converter"
-    ],
-    "pageCount": 1
-  },
-  "ef6d1f69d7ca": {
-    "text": "<1>Open source, self-hosting and internal use stay free.</1> Kura is licensed under the AGPL-3.0. If your project is AGPL-compatible, or you run Kura as-is for yourself, you never need a commercial license. Commercial licenses are only for shipping Kura inside closed-source software.",
-    "tags": [
-      "p"
-    ],
-    "pages": [
-      "kura"
     ],
     "pageCount": 1
   },
@@ -41215,16 +39854,6 @@
     ],
     "pageCount": 2
   },
-  "f104a3423ec8": {
-    "text": "Kura - PDF/A, PDF/UA &amp;amp; PDF/X Conversion Engine | PDF4Me",
-    "tags": [
-      "ld"
-    ],
-    "pages": [
-      "kura"
-    ],
-    "pageCount": 1
-  },
   "f114189d5d95": {
     "text": "<1/> <2>Document Level</2>",
     "tags": [
@@ -41274,17 +39903,6 @@
       "pdf-to-png"
     ],
     "pageCount": 1
-  },
-  "f19723b79474": {
-    "text": "The commercial license replaces the AGPL for your product. You ship closed source, with no requirement to publish your changes or your application.",
-    "tags": [
-      "p"
-    ],
-    "pages": [
-      "hyper-compress",
-      "kura"
-    ],
-    "pageCount": 2
   },
   "f19afa759b92": {
     "text": "Free online PDF to JPG tool",
@@ -41640,17 +40258,6 @@
     ],
     "pageCount": 7
   },
-  "f32d5a3b17e6": {
-    "text": "Support",
-    "tags": [
-      "th"
-    ],
-    "pages": [
-      "hyper-compress",
-      "kura"
-    ],
-    "pageCount": 2
-  },
   "f346652e7867": {
     "text": "It puts merging, reordering, rotating, duplicating, deleting, inserting, and splitting in one page grid, so you can do several of them in a single pass without downloading and re-uploading between steps. Every action is covered by undo and redo, so you can experiment before you export.",
     "tags": [
@@ -41947,17 +40554,6 @@
     ],
     "pageCount": 1
   },
-  "f58909c17b4f": {
-    "text": "<1/>All updates while active",
-    "tags": [
-      "li"
-    ],
-    "pages": [
-      "hyper-compress",
-      "kura"
-    ],
-    "pageCount": 2
-  },
   "f5aa389fede3": {
     "text": "What's the difference between Fit and Fill when resizing pages? <1/>",
     "tags": [
@@ -42139,16 +40735,6 @@
     ],
     "pageCount": 1
   },
-  "f6a5ff7c9757": {
-    "text": "<1/><2>median reduction, strongest preset</2>",
-    "tags": [
-      "div"
-    ],
-    "pages": [
-      "hyper-compress"
-    ],
-    "pageCount": 1
-  },
   "f6b86a83a7ba": {
     "text": "Divide pages horizontally or vertically.",
     "tags": [
@@ -42270,16 +40856,6 @@
     ],
     "pageCount": 1
   },
-  "f79e12cedf66": {
-    "text": "<1/><2>bundled preflight profiles</2>",
-    "tags": [
-      "div"
-    ],
-    "pages": [
-      "kura"
-    ],
-    "pageCount": 1
-  },
   "f7c58ad12433": {
     "text": "This tool places image stamps, so you pick an image file such as a PNG or JPG (a company seal, an APPROVED graphic, a scanned notary stamp) and drop it onto the page. For text-only marks like a diagonal DRAFT label, <1>Add Watermark</1> is the better fit.",
     "tags": [
@@ -42339,17 +40915,6 @@
       "cbz-to-pdf"
     ],
     "pageCount": 1
-  },
-  "f7fad2f0d2d4": {
-    "text": "Anyone redistributing, reselling or hosting the engine",
-    "tags": [
-      "td"
-    ],
-    "pages": [
-      "hyper-compress",
-      "kura"
-    ],
-    "pageCount": 2
   },
   "f7fc866a4699": {
     "text": "Edit Metadata Online Free - Edit Metadata Tool | PDF4Me",
@@ -42959,17 +41524,6 @@
       "index"
     ],
     "pageCount": 1
-  },
-  "fb3a20c5bbbb": {
-    "text": "Priority email",
-    "tags": [
-      "td"
-    ],
-    "pages": [
-      "hyper-compress",
-      "kura"
-    ],
-    "pageCount": 2
   },
   "fb5f5e7060fa": {
     "text": "How to cbz to pdf online",

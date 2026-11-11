@@ -1,12 +1,12 @@
-# BentoPDF Robots.txt
-# https://www.bentopdf.com
+# PDF4Me Robots.txt
+# https://ai4me.cfd
 
 # Allow all crawlers
 User-agent: *
 Allow: /
 
 # Sitemap location
-Sitemap: https://www.bentopdf.com/sitemap.xml
+Sitemap: https://ai4me.cfd/sitemap.xml
 
 # Disallow internal/system paths
 Disallow: /api/

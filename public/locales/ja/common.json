@@ -217,7 +217,7 @@
     },
     "analytics": {
       "question": "私を追跡するためにCookieまたは分析を使用しますか？",
-      "answer": "いいえ。PDF4Me はあなたを一切追跡しません。Cookie、アナリティクス、トラッキングスクリプトは使用しておらず、公開サイト bentopdf.com でも同様です。あなたが誰で、ツールで何をしているかを私たちが知ることはありません。"
+      "answer": "いいえ。PDF4Me はあなたを一切追跡しません。Cookie、アナリティクス、トラッキングスクリプトは使用しておらず、公開サイト ai4me.cfd でも同様です。あなたが誰で、ツールで何をしているかを私たちが知ることはありません。"
     }
   },
   "testimonials": {
@@ -231,7 +231,7 @@
     "buyMeCoffee": "コーヒーを買ってください"
   },
   "footer": {
-    "copyright": "© 2026 BentoPDF。無断転載を禁じます。",
+    "copyright": "© 2026 PDF4Me。無断転載を禁じます。",
     "version": "バージョン",
     "company": "会社",
     "aboutUs": "当社について",
@@ -246,8 +246,7 @@
     "privacyPolicy": "プライバシーポリシー",
     "followUs": "フォローする",
     "privacyShort": "プライバシー",
-    "termsShort": "利用規約",
-    "attribution": "Built on the open-source BentoPDF project (AGPL-3.0). Source code:"
+    "termsShort": "利用規約"
   },
   "merge": {
     "title": "PDFの結合",
@@ -326,6 +325,14 @@
       "title": "始める準備はできましたか？",
       "description": "毎日のドキュメントのニーズにPDF4Meを信頼している何千人ものユーザーに加わりましょう。プライバシーとパフォーマンスがもたらす違いを体験してください。",
       "button": "すべてのツールを探索する"
+    },
+    "intro": {
+      "title": "About",
+      "titleDim": "PDF4Me",
+      "body": "PDF4Me is a free set of PDF tools that run entirely in your browser. Merge, split, compress, convert and edit PDFs without uploading a single file."
+    },
+    "source": {
+      "label": "Open source (AGPL-3.0)"
     }
   },
   "contact": {

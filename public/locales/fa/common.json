@@ -231,7 +231,7 @@
     "buyMeCoffee": "برایم یک قهوه بخرید"
   },
   "footer": {
-    "copyright": "© ۲۰۲۶ BentoPDF. تمامی حقوق محفوظ است.",
+    "copyright": "© ۲۰۲۶ PDF4Me. تمامی حقوق محفوظ است.",
     "version": "نسخه",
     "company": "شرکت",
     "aboutUs": "دربارهٔ ما",
@@ -246,8 +246,7 @@
     "privacyPolicy": "سیاست حفظ حریم خصوصی",
     "followUs": "ما را دنبال کنید",
     "privacyShort": "حریم خصوصی",
-    "termsShort": "شرایط",
-    "attribution": "Built on the open-source BentoPDF project (AGPL-3.0). Source code:"
+    "termsShort": "شرایط"
   },
   "merge": {
     "title": "ادغام PDFها",
@@ -326,6 +325,14 @@
       "title": "آمادهٔ شروع هستید؟",
       "description": "به هزاران کاربری بپیوندید که برای نیازهای روزمرهٔ اسنادشان به PDF4Me اعتماد می‌کنند. تفاوتی را که حریم خصوصی و کارایی رقم می‌زند، تجربه کنید.",
       "button": "کاوش در همهٔ ابزارها"
+    },
+    "intro": {
+      "title": "About",
+      "titleDim": "PDF4Me",
+      "body": "PDF4Me is a free set of PDF tools that run entirely in your browser. Merge, split, compress, convert and edit PDFs without uploading a single file."
+    },
+    "source": {
+      "label": "Open source (AGPL-3.0)"
     }
   },
   "contact": {

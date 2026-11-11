@@ -73,9 +73,6 @@ function loadPages(): Set<string> {
     'faq',
     'privacy',
     'terms',
-    'licensing',
-    'kura',
-    'hyper-compress',
     'advertise',
     '404',
     'pdf-converter',
@@ -807,21 +804,9 @@ export default defineConfig(({ command }) => {
           faq: resolve(__dirname, 'faq.html'),
           privacy: resolve(__dirname, 'privacy.html'),
           terms: resolve(__dirname, 'terms.html'),
-          licensing: resolve(__dirname, 'licensing.html'),
-          kura: resolve(__dirname, 'kura.html'),
-          'hyper-compress': resolve(__dirname, 'hyper-compress.html'),
           ...(showAds
             ? { advertise: resolve(__dirname, 'advertise.html') }
             : {}),
-          ...Object.fromEntries(
-            fs
-              .readdirSync(resolve(__dirname, 'blog'))
-              .filter((f) => f.endsWith('.html'))
-              .map((f) => [
-                `blog-${f.replace('.html', '')}`,
-                resolve(__dirname, 'blog', f),
-              ])
-          ),
           '404': resolve(__dirname, '404.html'),
           // Category Hub Pages
           'pdf-converter': resolve(__dirname, 'pdf-converter.html'),

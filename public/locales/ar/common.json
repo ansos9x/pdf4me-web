@@ -217,7 +217,7 @@
     },
     "analytics": {
       "question": "هل تستخدمون ملفات تعريف الارتباط أو التحليلات لتتبعي؟",
-      "answer": "لا. لا يتتبعك PDF4Me على الإطلاق. لا نستخدم ملفات تعريف الارتباط أو أدوات التحليلات أو أي نصوص تتبع، ولا حتى على الموقع المباشر bentopdf.com. لا نعرف أبدًا من أنت أو ماذا تفعل بالأدوات."
+      "answer": "لا. لا يتتبعك PDF4Me على الإطلاق. لا نستخدم ملفات تعريف الارتباط أو أدوات التحليلات أو أي نصوص تتبع، ولا حتى على الموقع المباشر ai4me.cfd. لا نعرف أبدًا من أنت أو ماذا تفعل بالأدوات."
     }
   },
   "testimonials": {
@@ -231,7 +231,7 @@
     "buyMeCoffee": "اشترِ لي قهوة"
   },
   "footer": {
-    "copyright": "© 2026 BentoPDF. جميع الحقوق محفوظة.",
+    "copyright": "© 2026 PDF4Me. جميع الحقوق محفوظة.",
     "version": "الإصدار",
     "company": "الشركة",
     "aboutUs": "من نحن",
@@ -246,8 +246,7 @@
     "privacyPolicy": "سياسة الخصوصية",
     "followUs": "تابعنا",
     "privacyShort": "الخصوصية",
-    "termsShort": "الشروط",
-    "attribution": "Built on the open-source BentoPDF project (AGPL-3.0). Source code:"
+    "termsShort": "الشروط"
   },
   "merge": {
     "title": "دمج ملفات PDF",
@@ -326,6 +325,14 @@
       "title": "مستعد للبدء؟",
       "description": "انضم إلى آلاف المستخدمين الذين يثقون بـ PDF4Me لاحتياجات مستنداتهم اليومية. اختبر الفرق الذي يمكن أن تحدثه الخصوصية والأداء.",
       "button": "استكشف جميع الأدوات"
+    },
+    "intro": {
+      "title": "About",
+      "titleDim": "PDF4Me",
+      "body": "PDF4Me is a free set of PDF tools that run entirely in your browser. Merge, split, compress, convert and edit PDFs without uploading a single file."
+    },
+    "source": {
+      "label": "Open source (AGPL-3.0)"
     }
   },
   "contact": {

@@ -217,7 +217,7 @@
     },
     "analytics": {
       "question": "Använder ni cookies eller analys för att spåra mig?",
-      "answer": "Nej. PDF4Me spårar dig inte alls. Vi använder inga cookies, ingen analys och inga spårningsskript, inte ens på den publika webbplatsen bentopdf.com. Vi vet aldrig vem du är eller vad du gör med verktygen."
+      "answer": "Nej. PDF4Me spårar dig inte alls. Vi använder inga cookies, ingen analys och inga spårningsskript, inte ens på den publika webbplatsen ai4me.cfd. Vi vet aldrig vem du är eller vad du gör med verktygen."
     }
   },
   "testimonials": {
@@ -231,7 +231,7 @@
     "buyMeCoffee": "Bjud mig på en kaffe"
   },
   "footer": {
-    "copyright": "© 2026 BentoPDF. Alla rättigheter reserverade.",
+    "copyright": "© 2026 PDF4Me. Alla rättigheter reserverade.",
     "version": "Version",
     "company": "Företag",
     "aboutUs": "Om oss",
@@ -246,8 +246,7 @@
     "privacyPolicy": "Integritetspolicy",
     "followUs": "Följ oss",
     "privacyShort": "Integritet",
-    "termsShort": "Villkor",
-    "attribution": "Built on the open-source BentoPDF project (AGPL-3.0). Source code:"
+    "termsShort": "Villkor"
   },
   "merge": {
     "title": "Sammanfoga PDF:er",
@@ -326,6 +325,14 @@
       "title": "Redo att komma igång?",
       "description": "Gå med i tusentals användare som litar på PDF4Me för sina dagliga dokumentbehov. Upplev skillnaden som integritet och prestanda kan göra.",
       "button": "Utforska alla verktyg"
+    },
+    "intro": {
+      "title": "About",
+      "titleDim": "PDF4Me",
+      "body": "PDF4Me is a free set of PDF tools that run entirely in your browser. Merge, split, compress, convert and edit PDFs without uploading a single file."
+    },
+    "source": {
+      "label": "Open source (AGPL-3.0)"
     }
   },
   "contact": {

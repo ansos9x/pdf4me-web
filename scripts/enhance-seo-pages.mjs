@@ -9,7 +9,7 @@ const __dirname = path.dirname(__filename);
 
 const DIST_DIR = path.resolve(__dirname, '../dist');
 const BASE_PATH = (process.env.BASE_URL || '/').replace(/\/$/, '');
-const SITE_URL = (process.env.SITE_URL || 'https://www.bentopdf.com').replace(
+const SITE_URL = (process.env.SITE_URL || 'https://ai4me.cfd').replace(
   /\/+$/,
   ''
 );

@@ -217,7 +217,7 @@
     },
     "analytics": {
       "question": "Usate cookie o analytics per tracciarmi?",
-      "answer": "No. PDF4Me non ti traccia in alcun modo. Non usiamo cookie, strumenti di analisi né script di tracciamento, nemmeno sul sito web live bentopdf.com. Non sappiamo mai chi sei né cosa fai con gli strumenti."
+      "answer": "No. PDF4Me non ti traccia in alcun modo. Non usiamo cookie, strumenti di analisi né script di tracciamento, nemmeno sul sito web live ai4me.cfd. Non sappiamo mai chi sei né cosa fai con gli strumenti."
     }
   },
   "testimonials": {
@@ -231,7 +231,7 @@
     "buyMeCoffee": "Offrimi un caffè"
   },
   "footer": {
-    "copyright": "© 2026 BentoPDF. Tutti i diritti riservati.",
+    "copyright": "© 2026 PDF4Me. Tutti i diritti riservati.",
     "version": "Versione",
     "company": "Azienda",
     "aboutUs": "Chi siamo",
@@ -246,8 +246,7 @@
     "privacyPolicy": "Informativa sulla privacy",
     "followUs": "Seguici",
     "privacyShort": "Privacy",
-    "termsShort": "Termini",
-    "attribution": "Built on the open-source BentoPDF project (AGPL-3.0). Source code:"
+    "termsShort": "Termini"
   },
   "merge": {
     "title": "Unisci PDF",
@@ -326,6 +325,14 @@
       "title": "Pronto per iniziare?",
       "description": "Unisciti a migliaia di utenti che si affidano a PDF4Me per le loro esigenze quotidiane sui documenti. Sperimenta la differenza che privacy e prestazioni possono offrire.",
       "button": "Esplora tutti gli strumenti"
+    },
+    "intro": {
+      "title": "About",
+      "titleDim": "PDF4Me",
+      "body": "PDF4Me is a free set of PDF tools that run entirely in your browser. Merge, split, compress, convert and edit PDFs without uploading a single file."
+    },
+    "source": {
+      "label": "Open source (AGPL-3.0)"
     }
   },
   "contact": {

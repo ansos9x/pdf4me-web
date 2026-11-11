@@ -217,7 +217,7 @@
     },
     "analytics": {
       "question": "Beni takip etmek için çerez veya analiz kullanıyor musunuz?",
-      "answer": "Hayır. PDF4Me sizi hiçbir şekilde takip etmez. Çerez, analiz aracı veya izleme betiği kullanmıyoruz; canlı web sitesi bentopdf.com'da bile. Kim olduğunuzu veya araçlarla ne yaptığınızı asla bilmeyiz."
+      "answer": "Hayır. PDF4Me sizi hiçbir şekilde takip etmez. Çerez, analiz aracı veya izleme betiği kullanmıyoruz; canlı web sitesi ai4me.cfd'da bile. Kim olduğunuzu veya araçlarla ne yaptığınızı asla bilmeyiz."
     }
   },
   "testimonials": {
@@ -231,7 +231,7 @@
     "buyMeCoffee": "Bana Kahve Ismarla"
   },
   "footer": {
-    "copyright": "© 2026 BentoPDF. Tüm hakları saklıdır.",
+    "copyright": "© 2026 PDF4Me. Tüm hakları saklıdır.",
     "version": "Sürüm",
     "company": "Şirket",
     "aboutUs": "Hakkımızda",
@@ -246,8 +246,7 @@
     "privacyPolicy": "Gizlilik Politikası",
     "followUs": "Bizi Takip Edin",
     "privacyShort": "Gizlilik",
-    "termsShort": "Koşullar",
-    "attribution": "Built on the open-source BentoPDF project (AGPL-3.0). Source code:"
+    "termsShort": "Koşullar"
   },
   "merge": {
     "title": "PDF Birleştir",
@@ -326,6 +325,14 @@
       "title": "Başlamaya hazır mısınız?",
       "description": "Günlük belge ihtiyaçları için PDF4Me'ye güvenen binlerce kullanıcıya katılın. Gizlilik ve performansın yaratabileceği farkı deneyimleyin.",
       "button": "Tüm Araçları Keşfet"
+    },
+    "intro": {
+      "title": "About",
+      "titleDim": "PDF4Me",
+      "body": "PDF4Me is a free set of PDF tools that run entirely in your browser. Merge, split, compress, convert and edit PDFs without uploading a single file."
+    },
+    "source": {
+      "label": "Open source (AGPL-3.0)"
     }
   },
   "contact": {

@@ -15,7 +15,7 @@ const __dirname = path.dirname(__filename);
 const DIST_DIR = path.resolve(__dirname, '../dist');
 const LOCALES_DIR = path.resolve(__dirname, '../public/locales');
 const CONTENT_DIR = path.resolve(__dirname, '../translations');
-const SITE_URL = (process.env.SITE_URL || 'https://www.bentopdf.com').replace(
+const SITE_URL = (process.env.SITE_URL || 'https://ai4me.cfd').replace(
   /\/+$/,
   ''
 );
@@ -25,7 +25,7 @@ const languages = fs.readdirSync(LOCALES_DIR).filter((file) => {
   return fs.statSync(path.join(LOCALES_DIR, file)).isDirectory();
 });
 
-const OFFICIAL_DOCS_URL = 'https://www.bentopdf.com/docs';
+const OFFICIAL_DOCS_URL = 'https://ai4me.cfd/docs';
 
 const docsLanguages = completeDocsLanguages(
   path.resolve(__dirname, '../docs'),

@@ -362,7 +362,7 @@
     "subtitle": "Fyll i formulär direkt i webbläsaren. Stöder även XFA-formulär.",
     "uploadHint": "Ladda upp en PDF med formulärfält. Fyll i dem direkt i visaren nedan, klicka sedan på knappen för att spara och ladda ner det ifyllda formuläret. Stöder även XFA-formulär.",
     "xfaNoteTitle": "Anmärkning om XFA-formulär:",
-    "xfaNoteDescription": "XFA (XML Forms Architecture) är ett äldre format som bara stöds av vissa PDF-visare som PDF4Me och Firefox. Om du öppnar en XFA-PDF i annan programvara och ser tomma sidor eller inga formulärfält betyder det att visaren inte stöder XFA. För att visa och fylla i XFA-formulär korrekt, använd Firefox eller BentoPDFs formulärifyllare."
+    "xfaNoteDescription": "XFA (XML Forms Architecture) är ett äldre format som bara stöds av vissa PDF-visare som PDF4Me och Firefox. Om du öppnar en XFA-PDF i annan programvara och ser tomma sidor eller inga formulärfält betyder det att visaren inte stöder XFA. För att visa och fylla i XFA-formulär korrekt, använd Firefox eller PDF4Mes formulärifyllare."
   },
   "createPdfForm": {
     "name": "Skapa PDF-formulär",

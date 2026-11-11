@@ -217,7 +217,7 @@
     },
     "analytics": {
       "question": "Používate súbory cookie alebo analytiku na moje sledovanie?",
-      "answer": "Nie. PDF4Me vás vôbec nesleduje. Nepoužívame cookies, analytiku ani sledovacie skripty – ani na živej webovej stránke bentopdf.com. Nikdy nevieme, kto ste ani čo s nástrojmi robíte."
+      "answer": "Nie. PDF4Me vás vôbec nesleduje. Nepoužívame cookies, analytiku ani sledovacie skripty – ani na živej webovej stránke ai4me.cfd. Nikdy nevieme, kto ste ani čo s nástrojmi robíte."
     }
   },
   "testimonials": {
@@ -231,7 +231,7 @@
     "buyMeCoffee": "Kúpte mi kávu"
   },
   "footer": {
-    "copyright": "© 2026 BentoPDF. Všetky práva vyhradené.",
+    "copyright": "© 2026 PDF4Me. Všetky práva vyhradené.",
     "version": "Verzia",
     "company": "Spoločnosť",
     "aboutUs": "O nás",
@@ -246,8 +246,7 @@
     "privacyPolicy": "Zásady ochrany osobných údajov",
     "followUs": "Sledujte nás",
     "privacyShort": "Súkromie",
-    "termsShort": "Podmienky",
-    "attribution": "Built on the open-source BentoPDF project (AGPL-3.0). Source code:"
+    "termsShort": "Podmienky"
   },
   "merge": {
     "title": "Zlúčiť PDF",
@@ -326,6 +325,14 @@
       "title": "Ste pripravení začať?",
       "description": "Pridajte sa k tisícom používateľov, ktorí dôverujú PDF4Me vo svojich každodenných potrebách s dokumentmi. Vyskúšajte, aký rozdiel môže urobiť súkromie a výkon.",
       "button": "Preskúmať všetky nástroje"
+    },
+    "intro": {
+      "title": "About",
+      "titleDim": "PDF4Me",
+      "body": "PDF4Me is a free set of PDF tools that run entirely in your browser. Merge, split, compress, convert and edit PDFs without uploading a single file."
+    },
+    "source": {
+      "label": "Open source (AGPL-3.0)"
     }
   },
   "contact": {

@@ -231,7 +231,7 @@
     "buyMeCoffee": "M’offrir un café"
   },
   "footer": {
-    "copyright": "© 2026 BentoPDF. Tous droits réservés.",
+    "copyright": "© 2026 PDF4Me. Tous droits réservés.",
     "version": "Version",
     "company": "Entreprise",
     "aboutUs": "À propos",
@@ -246,8 +246,7 @@
     "privacyPolicy": "Politique de confidentialité",
     "followUs": "Nous suivre",
     "privacyShort": "Confidentialité",
-    "termsShort": "Conditions",
-    "attribution": "Built on the open-source BentoPDF project (AGPL-3.0). Source code:"
+    "termsShort": "Conditions"
   },
   "merge": {
     "title": "Fusionner des PDF",
@@ -326,6 +325,14 @@
       "title": "Prêt à commencer ?",
       "description": "Rejoignez des milliers d’utilisateurs qui font confiance à PDF4Me au quotidien. Découvrez la différence qu’apportent la confidentialité et la performance.",
       "button": "Explorer tous les outils"
+    },
+    "intro": {
+      "title": "About",
+      "titleDim": "PDF4Me",
+      "body": "PDF4Me is a free set of PDF tools that run entirely in your browser. Merge, split, compress, convert and edit PDFs without uploading a single file."
+    },
+    "source": {
+      "label": "Open source (AGPL-3.0)"
     }
   },
   "contact": {
