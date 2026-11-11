@@ -300,7 +300,8 @@
       "openSource": {
         "title": "Open source-ånd",
         "description": "Koden er offentlig på GitHub under AGPL-3.0, så du kan se præcis, hvordan dine filer håndteres. Den bygger på open source-projekter som PDF.js, pdf-lib, qpdf og LibreOffice."
-      }
+      },
+      "titleDim": "PDF4Me?"
     },
     "cta": {
       "title": "Klar til at komme i gang?",

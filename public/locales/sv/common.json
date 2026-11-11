@@ -300,7 +300,8 @@
       "openSource": {
         "title": "Öppen källkod-anda",
         "description": "Byggd med transparens i åtanke. Vi använder fantastiska öppna källkodsbibliotek som PDF-lib och PDF.js, och tror på community-driven utveckling för att göra kraftfulla verktyg tillgängliga för alla."
-      }
+      },
+      "titleDim": "PDF4Me?"
     },
     "cta": {
       "title": "Redo att komma igång?",

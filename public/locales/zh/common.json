@@ -300,7 +300,8 @@
       "openSource": {
         "title": "开源精神",
         "description": "以透明度为核心构建。我们利用了像 PDF-lib 和 PDF.js 这样优秀的开源库，并相信社区驱动的力量能使强大的工具惠及每一个人。"
-      }
+      },
+      "titleDim": "PDF4Me?"
     },
     "cta": {
       "title": "准备好开始了吗？",

@@ -300,7 +300,8 @@
       "openSource": {
         "title": "Open-Source-Geist",
         "description": "Mit Transparenz im Blick entwickelt. Wir nutzen großartige Open-Source-Bibliotheken wie PDF-lib und PDF.js und glauben an die gemeinschaftsgetriebene Bemühung, leistungsstarke Werkzeuge für alle zugänglich zu machen."
-      }
+      },
+      "titleDim": "PDF4Me?"
     },
     "cta": {
       "title": "Bereit loszulegen?",
