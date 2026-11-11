@@ -10,17 +10,6 @@
   <a href="https://www.digitalocean.com/?refcode=d93c189ef6d0&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge">
     <img src="https://web-platforms.sfo2.cdn.digitaloceanspaces.com/WWW/Badge%203.svg" alt="DigitalOcean Referral Badge" height="44">
   </a>
-  &nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="https://www.nvidia.com/en-us/startups/">
-    <img alt="NVIDIA Inception Program" src="public/images/nvidia-inception.svg" height="44" />
-  </a>
-  &nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="https://www.vultr.com/">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="public/images/vultr-logo-dark.svg" />
-      <img alt="Vultr" src="public/images/vultr-logo-light.svg" height="30" />
-    </picture>
-  </a>
 </p>
 <p align="center"><sub>Individual Supporters</sub></p>
 <p align="center"><!-- sponsors --><a href="https://github.com/gaedeke"><img src="https:&#x2F;&#x2F;github.com&#x2F;gaedeke.png" width="60px" alt="User avatar: " /></a><a href="https://github.com/stiflerbox"><img src="https:&#x2F;&#x2F;github.com&#x2F;stiflerbox.png" width="60px" alt="User avatar: " /></a><a href="https://github.com/shollyethan"><img src="https:&#x2F;&#x2F;github.com&#x2F;shollyethan.png" width="60px" alt="User avatar: Ethan Sholly" /></a><a href="https://github.com/KnudH"><img src="https:&#x2F;&#x2F;github.com&#x2F;KnudH.png" width="60px" alt="User avatar: Knud Hollander" /></a><a href="https://github.com/mohannadhussain"><img src="https:&#x2F;&#x2F;github.com&#x2F;mohannadhussain.png" width="60px" alt="User avatar: Mohannad Hussain" /></a><a href="https://github.com/chaoscastle"><img src="https:&#x2F;&#x2F;github.com&#x2F;chaoscastle.png" width="60px" alt="User avatar: " /></a><a href="https://github.com/RobertGonzales1"><img src="https:&#x2F;&#x2F;github.com&#x2F;RobertGonzales1.png" width="60px" alt="User avatar: Robert Gonzales" /></a><a href="https://github.com/michivonah"><img src="https:&#x2F;&#x2F;github.com&#x2F;michivonah.png" width="60px" alt="User avatar: Michi" /></a><a href="https://github.com/bmikaili"><img src="https:&#x2F;&#x2F;github.com&#x2F;bmikaili.png" width="60px" alt="User avatar: Berzan" /></a><a href="https://github.com/Thanyanit-J"><img src="https:&#x2F;&#x2F;github.com&#x2F;Thanyanit-J.png" width="60px" alt="User avatar: Thanyanit Jongjitragan" /></a><a href="https://github.com/AceofSpades5757"><img src="https:&#x2F;&#x2F;github.com&#x2F;AceofSpades5757.png" width="60px" alt="User avatar: Kyle L. Davis" /></a><a href="https://github.com/Jacco011"><img src="https:&#x2F;&#x2F;github.com&#x2F;Jacco011.png" width="60px" alt="User avatar: " /></a><a href="https://github.com/Pallandos"><img src="https:&#x2F;&#x2F;github.com&#x2F;Pallandos.png" width="60px" alt="User avatar: " /></a><a href="https://github.com/haritvsmurali"><img src="https:&#x2F;&#x2F;github.com&#x2F;haritvsmurali.png" width="60px" alt="User avatar: Hari Haran" /></a><a href="https://github.com/mrtoadie"><img src="https:&#x2F;&#x2F;github.com&#x2F;mrtoadie.png" width="60px" alt="User avatar: Toadie" /></a><a href="https://github.com/sam12dr21"><img src="https:&#x2F;&#x2F;github.com&#x2F;sam12dr21.png" width="60px" alt="User avatar: " /></a><a href="https://github.com/BGauthier2020"><img src="https:&#x2F;&#x2F;github.com&#x2F;BGauthier2020.png" width="60px" alt="User avatar: " /></a><!-- sponsors --></p>
@@ -33,7 +22,6 @@
 
 [![Docker Downloads](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Falam00000%2Fbentopdf%2Fbadges%2Fdocker-downloads.json&cacheSeconds=3600)](https://github.com/alam00000/bentopdf/pkgs/container/bentopdf-simple) ![GitHub Stars](https://img.shields.io/github/stars/alam00000/bentopdf?style=social)
 
-![BentoPDF Tools](public/images/bentopdf-tools.png)
 
 ---
 
