@@ -67,10 +67,14 @@ function plainText(markup) {
   return markup.replace(/<\/?\d+\/?>/g, ' ');
 }
 
+// Owner-approved Vietnamese tagline; the only text allowed to contain an em dash.
+const APPROVED_TAGLINE =
+  'Công cụ PDF online miễn phí — file xử lý ngay trên máy bạn, không tải lên máy chủ';
+
 export function reviewTranslation(lang, source, translation) {
   const problem = validateTranslationPair(source, translation);
   if (problem) return { level: 'error', reason: problem };
-  if (/[—]/.test(translation)) {
+  if (translation !== APPROVED_TAGLINE && /[—]/.test(translation)) {
     return { level: 'error', reason: 'contains an em dash' };
   }
   const sourceText = plainText(source);

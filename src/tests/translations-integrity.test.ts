@@ -6,6 +6,9 @@ import { reviewTranslation } from '../../scripts/translations.mjs';
 
 const ROOT = path.resolve(__dirname, '../..');
 const LOCALES = path.join(ROOT, 'public/locales');
+// Owner-approved Vietnamese tagline; the only text allowed to contain an em dash.
+const APPROVED_TAGLINE =
+  'Công cụ PDF online miễn phí — file xử lý ngay trên máy bạn, không tải lên máy chủ';
 
 interface SourceEntry {
   text: string;
@@ -68,7 +71,7 @@ describe('translated interface messages', () => {
       if (/<\/?[a-z][^>]*>/i.test(translation)) {
         problems.push(`${text}: contains HTML`);
       }
-      if (translation.includes('—')) {
+      if (translation !== APPROVED_TAGLINE && translation.includes('—')) {
         problems.push(`${text}: contains an em dash`);
       }
     }
@@ -150,7 +153,8 @@ describe('locale files', () => {
         if (tags(english) !== tags(value)) {
           missing.push(`${ns}:${key} HTML differs`);
         }
-        if (value.includes('—')) missing.push(`${ns}:${key} em dash`);
+        if (value !== APPROVED_TAGLINE && value.includes('—'))
+          missing.push(`${ns}:${key} em dash`);
       }
     }
     expect(missing.slice(0, 10)).toEqual([]);
