@@ -162,23 +162,7 @@
     "proceed": "계속"
   },
   "compliance": {
-    "title": "데이터가 기기 밖으로 나가지 않습니다",
-    "weKeep": "글로벌 보안 표준을 준수하여",
-    "yourInfoSafe": "여러분의 정보를",
-    "byFollowingStandards": "안전하게 보호합니다.",
-    "processingLocal": "모든 처리는 사용자의 기기에서 직접 이루어집니다.",
-    "gdpr": {
-      "title": "GDPR 준수",
-      "description": "유럽연합 내 개인정보 및 프라이버시를 보호합니다."
-    },
-    "ccpa": {
-      "title": "CCPA 준수",
-      "description": "캘리포니아 주민의 개인정보 수집, 사용, 공유에 대한 권리를 보장합니다."
-    },
-    "hipaa": {
-      "title": "HIPAA 준수",
-      "description": "미국 의료 시스템에서 민감한 건강 정보를 안전하게 보호합니다."
-    }
+    "processingLocal": "모든 처리는 사용자의 기기에서 직접 이루어집니다."
   },
   "faq": {
     "title": "자주 묻는",

@@ -162,23 +162,7 @@
     "proceed": "继续"
   },
   "compliance": {
-    "title": "您的数据从未离开您的设备",
-    "weKeep": "我们会保持",
-    "yourInfoSafe": "您的信息安全",
-    "byFollowingStandards": "，遵循全球安全标准。",
-    "processingLocal": "所有处理都在您的设备上本地进行。",
-    "gdpr": {
-      "title": "GDPR 合规",
-      "description": "保护欧盟境内个人的个人数据和隐私。"
-    },
-    "ccpa": {
-      "title": "CCPA 合规",
-      "description": "赋予加州居民对其个人信息的收集、使用和共享的权利。"
-    },
-    "hipaa": {
-      "title": "HIPAA 合规",
-      "description": "制定美国医疗系统中处理敏感健康信息的保障措施。"
-    }
+    "processingLocal": "所有处理都在您的设备上本地进行。"
   },
   "faq": {
     "title": "常见",

@@ -162,23 +162,7 @@
     "proceed": "繼續"
   },
   "compliance": {
-    "title": "您的資料絕不會離開您的裝置",
-    "weKeep": "我們透過遵循全球安全標準，",
-    "yourInfoSafe": "確保您的資訊安全",
-    "byFollowingStandards": "。",
-    "processingLocal": "所有處理過程都在您的裝置上進行。",
-    "gdpr": {
-      "title": "符合 GDPR 規範",
-      "description": "保護歐盟境內個人的個人資料與隱私。"
-    },
-    "ccpa": {
-      "title": "符合 CCPA 規範",
-      "description": "保障加州居民對其個人資料蒐集、使用及分享方式的相關權利。"
-    },
-    "hipaa": {
-      "title": "符合 HIPAA 規範",
-      "description": "制定處理美國醫療保健系統中敏感健康資訊的安全規範。"
-    }
+    "processingLocal": "所有處理過程都在您的裝置上進行。"
   },
   "faq": {
     "title": "常見",

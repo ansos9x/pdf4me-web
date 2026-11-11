@@ -162,23 +162,7 @@
     "proceed": "進む"
   },
   "compliance": {
-    "title": "データがデバイスから離れることはありません",
-    "weKeep": "私たちは世界的な基準に従って",
-    "yourInfoSafe": "あなたの情報の安全",
-    "byFollowingStandards": "を保護しています。",
-    "processingLocal": "すべての処理はデバイス上でローカルに行われます。",
-    "gdpr": {
-      "title": "GDPR準拠",
-      "description": "欧州連合内の個人データとプライバシーを保護します。"
-    },
-    "ccpa": {
-      "title": "CCPA準拠",
-      "description": "カリフォルニア州の住民に、個人情報の収集、使用、共有方法についての権利を与えます。"
-    },
-    "hipaa": {
-      "title": "HIPAA準拠",
-      "description": "米国の医療システムで機密の医療情報を扱うための保護措置を設定します。"
-    }
+    "processingLocal": "すべての処理はデバイス上でローカルに行われます。"
   },
   "faq": {
     "title": "よくある",

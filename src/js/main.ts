@@ -101,13 +101,6 @@ const init = async () => {
         featuresSection.style.display = 'none';
       }
 
-      const securitySection = document.getElementById(
-        'security-compliance-section'
-      );
-      if (securitySection) {
-        securitySection.style.display = 'none';
-      }
-
       const faqSection = document.getElementById('faq-accordion');
       if (faqSection) {
         faqSection.style.display = 'none';

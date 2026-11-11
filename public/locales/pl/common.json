@@ -162,23 +162,7 @@
     "proceed": "Kontynuuj"
   },
   "compliance": {
-    "title": "Twoje dane nigdy nie opuszczają Twojego urządzenia",
-    "weKeep": "Dbamy o",
-    "yourInfoSafe": "bezpieczeństwo Twoich informacji",
-    "byFollowingStandards": "przestrzegając globalnych standardów bezpieczeństwa.",
-    "processingLocal": "Całe przetwarzanie odbywa się lokalnie na Twoim urządzeniu.",
-    "gdpr": {
-      "title": "Zgodność z RODO",
-      "description": "Chroni dane osobowe i prywatność osób w Unii Europejskiej."
-    },
-    "ccpa": {
-      "title": "Zgodność z CCPA",
-      "description": "Daje mieszkańcom Kalifornii prawa do kontrolowania sposobu gromadzenia, wykorzystywania i udostępniania ich danych osobowych."
-    },
-    "hipaa": {
-      "title": "Zgodność z HIPAA",
-      "description": "Ustanawia zabezpieczenia w celu ochrony wrażliwych informacji zdrowotnych w systemie opieki zdrowotnej Stanów Zjednoczonych."
-    }
+    "processingLocal": "Całe przetwarzanie odbywa się lokalnie na Twoim urządzeniu."
   },
   "faq": {
     "title": "Często Zadawane",

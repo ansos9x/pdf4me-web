@@ -162,23 +162,7 @@
     "proceed": "Fortsæt"
   },
   "compliance": {
-    "title": "Dine data forlader aldrig din enhed",
-    "weKeep": "Vi holder",
-    "yourInfoSafe": "dine oplysninger sikre",
-    "byFollowingStandards": "ved at følge globale sikkerhedsstandarder.",
-    "processingLocal": "Al behandling foregår lokalt på din enhed.",
-    "gdpr": {
-      "title": "GDPR-overholdelse",
-      "description": "Beskytter personoplysninger og privatliv for enkeltpersoner i Den Europæiske Union."
-    },
-    "ccpa": {
-      "title": "CCPA-overholdelse",
-      "description": "Giver Californiens borgere rettigheder over deres personlige oplysninger."
-    },
-    "hipaa": {
-      "title": "HIPAA-overholdelse",
-      "description": "Fastlægger krav til håndtering af følsomme sundhedsoplysninger i USA."
-    }
+    "processingLocal": "Al behandling foregår lokalt på din enhed."
   },
   "faq": {
     "title": "Ofte stillede",

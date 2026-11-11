@@ -162,23 +162,7 @@
     "proceed": "Verder"
   },
   "compliance": {
-    "title": "Jouw gegevens blijven op jouw appraat",
-    "weKeep": "Wij houden",
-    "yourInfoSafe": "jouw informatie veilig",
-    "byFollowingStandards": "volgens de volgende algemene veiligheidsstandaarden.",
-    "processingLocal": "Alle verwerking vindt lokaal plaats op jouw apparaat.",
-    "gdpr": {
-      "title": "AVG-naleving",
-      "description": "Beschermt persoonlijke gegevens en privacy van individuën binnen de Europese Unie."
-    },
-    "ccpa": {
-      "title": "CCPA-naleving",
-      "description": "Geeft inwoners van Californië rechten over hoe hun persoonlijke gegevens worden verzameld, gebruikt en gedeeld."
-    },
-    "hipaa": {
-      "title": "HIPAA-naleving",
-      "description": "Stelt waarborgen in voor het omgaan met gevoelige gezondheidsinformatie in het gezondheidszorgsysteem van de Verenigde Staten."
-    }
+    "processingLocal": "Alle verwerking vindt lokaal plaats op jouw apparaat."
   },
   "faq": {
     "title": "Veelgestelde",

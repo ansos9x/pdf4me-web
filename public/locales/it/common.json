@@ -162,23 +162,7 @@
     "proceed": "Procedi"
   },
   "compliance": {
-    "title": "I tuoi dati non lasciano mai il tuo dispositivo",
-    "weKeep": "Manteniamo",
-    "yourInfoSafe": "le tue informazioni al sicuro",
-    "byFollowingStandards": "seguendo gli standard di sicurezza globali.",
-    "processingLocal": "Tutte le elaborazioni avvengono localmente sul tuo dispositivo.",
-    "gdpr": {
-      "title": "Conformità GDPR",
-      "description": "Protegge i dati personali e la privacy delle persone all'interno dell'Unione Europea."
-    },
-    "ccpa": {
-      "title": "Conformità CCPA",
-      "description": "Conferisce ai residenti della California diritti su come le loro informazioni personali vengono raccolte, usate e condivise."
-    },
-    "hipaa": {
-      "title": "Conformità HIPAA",
-      "description": "Stabilisce salvaguardie per la gestione delle informazioni sanitarie sensibili nel sistema sanitario degli Stati Uniti."
-    }
+    "processingLocal": "Tutte le elaborazioni avvengono localmente sul tuo dispositivo."
   },
   "faq": {
     "title": "Domande",

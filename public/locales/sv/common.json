@@ -162,23 +162,7 @@
     "proceed": "Fortsätt"
   },
   "compliance": {
-    "title": "Dina data lämnar aldrig din enhet",
-    "weKeep": "Vi håller",
-    "yourInfoSafe": "din information säker",
-    "byFollowingStandards": "genom att följa globala säkerhetsstandarder.",
-    "processingLocal": "All bearbetning sker lokalt på din enhet.",
-    "gdpr": {
-      "title": "GDPR-efterlevnad",
-      "description": "Skyddar personuppgifter och integritet för individer inom Europeiska unionen."
-    },
-    "ccpa": {
-      "title": "CCPA-efterlevnad",
-      "description": "Ger Kaliforniens residenter rättigheter över hur deras personliga information samlas in, används och delas."
-    },
-    "hipaa": {
-      "title": "HIPAA-efterlevnad",
-      "description": "Fastställer skyddsåtgärder för hantering av känslig hälsoinformation i det amerikanska sjukvårdssystemet."
-    }
+    "processingLocal": "All bearbetning sker lokalt på din enhet."
   },
   "faq": {
     "title": "Vanliga",

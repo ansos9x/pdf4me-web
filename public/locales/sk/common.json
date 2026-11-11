@@ -162,23 +162,7 @@
     "proceed": "Pokračovať"
   },
   "compliance": {
-    "title": "Vaše dáta nikdy neopustia vaše zariadenie",
-    "weKeep": "Udržujeme",
-    "yourInfoSafe": "vaše informácie v bezpečí",
-    "byFollowingStandards": "dodržiavaním globálnych bezpečnostných štandardov.",
-    "processingLocal": "Všetko spracovanie prebieha lokálne priamo na vašom zariadení.",
-    "gdpr": {
-      "title": "Súlad s GDPR",
-      "description": "Chráni osobné údaje a súkromie jednotlivcov v rámci Európskej únie."
-    },
-    "ccpa": {
-      "title": "Súlad s CCPA",
-      "description": "Dáva obyvateľom Kalifornie práva týkajúce sa toho, ako sa zhromažďujú, používajú a zdieľajú ich osobné informácie."
-    },
-    "hipaa": {
-      "title": "Súlad s HIPAA",
-      "description": "Stanovuje ochranné opatrenia pre nakladanie s citlivými zdravotnými informáciami v systéme zdravotnej starostlivosti v USA."
-    }
+    "processingLocal": "Všetko spracovanie prebieha lokálne priamo na vašom zariadení."
   },
   "faq": {
     "title": "Často kladené",

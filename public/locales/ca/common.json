@@ -162,23 +162,7 @@
     "proceed": "Continua"
   },
   "compliance": {
-    "title": "Les dades no surten mai del dispositiu",
-    "weKeep": "Mantenim",
-    "yourInfoSafe": "la teva informació segura",
-    "byFollowingStandards": "seguint les normes internacionals de seguretat.",
-    "processingLocal": "Tot el processament es fa localment al teu dispositiu.",
-    "gdpr": {
-      "title": "Compliment del RGPD",
-      "description": "Protegeix les dades personals i la privadesa de les persones a la Unió Europea."
-    },
-    "ccpa": {
-      "title": "Compliment de la CCPA",
-      "description": "Reconeix drets als residents de Califòrnia sobre la recopilació, l'ús i la compartició de la seva informació personal."
-    },
-    "hipaa": {
-      "title": "Compliment de la HIPAA",
-      "description": "Estableix garanties per tractar informació sanitària sensible al sistema sanitari dels Estats Units."
-    }
+    "processingLocal": "Tot el processament es fa localment al teu dispositiu."
   },
   "faq": {
     "title": "Preguntes",

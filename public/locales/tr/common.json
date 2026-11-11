@@ -162,23 +162,7 @@
     "proceed": "Devam Et"
   },
   "compliance": {
-    "title": "Verileriniz cihazınızı asla terk etmez",
-    "weKeep": "Bilgilerinizi",
-    "yourInfoSafe": "güvende tutuyoruz",
-    "byFollowingStandards": "küresel güvenlik standartlarını takip ederek.",
-    "processingLocal": "Tüm işlemler cihazınızda yerel olarak gerçekleşir.",
-    "gdpr": {
-      "title": "GDPR uyumluluğu",
-      "description": "Avrupa Birliği'ndeki bireylerin kişisel verilerini ve gizliliğini korur."
-    },
-    "ccpa": {
-      "title": "CCPA uyumluluğu",
-      "description": "Kaliforniya sakinlerine kişisel bilgilerinin nasıl toplandığı, kullanıldığı ve paylaşıldığı konusunda haklar tanır."
-    },
-    "hipaa": {
-      "title": "HIPAA uyumluluğu",
-      "description": "ABD sağlık sisteminde hassas sağlık bilgilerinin işlenmesi için güvenlik önlemleri belirler."
-    }
+    "processingLocal": "Tüm işlemler cihazınızda yerel olarak gerçekleşir."
   },
   "faq": {
     "title": "Sıkça Sorulan",

@@ -162,23 +162,7 @@
     "proceed": "Lanjutkan"
   },
   "compliance": {
-    "title": "Data Anda tidak pernah meninggalkan perangkat Anda",
-    "weKeep": "Kami menjaga",
-    "yourInfoSafe": "informasi Anda aman",
-    "byFollowingStandards": "dengan mengikuti standar keamanan global.",
-    "processingLocal": "Semua pemrosesan terjadi secara lokal di perangkat Anda.",
-    "gdpr": {
-      "title": "Kepatuhan GDPR",
-      "description": "Melindungi data pribadi dan privasi individu dalam Uni Eropa."
-    },
-    "ccpa": {
-      "title": "Kepatuhan CCPA",
-      "description": "Memberikan hak kepada penduduk California atas bagaimana informasi pribadi mereka dikumpulkan, digunakan, dan dibagikan."
-    },
-    "hipaa": {
-      "title": "Kepatuhan HIPAA",
-      "description": "Menetapkan perlindungan untuk menangani informasi kesehatan sensitif dalam sistem perawatan kesehatan Amerika Serikat."
-    }
+    "processingLocal": "Semua pemrosesan terjadi secara lokal di perangkat Anda."
   },
   "faq": {
     "title": "Pertanyaan yang Sering Diajukan",
