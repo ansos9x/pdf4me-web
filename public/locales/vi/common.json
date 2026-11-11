@@ -10,7 +10,8 @@
     "language": "Ngôn ngữ",
     "searchLanguage": "Tìm ngôn ngữ…",
     "noLanguagesFound": "Không tìm thấy ngôn ngữ",
-    "breadcrumb": "Đường dẫn điều hướng"
+    "breadcrumb": "Đường dẫn điều hướng",
+    "toggleTheme": "Chuyển giao diện sáng/tối"
   },
   "donation": {
     "message": "Bạn yêu thích PDF4Me? Hãy giúp chúng tôi giữ nó miễn phí và mã nguồn mở!",

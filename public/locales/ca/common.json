@@ -10,7 +10,8 @@
     "language": "Idioma",
     "searchLanguage": "Cerca un idioma…",
     "noLanguagesFound": "No s'ha trobat cap idioma",
-    "breadcrumb": "Ruta de navegació"
+    "breadcrumb": "Ruta de navegació",
+    "toggleTheme": "Switch light/dark theme"
   },
   "donation": {
     "message": "T'agrada PDF4Me? Ajuda'ns a mantenir-lo gratuït i de codi obert!",

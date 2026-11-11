@@ -10,7 +10,8 @@
     "language": "Bahasa",
     "searchLanguage": "Cari bahasa…",
     "noLanguagesFound": "Bahasa tidak ditemukan",
-    "breadcrumb": "Navigasi breadcrumb"
+    "breadcrumb": "Navigasi breadcrumb",
+    "toggleTheme": "Switch light/dark theme"
   },
   "donation": {
     "message": "Suka PDF4Me? Bantu kami menjaganya tetap gratis dan sumber terbuka!",

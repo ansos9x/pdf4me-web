@@ -60,3 +60,11 @@ export const viewerTheme: ThemeConfig = {
     },
   },
 };
+
+export function getViewerTheme(): ThemeConfig {
+  const preference =
+    document.documentElement.getAttribute('data-theme') === 'light'
+      ? 'light'
+      : 'dark';
+  return { ...viewerTheme, preference };
+}

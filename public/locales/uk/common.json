@@ -10,7 +10,8 @@
     "language": "Мова",
     "searchLanguage": "Пошук мови…",
     "noLanguagesFound": "Мови не знайдено",
-    "breadcrumb": "Навігаційний ланцюжок"
+    "breadcrumb": "Навігаційний ланцюжок",
+    "toggleTheme": "Switch light/dark theme"
   },
   "donation": {
     "message": "Подобається PDF4Me? Допоможіть нам залишатися безкоштовними та з відкритим кодом!",

@@ -10,7 +10,8 @@
     "language": "Jazyk",
     "searchLanguage": "Hľadať jazyk…",
     "noLanguagesFound": "Nenašli sa žiadne jazyky",
-    "breadcrumb": "Navigačná cesta"
+    "breadcrumb": "Navigačná cesta",
+    "toggleTheme": "Switch light/dark theme"
   },
   "donation": {
     "message": "Páči sa vám PDF4Me? Pomôžte nám udržať ho bezplatný a open source!",

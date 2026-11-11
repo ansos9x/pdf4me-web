@@ -10,7 +10,8 @@
     "language": "Språk",
     "searchLanguage": "Sök språk…",
     "noLanguagesFound": "Inga språk hittades",
-    "breadcrumb": "Sökväg"
+    "breadcrumb": "Sökväg",
+    "toggleTheme": "Switch light/dark theme"
   },
   "donation": {
     "message": "Gillar du PDF4Me? Hjälp oss att hålla det gratis och öppen källkod!",

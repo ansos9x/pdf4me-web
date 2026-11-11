@@ -16,6 +16,7 @@
 @import '@fontsource/cedarville-cursive/400.css';
 @import 'cropperjs/dist/cropper.css';
 @import 'tailwindcss';
+@import './theme-light.css';
 
 @theme {
   --font-sans: 'DM Sans', ui-sans-serif, system-ui, sans-serif;
@@ -59,16 +60,16 @@ html {
 
 body {
   font-family: 'DM Sans', sans-serif;
-  background-color: rgb(34, 34, 34);
-  color: #d1d5db;
+  background-color: var(--n-900);
+  color: var(--t-300);
 }
 
 .tool-card {
   transition:
     transform 0.2s ease-in-out,
     box-shadow 0.2s ease-in-out;
-  border: 1px solid #383838;
-  background-color: #2a2a2a;
+  border: 1px solid var(--n-line);
+  background-color: var(--n-800);
   padding: 1.5rem;
   border-radius: 0.5rem;
   display: flex;
@@ -226,11 +227,11 @@ body {
     gap: 0.625rem;
     width: 100%;
     padding: 0.75rem 1rem;
-    border: 1px solid rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(var(--fg-rgb), 0.2);
     border-radius: 0.5rem;
-    background: rgb(52, 52, 52);
-    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.45);
-    color: #f3f3f1;
+    background: var(--n-750);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, calc(0.45 * var(--sh, 1)));
+    color: var(--t-100);
     font-size: 0.9375rem;
     font-weight: 500;
     text-align: left;
@@ -259,8 +260,8 @@ body {
     margin-bottom: 1.5rem;
     padding-block: 0.875rem;
     padding-inline: 1.125rem 0.5rem;
-    border: 1px solid var(--lp-line-2, rgba(255, 255, 255, 0.2));
-    background: var(--lp-bg-2, #2a2a2a);
+    border: 1px solid var(--lp-line-2, rgba(var(--fg-rgb), 0.2));
+    background: var(--lp-bg-2, var(--n-800));
     color: var(--lp-text-2, #b4b4b0);
     font-size: 0.875rem;
     line-height: 1.45;
@@ -325,7 +326,7 @@ body {
   border-left: none;
   border-right: none;
   border-top: none;
-  border-bottom: 1px solid #2a2a2a;
+  border-bottom: 1px solid var(--n-line-3);
   background-color: transparent;
   align-items: center;
   justify-content: flex-start;
@@ -359,8 +360,8 @@ body {
 .compact-mode .tool-card:hover {
   transform: none;
   box-shadow: none;
-  background-color: #2a2a2a;
-  border-color: #2a2a2a;
+  background-color: var(--n-800);
+  border-color: var(--n-line-3);
 }
 
 @media (min-width: 640px) {
@@ -431,9 +432,9 @@ input[type='file']::file-selector-button {
   min-width: 0;
   overflow: auto;
   height: 75vh;
-  border: 2px solid #383838;
+  border: 2px solid var(--n-line);
   border-radius: 0.5rem;
-  background-color: #2a2a2a;
+  background-color: var(--n-800);
 }
 
 /* This rule ensures canvases in side-by-side panels display at their natural rendered size. */
@@ -465,9 +466,9 @@ footer a {
 }
 
 .pill {
-  background-color: #383838;
+  background-color: var(--n-700);
   /* bg-gray-700 */
-  color: #d1d5db;
+  color: var(--t-300);
   /* text-gray-300 */
   padding: 8px 16px;
   border-radius: 9999px;
@@ -499,7 +500,7 @@ footer a {
 }
 
 .feature-card {
-  background-color: #2a2a2a;
+  background-color: var(--n-800);
   /* bg-gray-800 */
   padding: 24px;
   border-radius: 8px;
@@ -576,7 +577,7 @@ footer a {
   /* w-16 */
   height: 64px;
   /* h-16 */
-  border: 5px solid #383838;
+  border: 5px solid var(--n-line);
   /* border-gray-700 */
   border-bottom-color: #ef4444;
   /* border-red-600 */
@@ -645,21 +646,21 @@ footer a {
 
 /* Testimonial Card Styles */
 .testimonial-card {
-  background-color: #2a2a2a;
+  background-color: var(--n-800);
   /* bg-gray-800 */
   padding: 24px;
   border-radius: 0.75rem;
   /* rounded-xl */
-  border: 1px solid #383838;
+  border: 1px solid var(--n-line);
   /* border-gray-700 */
   display: flex;
   flex-direction: column;
 }
 
 .pill {
-  background-color: #383838;
+  background-color: var(--n-700);
   /* bg-gray-700 */
-  color: #d1d5db;
+  color: var(--t-300);
   /* text-gray-300 */
   padding: 8px 16px;
   border-radius: 9999px;
@@ -669,9 +670,9 @@ footer a {
 }
 
 .pill {
-  background-color: #383838;
+  background-color: var(--n-700);
   /* bg-gray-700 */
-  color: #d1d5db;
+  color: var(--t-300);
   /* text-gray-300 */
   /* Smaller padding and font size by default for mobile */
   padding: 6px 12px;
@@ -736,7 +737,7 @@ footer a {
 .legal-content p {
   margin-bottom: 1rem;
   line-height: 1.625;
-  color: rgb(156 163 175);
+  color: var(--t-400);
 }
 
 .legal-content ul {
@@ -744,7 +745,7 @@ footer a {
   list-style-position: inside;
   margin-bottom: 1rem;
   padding-left: 1rem;
-  color: rgb(156 163 175);
+  color: var(--t-400);
 }
 
 .legal-content a {
@@ -796,11 +797,11 @@ button:disabled,
     ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono',
     'Courier New', monospace;
   line-height: 1;
-  color: #e5e7eb;
-  background-color: #383838;
-  border: 1px solid #444444;
+  color: var(--t-200);
+  background-color: var(--n-700);
+  border: 1px solid var(--n-line-2);
   border-radius: 0.25rem;
-  box-shadow: 0 1px 0 0 #2a2a2a;
+  box-shadow: 0 1px 0 0 var(--n-800);
 }
 
 .shortcut-input {
@@ -822,11 +823,11 @@ button:disabled,
 }
 
 #shortcuts-list::-webkit-scrollbar-track {
-  background: #2a2a2a;
+  background: var(--n-800);
 }
 
 #shortcuts-list::-webkit-scrollbar-thumb {
-  background: #444444;
+  background: var(--n-600);
   border-radius: 3px;
 }
 
@@ -847,8 +848,8 @@ button:disabled,
   z-index: -1;
   background-size: 60px 60px;
   background-image:
-    linear-gradient(to right, rgba(255, 255, 255, 0.05) 1px, transparent 1px),
-    linear-gradient(to bottom, rgba(255, 255, 255, 0.05) 1px, transparent 1px);
+    linear-gradient(to right, rgba(var(--fg-rgb), 0.05) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(var(--fg-rgb), 0.05) 1px, transparent 1px);
   mask-image: radial-gradient(ellipse at center, black 40%, transparent 80%);
   -webkit-mask-image: radial-gradient(
     ellipse at center,
@@ -863,7 +864,7 @@ input[type='color'] {
   width: 2.5rem;
   height: 2.5rem;
   padding: 0;
-  border: 2px solid #444444;
+  border: 2px solid var(--n-line-2);
   border-radius: 9999px;
   background: transparent;
   cursor: pointer;
@@ -1669,7 +1670,7 @@ details > summary .icon {
 }
 
 .lp .lp-compare tbody tr:nth-child(even) {
-  background: rgba(255, 255, 255, 0.02);
+  background: rgba(var(--fg-rgb), 0.02);
 }
 
 .lp .lp-compare .lp-yes svg {
@@ -1728,10 +1729,10 @@ details > summary .icon {
   z-index: 40;
   width: 320px;
   padding: 8px;
-  border: 1px solid rgba(255, 255, 255, 0.12);
+  border: 1px solid rgba(var(--fg-rgb), 0.12);
   border-radius: 12px;
-  background: #2a2a2a;
-  box-shadow: 0 18px 44px -12px rgba(0, 0, 0, 0.7);
+  background: var(--n-800);
+  box-shadow: 0 18px 44px -12px rgba(0, 0, 0, calc(0.7 * var(--sh, 1)));
   transform: translateX(-50%);
 }
 
@@ -1745,7 +1746,7 @@ details > summary .icon {
 }
 
 .nav-products-menu a:hover {
-  background: #383838;
+  background: var(--n-700);
 }
 
 .nav-product-text {
@@ -1770,12 +1771,12 @@ details > summary .icon {
 .faq-list {
   max-width: 820px;
   margin: 0 auto;
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(var(--fg-rgb), 0.1);
 }
 
 .faq-d {
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-  background-color: #2a2a2a;
+  border-bottom: 1px solid rgba(var(--fg-rgb), 0.1);
+  background-color: var(--n-800);
 }
 
 .faq-d:last-child {
@@ -1793,7 +1794,7 @@ details > summary .icon {
   font-weight: 600;
   letter-spacing: -0.01em;
   line-height: 1.5;
-  color: #f3f3f1;
+  color: var(--t-100);
   list-style: none;
   transition:
     color 0.2s,
@@ -1819,7 +1820,7 @@ details > summary .icon {
 }
 
 .faq-d-q:hover {
-  background-color: #383838;
+  background-color: var(--n-700);
 }
 
 .faq-d[open] .faq-d-q {

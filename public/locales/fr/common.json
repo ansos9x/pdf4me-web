@@ -10,7 +10,8 @@
     "language": "Langue",
     "searchLanguage": "Rechercher une langue…",
     "noLanguagesFound": "Aucune langue trouvée",
-    "breadcrumb": "Fil d'Ariane"
+    "breadcrumb": "Fil d'Ariane",
+    "toggleTheme": "Switch light/dark theme"
   },
   "donation": {
     "message": "Vous aimez PDF4Me ? Aidez-nous à le garder open source !",

@@ -10,7 +10,8 @@
     "language": "Язык",
     "searchLanguage": "Поиск языка…",
     "noLanguagesFound": "Языки не найдены",
-    "breadcrumb": "Навигационная цепочка"
+    "breadcrumb": "Навигационная цепочка",
+    "toggleTheme": "Switch light/dark theme"
   },
   "donation": {
     "message": "Нравится PDF4Me? Помогите ему оставаться бесплатным и с открытым исходным кодом!",

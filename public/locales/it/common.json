@@ -10,7 +10,8 @@
     "language": "Lingua",
     "searchLanguage": "Cerca lingua…",
     "noLanguagesFound": "Nessuna lingua trovata",
-    "breadcrumb": "Breadcrumb"
+    "breadcrumb": "Breadcrumb",
+    "toggleTheme": "Switch light/dark theme"
   },
   "donation": {
     "message": "Ti piace PDF4Me? Aiutaci a mantenerlo gratuito e open source!",

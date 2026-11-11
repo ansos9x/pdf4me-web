@@ -10,7 +10,8 @@
     "language": "언어",
     "searchLanguage": "언어 검색…",
     "noLanguagesFound": "언어를 찾을 수 없습니다",
-    "breadcrumb": "탐색 경로"
+    "breadcrumb": "탐색 경로",
+    "toggleTheme": "Switch light/dark theme"
   },
   "donation": {
     "message": "PDF4Me가 마음에 드셨나요? 무료 오픈소스로 유지될 수 있도록 도와주세요!",

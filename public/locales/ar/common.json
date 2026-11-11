@@ -10,7 +10,8 @@
     "language": "اللغة",
     "searchLanguage": "البحث عن لغة…",
     "noLanguagesFound": "لم يتم العثور على لغات",
-    "breadcrumb": "مسار التنقل"
+    "breadcrumb": "مسار التنقل",
+    "toggleTheme": "Switch light/dark theme"
   },
   "donation": {
     "message": "أعجبك PDF4Me؟ ساعدنا في إبقائه مجانيًا ومفتوح المصدر!",

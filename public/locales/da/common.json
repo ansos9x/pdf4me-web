@@ -10,7 +10,8 @@
     "language": "Sprog",
     "searchLanguage": "Søg sprog…",
     "noLanguagesFound": "Ingen sprog fundet",
-    "breadcrumb": "Brødkrummesti"
+    "breadcrumb": "Brødkrummesti",
+    "toggleTheme": "Switch light/dark theme"
   },
   "donation": {
     "message": "Elsker du PDF4Me? Hjælp os med at holde det gratis og open source!",

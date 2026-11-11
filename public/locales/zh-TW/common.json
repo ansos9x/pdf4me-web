@@ -10,7 +10,8 @@
     "language": "語言",
     "searchLanguage": "搜尋語言…",
     "noLanguagesFound": "找不到語言",
-    "breadcrumb": "導覽路徑"
+    "breadcrumb": "導覽路徑",
+    "toggleTheme": "Switch light/dark theme"
   },
   "donation": {
     "message": "喜歡 PDF4Me 嗎？請協助我們繼續免費提供 PDF4Me，並維持原始碼開放！",

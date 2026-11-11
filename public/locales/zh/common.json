@@ -10,7 +10,8 @@
     "language": "语言",
     "searchLanguage": "搜索语言…",
     "noLanguagesFound": "未找到语言",
-    "breadcrumb": "面包屑导航"
+    "breadcrumb": "面包屑导航",
+    "toggleTheme": "Switch light/dark theme"
   },
   "donation": {
     "message": "喜欢 PDF4Me？帮助我们保持免费和开源！",

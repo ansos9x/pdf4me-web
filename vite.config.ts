@@ -439,6 +439,24 @@ function languageRedirectPlugin(): Plugin {
   };
 }
 
+function themeInitPlugin(): Plugin {
+  return {
+    name: 'theme-init',
+    transformIndexHtml: {
+      order: 'post',
+      handler() {
+        return [
+          {
+            tag: 'script',
+            attrs: { src: `${getBasePath()}/theme-init.js` },
+            injectTo: 'head-prepend',
+          },
+        ];
+      },
+    },
+  };
+}
+
 type JsonRecord = Record<string, unknown>;
 
 function devPageTranslationsPlugin(): Plugin {
@@ -717,6 +735,7 @@ export default defineConfig(({ command }) => {
       languageRouterPlugin(),
       devPageTranslationsPlugin(),
       languageRedirectPlugin(),
+      themeInitPlugin(),
       flattenPagesPlugin(),
       rewriteHtmlPathsPlugin(),
       swPrecachePlugin(),

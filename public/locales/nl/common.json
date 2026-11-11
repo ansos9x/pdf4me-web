@@ -10,7 +10,8 @@
     "language": "Taal",
     "searchLanguage": "Taal zoeken…",
     "noLanguagesFound": "Geen talen gevonden",
-    "breadcrumb": "Broodkruimelpad"
+    "breadcrumb": "Broodkruimelpad",
+    "toggleTheme": "Switch light/dark theme"
   },
   "donation": {
     "message": "Vind je PDF4Me geweldig? Help ons het gratis en open source te houden!",

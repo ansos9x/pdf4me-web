@@ -10,7 +10,8 @@
     "language": "Dil",
     "searchLanguage": "Dil ara…",
     "noLanguagesFound": "Dil bulunamadı",
-    "breadcrumb": "Gezinti yolu"
+    "breadcrumb": "Gezinti yolu",
+    "toggleTheme": "Switch light/dark theme"
   },
   "donation": {
     "message": "PDF4Me'i seviyor musunuz? Ücretsiz ve açık kaynaklı kalmasına yardımcı olun!",

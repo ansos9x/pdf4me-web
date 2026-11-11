@@ -10,7 +10,8 @@
     "language": "言語",
     "searchLanguage": "言語を検索…",
     "noLanguagesFound": "言語が見つかりません",
-    "breadcrumb": "パンくずリスト"
+    "breadcrumb": "パンくずリスト",
+    "toggleTheme": "Switch light/dark theme"
   },
   "donation": {
     "message": "PDF4Meは好きですか？無料かつオープンソースを維持するためにご協力ください！",
