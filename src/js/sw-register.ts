@@ -88,7 +88,7 @@ if (isDevelopment) {
                 if (
                   confirm(
                     trText(
-                      'A new version of BentoPDF is available. Reload to update?'
+                      'A new version of PDF4Me is available. Reload to update?'
                     )
                   )
                 ) {

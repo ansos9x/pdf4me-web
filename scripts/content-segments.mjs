@@ -65,6 +65,7 @@ const META_SELECTORS = [
 
 const PROTECTED_TERMS = [
   'BentoPDF',
+  'PDF4Me',
   'Hyper Compress',
   'Kura',
   'GitHub',

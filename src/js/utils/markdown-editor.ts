@@ -107,7 +107,7 @@ function escapedMath(state: StateInline, silent: boolean): boolean {
   return false;
 }
 
-const DEFAULT_MARKDOWN = `# Welcome to BentoPDF Markdown Editor
+const DEFAULT_MARKDOWN = `# Welcome to PDF4Me Markdown Editor
 
 This is a **live preview** markdown editor with full plugin support.
 
@@ -117,7 +117,7 @@ This is a **live preview** markdown editor with full plugin support.
 
 - **Bold** and *italic* text
 - ~~Strikethrough~~ text
-- [Links](https://bentopdf.com)
+- [Links](https://ai4me.cfd)
 - ==Highlighted text== using mark
 - ++Inserted text++ using ins
 - H~2~O for subscript
@@ -203,12 +203,12 @@ graph TD
 \`\`\`mermaid
 sequenceDiagram
     participant User
-    participant BentoPDF
+    participant PDF4Me
     participant Server
-    User->>BentoPDF: Upload PDF
-    BentoPDF->>BentoPDF: Process locally
-    BentoPDF-->>User: Download result
-    Note over BentoPDF: No server needed!
+    User->>PDF4Me: Upload PDF
+    PDF4Me->>PDF4Me: Process locally
+    PDF4Me-->>User: Download result
+    Note over PDF4Me: No server needed!
 \`\`\`
 
 ### Pie Chart
@@ -276,7 +276,7 @@ erDiagram
 
 \`\`\`mermaid
 mindmap
-    root((BentoPDF))
+    root((PDF4Me))
         Convert
             Word to PDF
             Excel to PDF

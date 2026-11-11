@@ -110,8 +110,8 @@ function injectWebsiteSchema(document) {
   script.textContent = serializeJsonLd({
     '@context': 'https://schema.org',
     '@type': 'WebSite',
-    name: 'BentoPDF',
-    alternateName: ['Bento PDF', 'BentoPDF.com'],
+    name: 'PDF4Me',
+    alternateName: ['PDF4Me', 'ai4me.cfd'],
     url: `${SITE_URL}/`,
   });
   document.body.appendChild(script);

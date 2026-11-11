@@ -186,7 +186,7 @@
     ],
     "fileCount": 1
   },
-  "A new version of BentoPDF is available. Reload to update?": {
+  "A new version of PDF4Me is available. Reload to update?": {
     "files": [
       "sw-register.ts"
     ],
@@ -8771,12 +8771,6 @@
     ],
     "fileCount": 1
   },
-  "This BentoPDF build only bundles OCR data for {{availableText}}.": {
-    "files": [
-      "utils/tesseract-language-availability.ts"
-    ],
-    "fileCount": 1
-  },
   "This PDF does not contain any digital signatures.": {
     "files": [
       "logic/validate-signature-pdf-page.ts"
@@ -8792,6 +8786,12 @@
   "This PDF is password-protected. Please enter the current password to proceed.": {
     "files": [
       "logic/change-permissions-page.ts"
+    ],
+    "fileCount": 1
+  },
+  "This PDF4Me build only bundles OCR data for {{availableText}}.": {
+    "files": [
+      "utils/tesseract-language-availability.ts"
     ],
     "fileCount": 1
   },
@@ -9716,7 +9716,7 @@
     ],
     "fileCount": 1
   },
-  "Your redactions are applied to the pages, but this file is encrypted, so BentoPDF can't also remove copies of the redacted text from its properties, bookmarks, and attachments. For a full cleanup, redact an unencrypted copy and add a password afterwards with Protect PDF. Download anyway?": {
+  "Your redactions are applied to the pages, but this file is encrypted, so PDF4Me can't also remove copies of the redacted text from its properties, bookmarks, and attachments. For a full cleanup, redact an unencrypted copy and add a password afterwards with Protect PDF. Download anyway?": {
     "files": [
       "logic/edit-pdf-page.ts"
     ],

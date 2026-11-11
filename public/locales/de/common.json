@@ -13,7 +13,7 @@
     "breadcrumb": "Brotkrumennavigation"
   },
   "donation": {
-    "message": "Gefällt Ihnen BentoPDF? Helfen Sie uns, es kostenlos und Open Source zu halten!",
+    "message": "Gefällt Ihnen PDF4Me? Helfen Sie uns, es kostenlos und Open Source zu halten!",
     "button": "Spenden"
   },
   "hero": {
@@ -30,7 +30,7 @@
   },
   "features": {
     "title": "Warum",
-    "bentoPdf": "BentoPDF nutzen?",
+    "bentoPdf": "PDF4Me nutzen?",
     "noSignup": {
       "title": "Keine Anmeldung",
       "description": "Sofort starten, keine Registrierung notwendig."
@@ -188,8 +188,8 @@
     "questions": "Fragen",
     "sectionTitle": "Häufig gestellte Fragen",
     "isFree": {
-      "question": "Ist BentoPDF wirklich kostenlos?",
-      "answer": "Ja, absolut. Alle Werkzeuge auf BentoPDF sind zu 100% kostenlos nutzbar, ohne Dateilimits, ohne Anmeldung und ohne Wasserzeichen. Wir glauben, dass jeder Zugang zu einfachen, leistungsstarken PDF-Werkzeugen verdient, ohne Bezahlschranke."
+      "question": "Ist PDF4Me wirklich kostenlos?",
+      "answer": "Ja, absolut. Alle Werkzeuge auf PDF4Me sind zu 100% kostenlos nutzbar, ohne Dateilimits, ohne Anmeldung und ohne Wasserzeichen. Wir glauben, dass jeder Zugang zu einfachen, leistungsstarken PDF-Werkzeugen verdient, ohne Bezahlschranke."
     },
     "areFilesSecure": {
       "question": "Sind meine Dateien sicher? Wo werden sie verarbeitet?",
@@ -197,27 +197,27 @@
     },
     "platforms": {
       "question": "Funktioniert es auf Mac, Windows und Mobilgeräten?",
-      "answer": "Ja! Da BentoPDF vollständig in Ihrem Browser läuft, funktioniert es auf jedem Betriebssystem mit einem modernen Webbrowser, einschließlich Windows, macOS, Linux, iOS und Android."
+      "answer": "Ja! Da PDF4Me vollständig in Ihrem Browser läuft, funktioniert es auf jedem Betriebssystem mit einem modernen Webbrowser, einschließlich Windows, macOS, Linux, iOS und Android."
     },
     "gdprCompliant": {
-      "question": "Ist BentoPDF DSGVO-konform?",
-      "answer": "Ja. BentoPDF ist vollständig DSGVO-konform. Da die gesamte Dateiverarbeitung lokal in Ihrem Browser erfolgt und wir Ihre Dateien nie sammeln oder übertragen, haben wir keinen Zugang zu Ihren Daten. Dies stellt sicher, dass Sie immer die Kontrolle über Ihre Dokumente haben."
+      "question": "Ist PDF4Me DSGVO-konform?",
+      "answer": "Ja. PDF4Me ist vollständig DSGVO-konform. Da die gesamte Dateiverarbeitung lokal in Ihrem Browser erfolgt und wir Ihre Dateien nie sammeln oder übertragen, haben wir keinen Zugang zu Ihren Daten. Dies stellt sicher, dass Sie immer die Kontrolle über Ihre Dokumente haben."
     },
     "dataStorage": {
       "question": "Speichert oder verfolgt ihr meine Dateien?",
-      "answer": "Nein. Wir speichern, verfolgen oder protokollieren Ihre Dateien niemals. Alles, was Sie in BentoPDF tun, geschieht im Speicher Ihres Browsers und verschwindet, sobald Sie die Seite schließen. Es gibt keine Uploads, keine Verlaufsprotokolle und keine Server."
+      "answer": "Nein. Wir speichern, verfolgen oder protokollieren Ihre Dateien niemals. Alles, was Sie in PDF4Me tun, geschieht im Speicher Ihres Browsers und verschwindet, sobald Sie die Seite schließen. Es gibt keine Uploads, keine Verlaufsprotokolle und keine Server."
     },
     "different": {
-      "question": "Was unterscheidet BentoPDF von anderen PDF-Werkzeugen?",
-      "answer": "Die meisten PDF-Werkzeuge laden Ihre Dateien zur Verarbeitung auf einen Server hoch. BentoPDF tut das nie. Wir verwenden sichere, moderne Webtechnologie, um Dateien direkt in Ihrem Browser zu verarbeiten. Das bedeutet schnellere Verarbeitung, stärkere Privatsphäre und vollständige Sicherheit."
+      "question": "Was unterscheidet PDF4Me von anderen PDF-Werkzeugen?",
+      "answer": "Die meisten PDF-Werkzeuge laden Ihre Dateien zur Verarbeitung auf einen Server hoch. PDF4Me tut das nie. Wir verwenden sichere, moderne Webtechnologie, um Dateien direkt in Ihrem Browser zu verarbeiten. Das bedeutet schnellere Verarbeitung, stärkere Privatsphäre und vollständige Sicherheit."
     },
     "browserBased": {
       "question": "Wie schützt mich die browserbasierte Verarbeitung?",
-      "answer": "Durch die vollständige Ausführung in Ihrem Browser stellt BentoPDF sicher, dass Ihre Dateien nie Ihr Gerät verlassen. Dies eliminiert die Risiken von Server-Hacks, Datenschutzverletzungen oder unbefugtem Zugriff. Ihre Dateien gehören Ihnen, immer."
+      "answer": "Durch die vollständige Ausführung in Ihrem Browser stellt PDF4Me sicher, dass Ihre Dateien nie Ihr Gerät verlassen. Dies eliminiert die Risiken von Server-Hacks, Datenschutzverletzungen oder unbefugtem Zugriff. Ihre Dateien gehören Ihnen, immer."
     },
     "analytics": {
       "question": "Verwendet ihr Cookies oder Analysen, um mich zu verfolgen?",
-      "answer": "Nein. BentoPDF verfolgt Sie in keiner Weise. Wir verwenden keine Cookies, keine Analysetools und keine Tracking-Skripte – auch nicht auf der Live-Website bentopdf.com. Wir wissen nie, wer Sie sind oder was Sie mit den Tools tun."
+      "answer": "Nein. PDF4Me verfolgt Sie in keiner Weise. Wir verwenden keine Cookies, keine Analysetools und keine Tracking-Skripte – auch nicht auf der Live-Website bentopdf.com. Wir wissen nie, wer Sie sind oder was Sie mit den Tools tun."
     }
   },
   "testimonials": {
@@ -227,7 +227,7 @@
   },
   "support": {
     "title": "Gefällt Ihnen meine Arbeit?",
-    "description": "BentoPDF ist eine Herzensangelegenheit, entwickelt, um ein kostenloses, privates und leistungsstarkes PDF-Toolkit für alle bereitzustellen. Wenn Sie es nützlich finden, erwägen Sie gerne, die Entwicklung zu unterstützen. Jeder Kaffee hilft!",
+    "description": "PDF4Me ist eine Herzensangelegenheit, entwickelt, um ein kostenloses, privates und leistungsstarkes PDF-Toolkit für alle bereitzustellen. Wenn Sie es nützlich finden, erwägen Sie gerne, die Entwicklung zu unterstützen. Jeder Kaffee hilft!",
     "buyMeCoffee": "Kauf mir einen Kaffee"
   },
   "footer": {
@@ -246,7 +246,8 @@
     "privacyPolicy": "Datenschutzrichtlinie",
     "followUs": "Folgen Sie uns",
     "privacyShort": "Datenschutz",
-    "termsShort": "AGB"
+    "termsShort": "AGB",
+    "attribution": "Built on the open-source BentoPDF project (AGPL-3.0). Source code:"
   },
   "merge": {
     "title": "PDFs zusammenführen",
@@ -300,7 +301,7 @@
     "philosophy": {
       "label": "Unsere Kernphilosophie",
       "title": "Privatsphäre zuerst. Immer.",
-      "description": "In einer Zeit, in der Daten eine Ware sind, gehen wir einen anderen Weg. Die gesamte Verarbeitung für BentoPDF-Werkzeuge erfolgt lokal in Ihrem Browser. Das bedeutet, Ihre Dateien berühren niemals unsere Server, wir sehen Ihre Dokumente nie und verfolgen nicht, was Sie tun. Ihre Dokumente bleiben voll und ganz privat, ohne Hintertürchen. Privatsphäre ist nicht nur eine Funktion, sie ist unser Fundament."
+      "description": "In einer Zeit, in der Daten eine Ware sind, gehen wir einen anderen Weg. Die gesamte Verarbeitung für PDF4Me-Werkzeuge erfolgt lokal in Ihrem Browser. Das bedeutet, Ihre Dateien berühren niemals unsere Server, wir sehen Ihre Dokumente nie und verfolgen nicht, was Sie tun. Ihre Dokumente bleiben voll und ganz privat, ohne Hintertürchen. Privatsphäre ist nicht nur eine Funktion, sie ist unser Fundament."
     },
     "whyBentopdf": {
       "title": "Warum",
@@ -323,7 +324,7 @@
     },
     "cta": {
       "title": "Bereit loszulegen?",
-      "description": "Schließen Sie sich Tausenden von Nutzern an, die BentoPDF bei ihrer täglichen Arbeit vertrauen. Erleben Sie den Unterschied, den Privatsphäre und Leistung machen können.",
+      "description": "Schließen Sie sich Tausenden von Nutzern an, die PDF4Me bei ihrer täglichen Arbeit vertrauen. Erleben Sie den Unterschied, den Privatsphäre und Leistung machen können.",
       "button": "Alle Werkzeuge erkunden"
     }
   },

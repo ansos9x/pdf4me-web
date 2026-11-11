@@ -102,15 +102,10 @@ function injectOrganizationLd(document) {
   const data = {
     '@context': 'https://schema.org',
     '@type': 'Organization',
-    name: 'BentoPDF',
+    name: 'PDF4Me',
     url: SITE_URL,
     logo: `${SITE_URL}/images/favicon.svg`,
-    sameAs: [
-      'https://github.com/alam00000/bentopdf',
-      'https://x.com/BentoPDF',
-      'https://www.linkedin.com/company/bentopdf/',
-      'https://www.instagram.com/thebentopdf/',
-    ],
+    sameAs: ['https://github.com/ansos9x/bentopdf'],
   };
   const script = document.createElement('script');
   script.setAttribute('type', 'application/ld+json');
@@ -120,7 +115,7 @@ function injectOrganizationLd(document) {
 }
 
 const BREADCRUMB_MARKER = 'data-bentopdf-breadcrumb';
-const BRAND_NAME = process.env.VITE_BRAND_NAME || 'BentoPDF';
+const BRAND_NAME = process.env.VITE_BRAND_NAME || 'PDF4Me';
 
 function buildLocalHomeHref(lang) {
   const langSegment = lang === 'en' ? '/' : `/${lang}`;
@@ -282,7 +277,7 @@ function processFileForLanguage(
     title =
       tools[translationKey].pageTitle ||
       (tools[translationKey].name
-        ? `${tools[translationKey].name} - BentoPDF`
+        ? `${tools[translationKey].name} - PDF4Me`
         : null);
     description = tools[translationKey].subtitle;
   }
