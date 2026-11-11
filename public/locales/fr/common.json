@@ -300,7 +300,8 @@
       "openSource": {
         "title": "Esprit open source",
         "description": "Conçu dans un esprit de transparence. Nous utilisons des bibliothèques open source reconnues comme PDF-lib et PDF.js, et croyons en la force de la communauté."
-      }
+      },
+      "titleDim": "PDF4Me?"
     },
     "cta": {
       "title": "Prêt à commencer ?",

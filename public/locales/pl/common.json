@@ -300,7 +300,8 @@
       "openSource": {
         "title": "Duch Open Source",
         "description": "Stworzone z myślą o przejrzystości. Korzystamy z niesamowitych bibliotek open-source, takich jak PDF-lib i PDF.js, oraz wierzymy w społeczny wysiłek, dzięki któremu potężne narzędzia są dostępne dla wszystkich."
-      }
+      },
+      "titleDim": "PDF4Me?"
     },
     "cta": {
       "title": "Gotowy, aby zacząć?",

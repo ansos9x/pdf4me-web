@@ -300,7 +300,8 @@
       "openSource": {
         "title": "Semangat Sumber Terbuka",
         "description": "Dibangun dengan transparansi sebagai prioritas. Kami manfaatkan pustaka open-source yang luar biasa seperti PDF-lib dan PDF.js, dan percaya pada upaya yang didorong komunitas untuk membuat alat-alat kuat bisa diakses semua orang."
-      }
+      },
+      "titleDim": "PDF4Me?"
     },
     "cta": {
       "title": "Siap untuk memulai?",

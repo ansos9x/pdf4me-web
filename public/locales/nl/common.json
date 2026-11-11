@@ -300,7 +300,8 @@
       "openSource": {
         "title": "De geest van Open Source",
         "description": "Gebouwd met transparantie in gedachten. We maken gebruik van geweldige open-source bibliotheken zoals PDF-lib en PDF.js en geloven in de communitygedreven inspanning om krachtige tools voor iedereen toegankelijk te maken."
-      }
+      },
+      "titleDim": "PDF4Me?"
     },
     "cta": {
       "title": "Klaar om te beginnen?",

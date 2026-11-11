@@ -300,7 +300,8 @@
       "openSource": {
         "title": "開放原始碼",
         "description": "程式碼以 AGPL-3.0 授權條款公開於 GitHub，可檢查檔案的實際處理方式。PDF4Me 以 PDF.js、pdf-lib、qpdf 和 LibreOffice 等開放原始碼專案為基礎。"
-      }
+      },
+      "titleDim": "PDF4Me?"
     },
     "cta": {
       "title": "準備好開始了嗎？",

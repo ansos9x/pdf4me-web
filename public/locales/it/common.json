@@ -300,7 +300,8 @@
       "openSource": {
         "title": "Spirito open source",
         "description": "Costruito con trasparenza. Sfruttiamo librerie open‑source incredibili come PDF-lib e PDF.js, e crediamo nello sforzo della community per rendere strumenti potenti accessibili a tutti."
-      }
+      },
+      "titleDim": "PDF4Me?"
     },
     "cta": {
       "title": "Pronto per iniziare?",

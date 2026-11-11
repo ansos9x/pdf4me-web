@@ -300,7 +300,8 @@
       "openSource": {
         "title": "Espíritu de Código Abierto",
         "description": "Construido con transparencia en mente. Aprovechamos increíbles bibliotecas de código abierto como PDF-lib y PDF.js, y creemos en el esfuerzo impulsado por la comunidad para hacer que las herramientas potentes sean accesibles para todos."
-      }
+      },
+      "titleDim": "PDF4Me?"
     },
     "cta": {
       "title": "¿Listo para comenzar?",

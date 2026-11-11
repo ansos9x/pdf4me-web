@@ -300,7 +300,8 @@
       "openSource": {
         "title": "Açık Kaynak Ruhu",
         "description": "Şeffaflık düşünülerek oluşturuldu. PDF-lib ve PDF.js gibi inanılmaz açık kaynaklı kütüphanelerden yararlanıyoruz ve güçlü araçları herkes için erişilebilir kılmak için topluluk odaklı çabaya inanıyoruz."
-      }
+      },
+      "titleDim": "PDF4Me?"
     },
     "cta": {
       "title": "Başlamaya hazır mısınız?",

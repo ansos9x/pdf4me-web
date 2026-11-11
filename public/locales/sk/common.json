@@ -300,7 +300,8 @@
       "openSource": {
         "title": "Duch open-source",
         "description": "Vytvorené s ohľadom na transparentnosť. Využívame neuveriteľné open-source knižnice ako PDF-lib a PDF.js, a veríme v úsilie poháňané komunitou s cieľom sprístupniť výkonné nástroje všetkým."
-      }
+      },
+      "titleDim": "PDF4Me?"
     },
     "cta": {
       "title": "Ste pripravení začať?",

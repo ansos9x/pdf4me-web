@@ -300,7 +300,8 @@
       "openSource": {
         "title": "Codi obert",
         "description": "El codi és públic a GitHub amb llicència AGPL-3.0, perquè puguis comprovar com es tracten els fitxers. Es basa en projectes de codi obert com PDF.js, pdf-lib, qpdf i LibreOffice."
-      }
+      },
+      "titleDim": "PDF4Me?"
     },
     "cta": {
       "title": "Ja ho tens tot a punt per començar?",
