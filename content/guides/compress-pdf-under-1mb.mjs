@@ -18,6 +18,12 @@ export default {
 
   vi: {
     slug: 'nen-pdf-duoi-1mb',
+    cover: {
+      src: `${IMG}cover-vi.png`,
+      width: 1200,
+      height: 630,
+      alt: 'Ảnh bìa: một file PDF 4.4 MB được nén xuống còn 818 KB',
+    },
     kicker: 'Nén PDF',
     title: 'Cách nén file PDF xuống dưới 1MB để nộp hồ sơ online',
     description:
@@ -162,6 +168,12 @@ export default {
 
   en: {
     slug: 'compress-pdf-under-1mb',
+    cover: {
+      src: `${IMG}cover-en.png`,
+      width: 1200,
+      height: 630,
+      alt: 'Cover image: a 4.4 MB PDF compressed down to 818 KB',
+    },
     kicker: 'Compress PDF',
     title: 'How to compress a PDF to under 1 MB for online submissions',
     description:

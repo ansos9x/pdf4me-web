@@ -1,0 +1,17 @@
+{
+  "dir": "public/images/guides/nen-pdf-1mb",
+  "before": "4.4 MB",
+  "after": "818 KB",
+  "covers": [
+    {
+      "file": "cover-vi.png",
+      "label": "PDF4Me · HƯỚNG DẪN",
+      "title": "Cách nén file PDF xuống dưới 1MB để nộp hồ sơ online"
+    },
+    {
+      "file": "cover-en.png",
+      "label": "PDF4Me · GUIDE",
+      "title": "How to compress a PDF to under 1 MB for online submissions"
+    }
+  ]
+}

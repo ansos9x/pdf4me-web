@@ -114,6 +114,7 @@ ${breadcrumb(lang, { href: true, label: g.kicker })}
 <p class="guide-lead">${esc(g.intro)}</p>
 <p class="guide-meta">${esc(L.updated)}: <time datetime="${guide.updated}">${guide.updated}</time></p>
 </header>
+${coverHtml(g)}
 <nav class="guide-toc" aria-labelledby="guide-toc-title">
 <h2 id="guide-toc-title">${esc(L.toc)}</h2>
 <ol>${toc.map(([id, t]) => `<li><a href="#${id}">${esc(t)}</a></li>`).join('')}</ol>
@@ -150,6 +151,12 @@ ${relatedGuides}
 </article>
 </div>`;
   return html;
+}
+
+function coverHtml(g) {
+  const c = g.cover;
+  if (!c) return '';
+  return `<figure class="guide-cover"><img src="${c.src}" width="${c.width}" height="${c.height}" alt="${esc(c.alt)}" fetchpriority="high" decoding="async"></figure>`;
 }
 
 function cardHtml(lang, guide) {
@@ -191,11 +198,12 @@ function buildPage({
   alternates,
   type,
   ld,
+  image: coverImage,
 }) {
   const dom = new JSDOM(shellHtml);
   const doc = dom.window.document;
   const url = abs(canonicalPath);
-  const image = abs('/images/og-tools.png');
+  const image = abs(coverImage || '/images/og-tools.png');
 
   doc.title = title;
   setMeta(doc, 'meta[name="description"]', 'name', 'description', description);
@@ -350,6 +358,7 @@ async function main() {
           canonicalPath: guidePath(lang, guide),
           alternates,
           type: 'article',
+          image: g.cover && g.cover.src,
           ld: [
             {
               '@context': 'https://schema.org',
@@ -360,7 +369,7 @@ async function main() {
               datePublished: guide.published,
               dateModified: guide.updated,
               mainEntityOfPage: abs(guidePath(lang, guide)),
-              image: abs(guide.images[0].src),
+              image: abs((g.cover || guide.images[0]).src),
               author: { '@type': 'Organization', name: 'PDF4Me' },
               publisher: {
                 '@type': 'Organization',

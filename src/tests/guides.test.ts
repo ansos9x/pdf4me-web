@@ -40,6 +40,18 @@ describe('guides content', () => {
         }
       });
 
+      it('has a 1200x630 cover in both languages', () => {
+        for (const lang of ['vi', 'en'] as const) {
+          const c = guide[lang].cover;
+          expect(c.width).toBe(1200);
+          expect(c.height).toBe(630);
+          expect(c.alt.length).toBeGreaterThan(0);
+          const buf = fs.readFileSync(path.join(ROOT, 'public', c.src));
+          expect(buf.readUInt32BE(16)).toBe(1200);
+          expect(buf.readUInt32BE(20)).toBe(630);
+        }
+      });
+
       it('keeps the raw captures next to the annotated images', () => {
         for (const img of guide.images) {
           const raw = path.join(
