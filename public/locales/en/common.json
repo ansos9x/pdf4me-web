@@ -228,7 +228,8 @@
     "privacyPolicy": "Privacy",
     "followUs": "Follow Us",
     "privacyShort": "Privacy",
-    "termsShort": "Terms"
+    "termsShort": "Terms",
+    "guides": "Guides"
   },
   "merge": {
     "title": "Merge PDFs",

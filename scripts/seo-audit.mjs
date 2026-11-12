@@ -97,8 +97,14 @@ const isPageTranslated = createTranslationChecker(
   (baseName) => KEY_MAPPING[baseName] || toCamelCase(baseName)
 );
 
+// Guide URLs are directory indexes, so their real URL keeps the trailing slash.
+function isGuidePathname(pathname) {
+  return /^\/(vi\/huong-dan|guides)(\/|$)/.test(pathname);
+}
+
 function hasTrailingSlash(href) {
   const { pathname } = new URL(href);
+  if (isGuidePathname(pathname)) return false;
   return pathname !== '/' && pathname.endsWith('/');
 }
 
@@ -107,6 +113,9 @@ function isBlogPage(rel) {
 }
 
 function expectedCanonicalForFile(rel) {
+  if (rel.startsWith('guides/') || rel.startsWith('vi/huong-dan/')) {
+    return `${SITE_URL}/${rel.replace(/index\.html$/, '')}`;
+  }
   const parts = rel.split('/');
   const fileName = parts.pop();
   const baseName = fileName.replace(/\.html$/, '');
@@ -148,7 +157,13 @@ function auditHtml(file, knownSlugs) {
       if (clean === '') continue;
       const seg = clean.slice(1);
       if (seg.includes('/')) continue;
-      if (LOCALE_DIRS.has(seg) || seg === 'blog' || seg === 'docs') continue;
+      if (
+        LOCALE_DIRS.has(seg) ||
+        seg === 'blog' ||
+        seg === 'docs' ||
+        seg === 'guides'
+      )
+        continue;
       if (!knownSlugs.has(seg)) {
         fail(
           'dead-link',

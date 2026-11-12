@@ -1,0 +1,78 @@
+{
+  "1": {
+    "rect": {
+      "x": 49,
+      "y": 318,
+      "w": 847,
+      "h": 256
+    },
+    "cssWidth": 960,
+    "cssHeight": 1100,
+    "scale": 2,
+    "note": "drop zone"
+  },
+  "2": {
+    "rect": {
+      "x": 49,
+      "y": 590,
+      "w": 847,
+      "h": 64
+    },
+    "cssWidth": 960,
+    "cssHeight": 1100,
+    "scale": 2,
+    "note": "file card with size"
+  },
+  "3": {
+    "rect": {
+      "x": 49,
+      "y": 678,
+      "w": 847,
+      "h": 73
+    },
+    "cssWidth": 960,
+    "cssHeight": 1100,
+    "scale": 2,
+    "note": "compression level"
+  },
+  "4": {
+    "rect": {
+      "x": 49,
+      "y": 815,
+      "w": 847,
+      "h": 74
+    },
+    "cssWidth": 960,
+    "cssHeight": 1100,
+    "scale": 2,
+    "note": "target size 900 KB"
+  },
+  "5": {
+    "rect": {
+      "x": 305.5,
+      "y": 476,
+      "w": 334,
+      "h": 84
+    },
+    "cssWidth": 960,
+    "cssHeight": 1100,
+    "scale": 2,
+    "note": "result dialog"
+  },
+  "6": {
+    "rect": {
+      "x": 79,
+      "y": 430,
+      "w": 787,
+      "h": 38
+    },
+    "cssWidth": 960,
+    "cssHeight": 1100,
+    "scale": 2,
+    "note": "rasterize checkbox"
+  },
+  "result": {
+    "message": "Nén hoàn tất || Dung lượng tệp giảm từ 4.4 MB xuống 818.3 KB (Tiết kiệm 81.6%). Đạt mục tiêu 900 KB.",
+    "downloads": [["ho-so-scan-mau.pdf", 837941]]
+  }
+}

@@ -228,7 +228,8 @@
     "privacyPolicy": "Политика приватности",
     "followUs": "Подпишитесь",
     "privacyShort": "Конфиденциальность",
-    "termsShort": "Условия"
+    "termsShort": "Условия",
+    "guides": "Guides"
   },
   "merge": {
     "title": "Объединить PDF",

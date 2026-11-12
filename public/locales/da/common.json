@@ -228,7 +228,8 @@
     "privacyPolicy": "Privatlivspolitik",
     "followUs": "Følg os",
     "privacyShort": "Privatliv",
-    "termsShort": "Vilkår"
+    "termsShort": "Vilkår",
+    "guides": "Guides"
   },
   "merge": {
     "title": "Flet PDF'er",

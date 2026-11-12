@@ -228,7 +228,8 @@
     "privacyPolicy": "Polityka prywatności",
     "followUs": "Śledź nas",
     "privacyShort": "Prywatność",
-    "termsShort": "Warunki"
+    "termsShort": "Warunki",
+    "guides": "Guides"
   },
   "merge": {
     "title": "Połącz pliki PDF",

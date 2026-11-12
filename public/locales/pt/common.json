@@ -228,7 +228,8 @@
     "privacyPolicy": "Política de Privacidade",
     "followUs": "Siga-nos",
     "privacyShort": "Privacidade",
-    "termsShort": "Termos"
+    "termsShort": "Termos",
+    "guides": "Guides"
   },
   "merge": {
     "title": "Mesclar PDFs",

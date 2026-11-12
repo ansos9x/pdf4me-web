@@ -228,7 +228,8 @@
     "privacyPolicy": "Integritetspolicy",
     "followUs": "Följ oss",
     "privacyShort": "Integritet",
-    "termsShort": "Villkor"
+    "termsShort": "Villkor",
+    "guides": "Guides"
   },
   "merge": {
     "title": "Sammanfoga PDF:er",

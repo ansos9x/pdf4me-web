@@ -400,6 +400,12 @@ function processFileForLanguage(
       BASE_PATH && href.startsWith(`${BASE_PATH}/`)
         ? href.slice(BASE_PATH.length)
         : href;
+    if (/^\/guides(\/|$)/.test(hrefWithoutBase)) {
+      // Guides exist in English and Vietnamese only (built by generate-guides.mjs)
+      if (lang === 'vi')
+        link.setAttribute('href', `${BASE_PATH}/vi/huong-dan/`);
+      return;
+    }
     if (/^\/(blog|docs)(\/|$)/.test(hrefWithoutBase)) {
       return;
     }

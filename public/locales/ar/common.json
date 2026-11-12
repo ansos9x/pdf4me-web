@@ -228,7 +228,8 @@
     "privacyPolicy": "سياسة الخصوصية",
     "followUs": "تابعنا",
     "privacyShort": "الخصوصية",
-    "termsShort": "الشروط"
+    "termsShort": "الشروط",
+    "guides": "Guides"
   },
   "merge": {
     "title": "دمج ملفات PDF",

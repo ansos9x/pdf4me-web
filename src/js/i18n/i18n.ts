@@ -199,6 +199,20 @@ export const changeLanguage = (lang: SupportedLanguage): void => {
   if (!supportedLanguages.includes(lang)) return;
   setStoredItem(LANGUAGE_CHOICE_KEY, lang);
 
+  // Guide pages exist in English and Vietnamese only and their slugs differ per
+  // language, so follow the page's own hreflang links instead of rewriting the path.
+  if (document.querySelector('meta[name="pdf4me-guide"]')) {
+    const alt = document.querySelector<HTMLLinkElement>(
+      `link[rel="alternate"][hreflang="${lang}"]`
+    );
+    window.location.href = alt
+      ? new URL(alt.href).pathname
+      : lang === 'en'
+        ? '/'
+        : `/${lang}/`;
+    return;
+  }
+
   const basePath = import.meta.env.BASE_URL.replace(/\/$/, '');
   let relativePath = window.location.pathname;
 
@@ -315,6 +329,13 @@ export const rewriteLinks = (): void => {
       basePath && basePath !== '/' && href.startsWith(`${basePath}/`)
         ? href.slice(basePath.length)
         : href;
+    if (/^\/guides(\/|$|[?#])/.test(pathOnly)) {
+      // Guides exist in English and Vietnamese only; keep other languages on the English listing.
+      if (currentLang === 'vi') {
+        link.setAttribute('href', `${basePath}/vi/huong-dan/`);
+      }
+      return;
+    }
     if (/^\/(blog|docs)(\/|$|[?#])/.test(pathOnly)) {
       return;
     }

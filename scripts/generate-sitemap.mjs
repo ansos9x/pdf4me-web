@@ -4,6 +4,7 @@ import { execFileSync } from 'child_process';
 import { fileURLToPath } from 'url';
 import { OFFICIAL_SITE_URL, canonicalBasePath } from './indexing-policy.mjs';
 import { createTranslationChecker } from './page-translation.mjs';
+import { loadGuides, listingPath, guidePath } from './guides-data.mjs';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -83,7 +84,7 @@ function buildUrl(lang, pageName) {
   return pagePath ? `${prefix}/${pagePath}` : prefix;
 }
 
-function generateSitemap() {
+async function generateSitemap() {
   console.log('🗺️  Generating multilingual sitemap...');
   console.log(`   SITE_URL: ${SITE_URL}`);
   console.log(`   Languages: ${languages.join(', ')}`);
@@ -167,6 +168,46 @@ function generateSitemap() {
 `;
   }
 
+  const guides = await loadGuides();
+  let guideCount = 0;
+  if (guides.length > 0) {
+    const root = `${SITE_URL}${canonicalBasePath()}`;
+    const newest = guides
+      .map((g) => g.updated)
+      .sort()
+      .pop();
+    const entries = [
+      {
+        paths: { vi: listingPath('vi'), en: listingPath('en') },
+        lastmod: newest,
+        priority: 0.7,
+      },
+      ...guides.map((g) => ({
+        paths: { vi: guidePath('vi', g), en: guidePath('en', g) },
+        lastmod: g.updated,
+        priority: 0.8,
+      })),
+    ];
+    for (const entry of entries) {
+      for (const lang of ['en', 'vi']) {
+        sitemap += `  <url>
+    <loc>${root}${entry.paths[lang]}</loc>
+    <lastmod>${entry.lastmod}</lastmod>
+    <priority>${entry.priority}</priority>
+`;
+        for (const alt of ['en', 'vi']) {
+          sitemap += `    <xhtml:link rel="alternate" hreflang="${alt}" href="${root}${entry.paths[alt]}"/>
+`;
+        }
+        sitemap += `    <xhtml:link rel="alternate" hreflang="x-default" href="${root}${entry.paths.en}"/>
+  </url>
+`;
+        guideCount++;
+      }
+    }
+    console.log(`   Guides: ${guideCount} URLs added (English and Vietnamese)`);
+  }
+
   const blogDir = path.join(DIST_DIR, 'blog');
   let blogCount = 0;
   if (SITE_URL === OFFICIAL_SITE_URL && fs.existsSync(blogDir)) {
@@ -223,4 +264,4 @@ function generateSitemap() {
   );
 }
 
-generateSitemap();
+await generateSitemap();

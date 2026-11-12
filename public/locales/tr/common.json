@@ -228,7 +228,8 @@
     "privacyPolicy": "Gizlilik Politikası",
     "followUs": "Bizi Takip Edin",
     "privacyShort": "Gizlilik",
-    "termsShort": "Koşullar"
+    "termsShort": "Koşullar",
+    "guides": "Guides"
   },
   "merge": {
     "title": "PDF Birleştir",

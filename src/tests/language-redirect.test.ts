@@ -94,9 +94,13 @@ describe('language-redirect.js', () => {
     expect(visit({ path: '/', browser: ['de-DE'], choice: 'en' })).toBeNull();
   });
 
-  it('leaves language URLs, the blog and the docs alone', () => {
+  it('leaves language URLs, the blog, the guides and the docs alone', () => {
     expect(visit({ path: '/fr/merge-pdf', choice: 'de' })).toBeNull();
     expect(visit({ path: '/blog/some-post', choice: 'de' })).toBeNull();
+    expect(visit({ path: '/guides/', choice: 'de' })).toBeNull();
+    expect(
+      visit({ path: '/guides/compress-pdf-under-1mb/', choice: 'vi' })
+    ).toBeNull();
     expect(visit({ path: '/docs/tools', choice: 'de' })).toBeNull();
   });
 

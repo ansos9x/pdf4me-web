@@ -10,7 +10,7 @@
   var rest = path.slice(base.length);
   var first = rest.split('/')[0];
   if (first === 'en' || languages.indexOf(first) !== -1) return;
-  if (/^(blog|docs)(\/|$)/.test(rest)) return;
+  if (/^(blog|docs|guides)(\/|$)/.test(rest)) return;
 
   var choice;
   try {

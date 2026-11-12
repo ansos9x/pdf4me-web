@@ -228,7 +228,8 @@
     "privacyPolicy": "Política de Privacidad",
     "followUs": "Síguenos",
     "privacyShort": "Privacidad",
-    "termsShort": "Términos"
+    "termsShort": "Términos",
+    "guides": "Guides"
   },
   "merge": {
     "title": "Fusionar PDFs",

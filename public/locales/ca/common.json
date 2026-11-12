@@ -228,7 +228,8 @@
     "privacyPolicy": "Política de privadesa",
     "followUs": "Segueix-nos",
     "privacyShort": "Privadesa",
-    "termsShort": "Condicions"
+    "termsShort": "Condicions",
+    "guides": "Guides"
   },
   "merge": {
     "title": "Fusiona PDF",

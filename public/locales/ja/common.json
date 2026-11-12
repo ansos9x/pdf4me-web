@@ -228,7 +228,8 @@
     "privacyPolicy": "プライバシーポリシー",
     "followUs": "フォローする",
     "privacyShort": "プライバシー",
-    "termsShort": "利用規約"
+    "termsShort": "利用規約",
+    "guides": "Guides"
   },
   "merge": {
     "title": "PDFの結合",
